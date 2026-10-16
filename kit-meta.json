@@ -803,6 +803,13 @@
    "modo": "link",
    "area": "metodo-de-trabalho",
    "descricao": "Mapa (grafo) do projeto para o Claude não reler arquivo por arquivo; instale o CLI com `uv tool install graphifyy`."
+  },
+  "teste-vigia-kit": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Skill de teste do vigia do kit."
   }
  },
  "agentes": {
@@ -1226,7 +1233,8 @@
    "web-design-guidelines": "2026-10-15",
    "webapp-testing": "2026-10-15",
    "writing-plans": "2026-10-15",
-   "writing-skills": "2026-10-15"
+   "writing-skills": "2026-10-15",
+   "teste-vigia-kit": "2026-10-16"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1392,6 +1400,7 @@
    "sympy": "0a296dd7e306",
    "systematic-debugging": "9fb5c568f975",
    "test-driven-development": "3d5cc356c843",
+   "teste-vigia-kit": "b7a1741ec5ed",
    "theme-factory": "a1bab7e59d81",
    "trabalho-escolar": "98d19d78e280",
    "tutor-ingles": "9afe4b32b43b",

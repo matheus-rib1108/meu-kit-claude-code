@@ -1,8 +1,8 @@
 # Meu kit do Claude Code
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-16%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-113-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-0-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-16%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-114-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-0-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **113 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **114 skills**,
 **29 agentes**, **22 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -83,7 +83,7 @@ Plugins oficiais não são copiados para cá: só a lista.
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
-## Skills (113: 110 copiadas, o resto só com link)
+## Skills (114: 111 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -247,6 +247,12 @@ Plugins oficiais não são copiados para cá: só a lista.
 | Skill | O que faz | Fonte | Licença | Entrou |
 |---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | própria | MIT | 15/10/2026 |
+
+### Outras (novas, ainda sem área) (1)
+
+| Skill | O que faz | Fonte | Licença | Entrou |
+|---|---|---|---|---|
+| [`teste-vigia-kit`](skills/outras/teste-vigia-kit) | Skill de teste do vigia do kit. | própria | MIT | 16/10/2026 |
 
 ### Só o link (sem licença que permita copiar)
 

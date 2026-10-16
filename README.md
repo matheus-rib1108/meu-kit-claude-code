@@ -1,13 +1,13 @@
 # Meu kit do Claude Code
 
 Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **110 skills**,
-**29 agentes**, **18 plugins** oficiais, os conectores MCP (sem nenhuma chave) e o meu
+**29 agentes**, **19 plugins** oficiais, os conectores MCP (sem nenhuma chave) e o meu
 `CLAUDE.md` com a tabela "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
 O repositório se atualiza sozinho: quando eu adiciono ou mudo uma skill, um agente ou um plugin no meu PC,
 um script copia tudo para cá, confere que não há senha nem dado pessoal e só então publica.
 
-**Última atualização:** 15/10/2026
+**Última atualização:** 16/10/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 > As minhas skills também estão no catálogo [claude-skills-br](https://github.com/matheus-rib1108/claude-skills-br),
@@ -281,12 +281,13 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | [`qa-expert`](agents/qa-expert.md) | Estratégia e plano de testes | qualidade-e-seguranca |
 | [`security-auditor`](agents/security-auditor.md) | Auditoria de segurança | qualidade-e-seguranca |
 
-## Plugins (18, do marketplace oficial `anthropics/claude-plugins-official`)
+## Plugins (19, do marketplace oficial `anthropics/claude-plugins-official`)
 
 | Plugin | O que faz | Instalar |
 |---|---|---|
 | `browser-use` | Usa o seu Chrome logado para tarefas em sites | `/plugin install browser-use@claude-plugins-official` |
 | `canva` | Cria e edita designs no Canva | `/plugin install canva@claude-plugins-official` |
+| `cc-safety-net` |  | `/plugin install cc-safety-net@cc-marketplace` |
 | `chrome-devtools-mcp` | Controla e inspeciona o Chrome (Google) | `/plugin install chrome-devtools-mcp@claude-plugins-official` |
 | `claude-md-management` | Mantém o CLAUDE.md atualizado | `/plugin install claude-md-management@claude-plugins-official` |
 | `claude-security` | Varredura profunda de vulnerabilidades | `/plugin install claude-security@claude-plugins-official` |

@@ -17,13 +17,20 @@
     "stripe@claude-plugins-official": true,
     "canva@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true,
-    "expo@claude-plugins-official": false
+    "expo@claude-plugins-official": false,
+    "cc-safety-net@cc-marketplace": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
       "source": {
         "source": "github",
         "repo": "anthropics/claude-plugins-official"
+      }
+    },
+    "cc-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "kenryu42/cc-marketplace"
       }
     }
   }

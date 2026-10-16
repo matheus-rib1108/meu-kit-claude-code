@@ -85,7 +85,8 @@ while ($true) {
     while ($e) {
         $p = [string]$e.SourceEventArgs.FullPath
         Remove-Event -EventIdentifier $e.EventIdentifier
-        $relevante = $p -and ($p -notmatch $Ignorar)
+        # ignora o próprio repositório do kit (o sync grava mcp/.mcp.json lá e viraria um loop)
+        $relevante = $p -and ($p -notmatch $Ignorar) -and -not $p.StartsWith($Repo, [StringComparison]::OrdinalIgnoreCase)
         if ($relevante -and (Split-Path $p -Parent) -eq $Claude) {
             $relevante = $TopoOk -contains (Split-Path $p -Leaf)
         }

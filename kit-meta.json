@@ -1,0 +1,1012 @@
+{
+ "areas": {
+  "sites-e-design": "Sites e design",
+  "marketing-e-vendas": "Marketing, textos e vendas",
+  "metodo-de-trabalho": "Método de trabalho e economia de tokens",
+  "criar-skills": "Criar skills e agentes",
+  "seguranca-e-lei": "Segurança e lei",
+  "publicar-e-banco": "Publicar, GitHub e banco de dados",
+  "produtividade-e-pc": "Produtividade, PC e Obsidian",
+  "video-foto-e-musica": "Vídeo, foto, redes e música",
+  "estudos": "Estudos",
+  "jogos": "Jogos",
+  "outras": "Outras (novas, ainda sem área)"
+ },
+ "skills": {
+  "abordagem-whatsapp-vendas": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Escreve a primeira mensagem de venda, o acompanhamento e as respostas para objeções, sem cara de spam."
+  },
+  "agent-builder": {
+   "area": "criar-skills",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Cria seus próprios agentes de IA para tarefas que se repetem, como assistente de estudos, de redes sociais ou de sites."
+  },
+  "ai-seo": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Aparecer e ser citado em buscas de IA (ChatGPT, Perplexity, AI Overviews)"
+  },
+  "assistente-voz-jarvis": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Guia para construir seu assistente pessoal de voz em Python: palavra de ativação, transcrição, resposta da IA, voz e comandos no PC."
+  },
+  "audit-context-building": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Entende o código a fundo antes de auditar"
+  },
+  "brainstorming": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pensa e desenha a ideia antes de construir"
+  },
+  "cardapio-digital": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Cria cardápio digital leve com pedido pelo WhatsApp, horário aberto/fechado e QR code de mesa, para publicar de graça."
+  },
+  "caveman": {
+   "area": "metodo-de-trabalho",
+   "fonte": "JuliusBrussee/caveman",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Respostas ultra-curtas (gasta bem menos tokens)"
+  },
+  "caveman-compress": {
+   "area": "metodo-de-trabalho",
+   "fonte": "JuliusBrussee/caveman",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Comprime CLAUDE.md e memórias para economizar tokens"
+  },
+  "claude-chats": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Lê suas conversas do claude.ai pela exportação oficial, acha a que você quer e faz no Claude Code o que foi pedido lá."
+  },
+  "comparador-produtos-br": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Compara produtos de lojas brasileiras (Pichau, Kabum, Terabyte, Amazon, Mercado Livre) com tabela, ranking e link certo."
+  },
+  "copywriting": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Textos de site que vendem, sem frases genéricas"
+  },
+  "cost-estimator": {
+   "area": "publicar-e-banco",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pesquisa o preço de hoje para colocar um site ou app no ar (hospedagem, banco, domínio, taxas de Pix e cartão) e recomenda o melhor custo-benefício."
+  },
+  "cro": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Aumenta a conversão de páginas e formulários"
+  },
+  "curriculo-jovem-aprendiz": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Currículo de uma página para primeiro emprego, Jovem Aprendiz ou estágio, usando cursos e projetos como experiência, mais carta e treino de entrevista."
+  },
+  "cybersecurity": {
+   "area": "seguranca-e-lei",
+   "fonte": "AgriciDaniel/claude-cybersecurity",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Revisão com 8 especialistas: OWASP, CWE Top 25, MITRE ATT&CK"
+  },
+  "dast-nuclei": {
+   "area": "seguranca-e-lei",
+   "fonte": "AgentSecOps/SecOpsAgentKit",
+   "licenca": "CC-BY-SA-4.0 / MPL-2.0",
+   "modo": "copia",
+   "descricao": "Varredura de vulnerabilidades conhecidas com Nuclei"
+  },
+  "dast-zap": {
+   "area": "seguranca-e-lei",
+   "fonte": "AgentSecOps/SecOpsAgentKit",
+   "licenca": "CC-BY-SA-4.0 / MPL-2.0",
+   "modo": "copia",
+   "descricao": "Ataques reais contra a versão de teste do seu site (OWASP ZAP)"
+  },
+  "defuddle": {
+   "area": "produtividade-e-pc",
+   "fonte": "kepano/obsidian-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Extrai só o texto útil de uma página da web"
+  },
+  "deploy-to-vercel": {
+   "area": "publicar-e-banco",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Publica na Vercel"
+  },
+  "diagnosing-superpowers": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Diagnostica por que uma skill não foi usada"
+  },
+  "differential-review": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Revisa mudanças recentes procurando falhas"
+  },
+  "dispatching-parallel-agents": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Divide tarefas independentes entre agentes em paralelo"
+  },
+  "doc-coauthoring": {
+   "area": "produtividade-e-pc",
+   "fonte": "anthropics/skills",
+   "licenca": "sem licença no original",
+   "modo": "link",
+   "descricao": "Escreve documentos junto com você, por etapas"
+  },
+  "executing-plans": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Executa um plano por etapas com pontos de revisão"
+  },
+  "ffmpeg-skill": {
+   "area": "video-foto-e-musica",
+   "fonte": "kajisho5/ffmpeg-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Edita vídeo e áudio no PC: corta, legenda, 9:16, exporta"
+  },
+  "financas-pessoais": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Controle de gastos, metas, cartão/Pix sem juros, básico de MEI"
+  },
+  "finishing-a-development-branch": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Fecha uma branch: merge, PR ou limpeza"
+  },
+  "formatador-abnt": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Formata trabalho na ABNT e gera o Word"
+  },
+  "fp-check": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Confirma se um alerta é real ou falso positivo"
+  },
+  "frontend-design": {
+   "area": "sites-e-design",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Design visual intencional e marcante para interfaces"
+  },
+  "ghost-repo-context": {
+   "area": "seguranca-e-lei",
+   "fonte": "ghostsecurity/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Mapeia o repositório antes da varredura"
+  },
+  "ghost-report": {
+   "area": "seguranca-e-lei",
+   "fonte": "ghostsecurity/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Gera o relatório de segurança"
+  },
+  "ghost-scan-code": {
+   "area": "seguranca-e-lei",
+   "fonte": "ghostsecurity/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Scanner de vulnerabilidades no código"
+  },
+  "ghost-validate": {
+   "area": "seguranca-e-lei",
+   "fonte": "ghostsecurity/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Valida cada achado do scanner"
+  },
+  "github-helper": {
+   "area": "publicar-e-banco",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Faz tudo de Git e GitHub: cria repositório, primeiro commit, branches, PRs, releases, GitHub Pages e segurança grátis."
+  },
+  "golive": {
+   "area": "publicar-e-banco",
+   "fonte": "mikehasa/golive-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Coloca o site no ar nas suas contas: hospedagem, banco, domínio, pagamentos"
+  },
+  "hallmark": {
+   "area": "sites-e-design",
+   "fonte": "Nutlope/hallmark",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Anti \"cara de IA\": direção visual, auditoria e redesign de páginas"
+  },
+  "humanizar-texto-pt": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Tira a \"cara de IA\" de textos em português, mantendo o sentido e a sua voz."
+  },
+  "humanizer": {
+   "area": "marketing-e-vendas",
+   "fonte": "blader/humanizer",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Tira a \"cara de IA\" de textos em inglês"
+  },
+  "investigate-first": {
+   "area": "metodo-de-trabalho",
+   "fonte": "JuliusBrussee/caveman",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Investiga antes de mexer"
+  },
+  "json-canvas": {
+   "area": "produtividade-e-pc",
+   "fonte": "kepano/obsidian-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Mapas mentais (Canvas) do Obsidian"
+  },
+  "legal-compliance": {
+   "area": "seguranca-e-lei",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Deixa o site pronto para publicar no Brasil: política de privacidade, termos de uso, banner de cookies com consentimento real e exclusão de dados (LGPD)."
+  },
+  "legenda-instagram-negocio": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Legendas, ideias de post, roteiro de Reels e calendário do mês para o Instagram de um negócio local, com a voz do dono."
+  },
+  "marketing-psychology": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Psicologia aplicada ao marketing"
+  },
+  "matematica-passo-a-passo": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Resolve exercícios de matemática do ensino médio e técnico explicando cada passo, com desenho da figura e conferência da conta."
+  },
+  "mcp-builder": {
+   "area": "criar-skills",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Cria servidores MCP para ligar o Claude a qualquer API"
+  },
+  "minecraft-construcoes": {
+   "area": "jogos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods."
+  },
+  "musica-ia": {
+   "area": "video-foto-e-musica",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Letra e prompt de estilo para Suno/Udio"
+  },
+  "neon": {
+   "area": "publicar-e-banco",
+   "fonte": "neondatabase/agent-skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Visão geral do Neon (Postgres na nuvem com plano grátis)"
+  },
+  "neon-auth": {
+   "area": "publicar-e-banco",
+   "fonte": "neondatabase/agent-skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Login de usuários com Neon Auth"
+  },
+  "neon-postgres": {
+   "area": "publicar-e-banco",
+   "fonte": "neondatabase/agent-skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Banco Postgres no Neon: SQL, schema, conexão"
+  },
+  "obsidian-bases": {
+   "area": "produtividade-e-pc",
+   "fonte": "kepano/obsidian-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Tabelas (Bases) do Obsidian"
+  },
+  "obsidian-cli": {
+   "area": "produtividade-e-pc",
+   "fonte": "kepano/obsidian-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Abre, pesquisa e cria notas no Obsidian pelo terminal"
+  },
+  "obsidian-markdown": {
+   "area": "produtividade-e-pc",
+   "fonte": "kepano/obsidian-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Notas no formato certo do Obsidian"
+  },
+  "offers": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Monta a oferta: pacote, bônus, garantia, urgência"
+  },
+  "orcamento-servicos": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Calcula quanto cobrar por site, cardápio, Instagram ou vídeo e monta proposta com 3 pacotes e contrato simples."
+  },
+  "organizador-de-estudos": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Monta um cronograma de estudos que cabe na sua semana real, com provas, Pomodoro, revisão espaçada e checagem semanal."
+  },
+  "owasp-security": {
+   "area": "seguranca-e-lei",
+   "fonte": "agamm/claude-code-owasp",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Regras OWASP Top 10 e ASVS ao escrever e revisar código"
+  },
+  "pc-control": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Faz o Claude mexer no seu computador e no Chrome logado: abrir programas, usar sites, criar contas com o mínimo de esforço seu."
+  },
+  "photo-editor": {
+   "area": "video-foto-e-musica",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Melhora fotos no seu computador: luz, cor, nitidez, ampliação com IA, remoção de fundo e recorte para Instagram ou site."
+  },
+  "planning-with-files": {
+   "area": "metodo-de-trabalho",
+   "fonte": "OthmanAdi/planning-with-files",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Plano em arquivos que sobrevive a conversas longas"
+  },
+  "projeto-senai-desafio": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Estrutura projetos de desafio técnico (Grand Prix SENAI, desafios de empresa): problema, causa raiz, solução, Canvas, custos, KPIs e pitch."
+  },
+  "prospeccao-local-br": {
+   "area": "marketing-e-vendas",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acha negócios da sua cidade que precisam do seu serviço (site, cardápio, Instagram), dá nota de oportunidade e escreve a mensagem de abordagem."
+  },
+  "publicar-skills-github": {
+   "area": "criar-skills",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Monta e publica um repositório público de skills, como este: página de cada skill, downloads, instalação, notas e sugestões."
+  },
+  "receiving-code-review": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Avalia e aplica revisões com rigor"
+  },
+  "redacao-enem": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Corrige redação nas 5 competências do ENEM com nota estimada"
+  },
+  "requesting-code-review": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pede revisão de código do jeito certo"
+  },
+  "revisao-flashcards": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Transforma a matéria em resumo de uma página, flashcards, quiz com gabarito comentado e plano de revisão até a prova."
+  },
+  "roteiro-reels-br": {
+   "area": "video-foto-e-musica",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Roteiro de Reels/TikTok/Shorts para negócio local"
+  },
+  "sca-trivy": {
+   "area": "seguranca-e-lei",
+   "fonte": "AgentSecOps/SecOpsAgentKit",
+   "licenca": "CC-BY-SA-4.0 / MPL-2.0",
+   "modo": "copia",
+   "descricao": "Acha bibliotecas com falha conhecida (Trivy)"
+  },
+  "schema": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Dados estruturados (schema.org) para o Google"
+  },
+  "secrets-gitleaks": {
+   "area": "seguranca-e-lei",
+   "fonte": "AgentSecOps/SecOpsAgentKit",
+   "licenca": "CC-BY-SA-4.0 / MPL-2.0",
+   "modo": "copia",
+   "descricao": "Acha senhas e chaves vazadas no código (Gitleaks)"
+  },
+  "semgrep": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Roda o Semgrep (scanner de vulnerabilidades)"
+  },
+  "seo-audit": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Auditoria de SEO técnico e de conteúdo"
+  },
+  "session-radar": {
+   "area": "produtividade-e-pc",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Mostra o que está acontecendo nas suas outras conversas do Claude Code (nuvem ou computador), resume e diz o que falta."
+  },
+  "sharp-edges": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Acha funções e configurações perigosas"
+  },
+  "site-architecture": {
+   "area": "sites-e-design",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Estrutura de páginas, menus e navegação do site"
+  },
+  "site-fortress": {
+   "area": "seguranca-e-lei",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Auditoria de segurança completa do seu próprio site em 12 fases: segredos, dependências, login, pagamentos, cabeçalhos, LGPD. Corrige e prova cada correção."
+  },
+  "skill-creator": {
+   "area": "criar-skills",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Cria, testa e melhora skills"
+  },
+  "skill-hunter": {
+   "area": "criar-skills",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Procura skills, agentes e servidores MCP no GitHub, verifica a segurança e instala os bons."
+  },
+  "skill-inspector": {
+   "area": "criar-skills",
+   "fonte": "NVIDIA/SkillSpector",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Checklist de segurança antes de instalar uma skill"
+  },
+  "social": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Conteúdo e estratégia para redes sociais"
+  },
+  "subagent-driven-development": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Executa um plano com um subagente por tarefa"
+  },
+  "supply-chain-risk-auditor": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Verifica se as bibliotecas instaladas são confiáveis"
+  },
+  "surgical-patch": {
+   "area": "metodo-de-trabalho",
+   "fonte": "JuliusBrussee/caveman",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Muda só o necessário"
+  },
+  "sympy": {
+   "area": "estudos",
+   "fonte": "K-Dense-AI/scientific-agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Matemática exata por código para conferir contas"
+  },
+  "systematic-debugging": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Corrige bugs pela causa raiz"
+  },
+  "test-driven-development": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Escreve o teste antes do código"
+  },
+  "theme-factory": {
+   "area": "sites-e-design",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Temas prontos (cores + fontes) para páginas e documentos"
+  },
+  "trabalho-escolar": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Ajuda em trabalhos de escola, SESI e SENAI: pesquisa, resumo, cartaz, slides, roteiro de fala cronometrado e perguntas do professor."
+  },
+  "tutor-ingles": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Professor de inglês para brasileiros, do A1 ao C1"
+  },
+  "tutor-sql": {
+   "area": "estudos",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Professor de SQL/MySQL em português: corrige scripts, explica comandos e cria missões no seu próprio banco de exemplo."
+  },
+  "ui-ux-pro-max": {
+   "area": "sites-e-design",
+   "fonte": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Estilo, paleta, fontes e estrutura certos para cada tipo de negócio"
+  },
+  "using-git-worktrees": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Trabalho isolado com git worktrees"
+  },
+  "using-superpowers": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Ensina o Claude a achar e usar as skills"
+  },
+  "variant-analysis": {
+   "area": "seguranca-e-lei",
+   "fonte": "trailofbits/skills",
+   "licenca": "CC-BY-SA-4.0",
+   "modo": "copia",
+   "descricao": "Achou um bug? Procura todos os parecidos"
+  },
+  "vercel-cli-with-tokens": {
+   "area": "publicar-e-banco",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Usa a Vercel pelo terminal com token"
+  },
+  "vercel-optimize": {
+   "area": "publicar-e-banco",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Deixa o site na Vercel mais rápido e barato"
+  },
+  "vercel-react-best-practices": {
+   "area": "sites-e-design",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Boas práticas de desempenho em React e Next.js"
+  },
+  "verification-before-completion": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Confere de verdade antes de dizer \"pronto\""
+  },
+  "verify-and-stop": {
+   "area": "metodo-de-trabalho",
+   "fonte": "JuliusBrussee/caveman",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Verifica e para, sem se estender"
+  },
+  "video-link": {
+   "area": "video-foto-e-musica",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Você manda o link (Instagram, TikTok, YouTube) e o Claude \"assiste\": baixa, transcreve a fala e tira quadros da imagem."
+  },
+  "video-maker": {
+   "area": "video-foto-e-musica",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Faz vídeos .mp4 de verdade: Reels, TikTok, propaganda, explicativo com narração e legenda, slideshow de fotos."
+  },
+  "web-artifacts-builder": {
+   "area": "sites-e-design",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Páginas HTML complexas com React, Tailwind e shadcn"
+  },
+  "web-design-guidelines": {
+   "area": "sites-e-design",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Regras de design de interface da equipe da Vercel"
+  },
+  "webapp-testing": {
+   "area": "sites-e-design",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Testa o site num navegador de verdade (Playwright)"
+  },
+  "writing-plans": {
+   "area": "metodo-de-trabalho",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Escreve um plano de implementação detalhado"
+  },
+  "writing-skills": {
+   "area": "criar-skills",
+   "fonte": "obra/superpowers",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Como escrever e testar skills novas"
+  },
+  "kit-sync": {
+   "area": "criar-skills",
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Atualiza este kit no GitHub: copia tudo, confere segredos e dados pessoais e publica"
+  }
+ },
+ "agentes": {
+  "accessibility-tester": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acessibilidade (WCAG)"
+  },
+  "agent-organizer": {
+   "area": "coordenacao",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Divide a tarefa e escolhe os agentes"
+  },
+  "ai-writing-auditor": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acha e reescreve textos com cara de IA"
+  },
+  "api-designer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Desenho de APIs REST/GraphQL"
+  },
+  "backend-developer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "APIs e servidores"
+  },
+  "code-reviewer": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Revisão de código"
+  },
+  "competitive-analyst": {
+   "area": "pesquisa",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Análise de concorrentes"
+  },
+  "content-marketer": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Estratégia e criação de conteúdo"
+  },
+  "debugger": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acha a causa de bugs"
+  },
+  "frontend-developer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Front-end React/Vue/Angular"
+  },
+  "fullstack-developer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Banco, API e tela juntos"
+  },
+  "landing-page-copywriter": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Textos de landing page que convertem"
+  },
+  "market-researcher": {
+   "area": "pesquisa",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pesquisa de mercado e público"
+  },
+  "multi-agent-coordinator": {
+   "area": "coordenacao",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Coordena vários agentes ao mesmo tempo"
+  },
+  "nextjs-developer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Apps Next.js completos"
+  },
+  "performance-engineer": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Desempenho e gargalos"
+  },
+  "product-manager": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Define objetivo, páginas e prioridades"
+  },
+  "python-pro": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Python tipado e moderno"
+  },
+  "qa-expert": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Estratégia e plano de testes"
+  },
+  "react-specialist": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "React avançado e desempenho"
+  },
+  "research-analyst": {
+   "area": "pesquisa",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Junta as fontes e resume em conclusões"
+  },
+  "search-specialist": {
+   "area": "pesquisa",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acha fontes e informações precisas"
+  },
+  "security-auditor": {
+   "area": "qualidade-e-seguranca",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Auditoria de segurança"
+  },
+  "seo-specialist": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "SEO técnico e de conteúdo"
+  },
+  "typescript-pro": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "TypeScript com tipos avançados"
+  },
+  "ui-designer": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Design visual e sistema de design"
+  },
+  "ux-researcher": {
+   "area": "produto-e-design",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pesquisa com usuário e usabilidade"
+  },
+  "webhook-engineer": {
+   "area": "desenvolvimento",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Webhooks seguros: assinatura, retry, idempotência"
+  },
+  "workflow-orchestrator": {
+   "area": "coordenacao",
+   "fonte": "VoltAgent/awesome-claude-code-subagents",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Desenha fluxos e máquinas de estado"
+  }
+ },
+ "plugins": {
+  "security-guidance": "Avisa na hora quando um código inseguro é escrito",
+  "claude-security": "Varredura profunda de vulnerabilidades",
+  "context7": "Documentação atualizada das bibliotecas",
+  "hyperframes": "Vídeos em HTML renderizados em MP4 (HeyGen)",
+  "chrome-devtools-mcp": "Controla e inspeciona o Chrome (Google)",
+  "browser-use": "Usa o seu Chrome logado para tarefas em sites",
+  "telegram": "Conversa com o Claude Code pelo Telegram",
+  "remember": "Memória contínua entre conversas",
+  "session-report": "Relatório de onde os tokens foram gastos",
+  "claude-md-management": "Mantém o CLAUDE.md atualizado",
+  "code-simplifier": "Deixa o código mais limpo",
+  "typescript-lsp": "Entende TypeScript de verdade",
+  "modern-web-guidance": "Boas práticas web atuais (Chrome)",
+  "mercadopago": "Integração oficial do Mercado Pago (Pix, cartão)",
+  "stripe": "Integração oficial do Stripe",
+  "canva": "Cria e edita designs no Canva",
+  "pyright-lsp": "Entende Python de verdade (tipos)",
+  "expo": "Apps de celular com Expo/React Native (instalado desligado)"
+ }
+}

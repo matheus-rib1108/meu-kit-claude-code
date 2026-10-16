@@ -1,0 +1,11 @@
+sync-kit.log
+sync-kit.lock
+__pycache__/
+*.pyc
+.env*
+settings.local.json
+.remember/
+chat-exports/
+instagram-export/
+*.claude-export.zip
+dist/

@@ -1,0 +1,8 @@
+# Falsos positivos revisados à mão (exemplos didáticos e hashes em skills de terceiros)
+skills/publicar-e-banco/golive/release.json:sentry-access-token:28
+skills/seguranca-e-lei/cybersecurity/references/iac-patterns/kubernetes.md:generic-api-key:67
+skills/seguranca-e-lei/dast-nuclei/assets/rule-template.yaml:generic-api-key:156
+skills/seguranca-e-lei/site-fortress/SKILL.md:generic-api-key:49
+skills/seguranca-e-lei/dast-zap/references/authentication_guide.md:generic-api-key:218
+skills/seguranca-e-lei/secrets-gitleaks/references/detection_rules.md:private-key:202
+skills/seguranca-e-lei/secrets-gitleaks/references/remediation_guide.md:generic-api-key:137

@@ -10,6 +10,10 @@ https://github.com/matheus-rib1108/meu-kit-claude-code.
 
 ## Atualizar agora
 
+1. Primeiro rode a skill `kit-sync-conta` (lista da conta claude.ai pelo Chrome, só leitura).
+   Se o Chrome estiver fechado, siga sem ela e avise.
+2. Depois:
+
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File "$HOME\repos\meu-kit-claude-code\sync-kit.ps1"
 ```
@@ -31,5 +35,14 @@ Depois leia as últimas linhas de `~/repos/meu-kit-claude-code/sync-kit.log` e d
   Para mudar a área ou a descrição, edite o `kit-meta.json` e rode o sync.
 - Termos privados que nunca podem sair (nomes de clientes, e-mail, telefone) ficam em
   `~/.claude/kit-sync/private-terms.txt`, fora do repositório. Para bloquear um nome novo, acrescente uma linha lá.
-- Roda sozinho: hook `SessionEnd` no `~/.claude/settings.json` (em segundo plano) e tarefa diária
-  "MeuKitClaudeCode-Sync" no Agendador de Tarefas. Só faz commit quando algo além do README mudou.
+- Também publica: comandos (`~/.claude/commands`), MCPs do `~/.claude.json` (só nome/tipo/url sem query),
+  hooks (só o evento), a lista da conta claude.ai (`~/.claude/kit-sync/conta-claude-ai.json`), datas de entrada
+  de cada item, badges e o `CHANGELOG.md` (+ entrou, ~ mudou, − saiu). O inventário anterior fica em `kit-meta.json` → `inventario`.
+- **Vigia (na hora):** `kit-watch.ps1`, tarefa "MeuKitClaudeCode-Vigia" (inicia no logon, escondida). Quando algo
+  muda em skills, agents, commands, settings.json, CLAUDE.md, installed_plugins.json, MCPs do ~/.claude.json,
+  conta-claude-ai.json ou .mcp.json dos projetos, espera 2 min sem mudanças e roda o sync.
+  - Pausar: criar `~/.claude/kit-sync/PAUSADO` (apagar para voltar), ou `Stop-ScheduledTask MeuKitClaudeCode-Vigia`
+    + `Disable-ScheduledTask MeuKitClaudeCode-Vigia`.
+- Reservas: hook `SessionEnd`, tarefa diária "MeuKitClaudeCode-Sync" (21h) e tarefa agendada do app
+  "21h: conta claude.ai no kit". Só faz commit quando algo além do README mudou.
+- Se não publicar, grava o motivo em `sync-kit.log` e mostra notificação do Windows.

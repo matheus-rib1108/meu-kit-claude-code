@@ -1,8 +1,8 @@
 # Meu kit do Claude Code
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-16%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-113-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-0-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-16%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-114-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-9-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **113 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **114 skills**,
 **29 agentes**, **22 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -83,7 +83,7 @@ Plugins oficiais não são copiados para cá: só a lista.
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
-## Skills (113: 110 copiadas, o resto só com link)
+## Skills (114: 111 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -197,7 +197,7 @@ Plugins oficiais não são copiados para cá: só a lista.
 | [`vercel-cli-with-tokens`](skills/publicar-e-banco/vercel-cli-with-tokens) | Usa a Vercel pelo terminal com token | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`vercel-optimize`](skills/publicar-e-banco/vercel-optimize) | Deixa o site na Vercel mais rápido e barato | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 
-### Produtividade, PC e Obsidian (12)
+### Produtividade, PC e Obsidian (13)
 
 | Skill | O que faz | Fonte | Licença | Entrou |
 |---|---|---|---|---|
@@ -208,6 +208,7 @@ Plugins oficiais não são copiados para cá: só a lista.
 | `doc-coauthoring` (só link) | Escreve documentos junto com você, por etapas | [anthropics/skills](https://github.com/anthropics/skills) | sem licença no original | 15/10/2026 |
 | [`financas-pessoais`](skills/produtividade-e-pc/financas-pessoais) | Controle de gastos, metas, cartão/Pix sem juros, básico de MEI | própria | MIT | 15/10/2026 |
 | [`json-canvas`](skills/produtividade-e-pc/json-canvas) | Mapas mentais (Canvas) do Obsidian | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | MIT | 15/10/2026 |
+| [`kit-sync-conta`](skills/produtividade-e-pc/kit-sync-conta) | Lê (só olhando) o que está ativado na conta claude.ai e gera a lista para o kit. | própria | MIT | 16/10/2026 |
 | [`obsidian-bases`](skills/produtividade-e-pc/obsidian-bases) | Tabelas (Bases) do Obsidian | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | MIT | 15/10/2026 |
 | [`obsidian-cli`](skills/produtividade-e-pc/obsidian-cli) | Abre, pesquisa e cria notas no Obsidian pelo terminal | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | MIT | 15/10/2026 |
 | [`obsidian-markdown`](skills/produtividade-e-pc/obsidian-markdown) | Notas no formato certo do Obsidian | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | MIT | 15/10/2026 |
@@ -340,7 +341,31 @@ Só o evento e o que faz (o comando completo fica no meu PC).
 
 ## Minha conta claude.ai
 
-_Ainda não conferida (rode a skill `kit-sync-conta`)._
+Conferido em 2026-10-16 pela skill `kit-sync-conta` (só nomes; detalhes em [`conta-claude-ai.md`](conta-claude-ai.md)).
+
+### Skills (5)
+
+| Nome | Para que serve |
+|---|---|
+| deep-research | Pesquisa profunda com vários agentes em paralelo e relatório com fontes |
+| google-workspace | Cria e edita arquivos do Google Docs, Planilhas e Apresentações direto no Drive |
+| import-memory | Importa para o Claude a memória e as preferências vindas de outro assistente |
+| morning | Resumo da manhã: agenda, e-mails e o que importa no dia |
+| skill-creator | Cria, testa e melhora skills |
+
+### Conectores (4)
+
+| Nome | Para que serve |
+|---|---|
+| Canva | Busca, cria e exporta designs do Canva (pendente) |
+| GitHub | Lê repositórios, issues e PRs do GitHub nas conversas (conectado) |
+| Gmail | Resume conversas, busca e rascunha respostas de e-mail (pendente) |
+| Higgsfield | Conector personalizado de geração de vídeo e imagem com IA (pendente) |
+
+### Plugins (0)
+
+_Nenhum._
+
 
 ## Como o kit se atualiza sozinho
 

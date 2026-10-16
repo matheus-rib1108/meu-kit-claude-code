@@ -2,6 +2,20 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-16 09:46
+
+- + skill `kit-sync-conta`
+- ~ skill `kit-sync`
+- + claude.ai `conectores: Canva`
+- + claude.ai `conectores: GitHub`
+- + claude.ai `conectores: Gmail`
+- + claude.ai `conectores: Higgsfield`
+- + claude.ai `skills: deep-research`
+- + claude.ai `skills: google-workspace`
+- + claude.ai `skills: import-memory`
+- + claude.ai `skills: morning`
+- + claude.ai `skills: skill-creator`
+
 ## 2026-10-16 09:43
 
 - − skill `teste-vigia-kit`

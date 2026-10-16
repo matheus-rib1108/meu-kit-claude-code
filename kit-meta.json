@@ -803,6 +803,13 @@
    "modo": "link",
    "area": "metodo-de-trabalho",
    "descricao": "Mapa (grafo) do projeto para o Claude não reler arquivo por arquivo; instale o CLI com `uv tool install graphifyy`."
+  },
+  "kit-sync-conta": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "produtividade-e-pc",
+   "descricao": "Lê (só olhando) o que está ativado na conta claude.ai e gera a lista para o kit."
   }
  },
  "agentes": {
@@ -1226,7 +1233,8 @@
    "web-design-guidelines": "2026-10-15",
    "webapp-testing": "2026-10-15",
    "writing-plans": "2026-10-15",
-   "writing-skills": "2026-10-15"
+   "writing-skills": "2026-10-15",
+   "kit-sync-conta": "2026-10-16"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1295,7 +1303,17 @@
    "SessionEnd": "2026-10-15",
    "statusLine": "2026-10-16"
   },
-  "conta": {}
+  "conta": {
+   "skills: deep-research": "2026-10-16",
+   "skills: google-workspace": "2026-10-16",
+   "skills: import-memory": "2026-10-16",
+   "skills: morning": "2026-10-16",
+   "skills: skill-creator": "2026-10-16",
+   "conectores: Canva": "2026-10-16",
+   "conectores: GitHub": "2026-10-16",
+   "conectores: Gmail": "2026-10-16",
+   "conectores: Higgsfield": "2026-10-16"
+  }
  },
  "inventario": {
   "skills": {
@@ -1344,7 +1362,8 @@
    "humanizer": "32c2677f403e",
    "investigate-first": "7990cab39f9c",
    "json-canvas": "73e093204e75",
-   "kit-sync": "4c1866fef679",
+   "kit-sync": "e03741826657",
+   "kit-sync-conta": "2f2ef30d438f",
    "legal-compliance": "fe5295f7d219",
    "legenda-instagram-negocio": "e281ff29a64f",
    "marketing-psychology": "ff1d1d141a2c",
@@ -1480,6 +1499,16 @@
    "SessionEnd": "atualiza este kit no GitHub",
    "statusLine": "barra de status claude-hud"
   },
-  "conta": {}
+  "conta": {
+   "skills: deep-research": "Pesquisa profunda com vários agentes em paralelo e relatório com fontes",
+   "skills: google-workspace": "Cria e edita arquivos do Google Docs, Planilhas e Apresentações direto no Drive",
+   "skills: import-memory": "Importa para o Claude a memória e as preferências vindas de outro assistente",
+   "skills: morning": "Resumo da manhã: agenda, e-mails e o que importa no dia",
+   "skills: skill-creator": "Cria, testa e melhora skills",
+   "conectores: Canva": "Busca, cria e exporta designs do Canva (pendente)",
+   "conectores: GitHub": "Lê repositórios, issues e PRs do GitHub nas conversas (conectado)",
+   "conectores: Gmail": "Resume conversas, busca e rascunha respostas de e-mail (pendente)",
+   "conectores: Higgsfield": "Conector personalizado de geração de vídeo e imagem com IA (pendente)"
+  }
  }
 }

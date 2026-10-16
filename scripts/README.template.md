@@ -1,4 +1,7 @@
-# Meu kit do Claude Code
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: {{N_SKILLS}} skills, {{N_AGENTES}} agentes, {{N_PLUGINS}} plugins e {{N_MCP}} conectores MCP. Instale em 1 comando." width="100%">
+</picture>
 
 {{BADGES}}
 
@@ -7,11 +10,37 @@ Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar s�
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
-O repositório se atualiza sozinho: quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
-ou configuração no meu PC, um vigia percebe, espera 2 minutos e roda o script que copia tudo para cá, confere que
-não há senha nem dado pessoal e só então publica. O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md).
+## Como é usar
 
-**Última atualização:** {{DATA}}
+<img src="assets/demo.svg" alt="Exemplo: você pede um cardápio digital para uma pizzaria; o Claude escolhe sozinho as skills cardapio-digital, hallmark, legal-compliance e site-fortress; a página fica pronta para você conferir e publicar." width="100%">
+
+1. **Você pede em português**, do jeito que falaria com alguém: "faz um site para um salão", "corrige minha redação",
+   "deixa meu site seguro".
+2. **O `CLAUDE.md` decide quem faz.** Ele tem uma tabela "pedido → quem faz" que aponta a skill ou o agente certo
+   para cada tipo de pedido, então você não precisa decorar nome de skill.
+3. **As skills fazem o trabalho do jeito certo** (sem "cara de IA", com LGPD, com teste de segurança) e
+   **nada é publicado, enviado ou comprado sem o seu ok.**
+
+## Estado do kit
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em {{DATA}}." width="100%">
+</picture>
+
+O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
+ou configuração no meu PC, isto acontece:
+
+```mermaid
+flowchart LR
+  A["Mudo algo no meu PC<br/>(skill, agente, plugin, MCP, hook)"] --> B["Vigia percebe<br/>e espera 2 min"]
+  B --> C["sync-kit.ps1<br/>copia e refaz o README"]
+  C --> D{"Gitleaks + busca de<br/>dados pessoais + termos privados"}
+  D -- limpo --> E["Commit + push<br/>+ CHANGELOG"]
+  D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
+```
+
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** {{DATA}}
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 > As minhas skills também estão no catálogo [claude-skills-br](https://github.com/{{OWNER}}/claude-skills-br),

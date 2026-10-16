@@ -27,7 +27,7 @@ CPF_OK = re.compile(r'(000\.000\.000|111\.111\.111|123\.456\.789|999\.999\.999)'
 BAD_PATHS = ('chat-exports', 'instagram-export', '.remember', 'settings.local.json', '.env')
 SKIP_DIRS = {'.git'}
 TEXT_EXT = {'.md', '.txt', '.json', '.py', '.ps1', '.sh', '.js', '.ts', '.tsx', '.mjs', '.cjs', '.yml', '.yaml',
-            '.toml', '.html', '.css', '.csv', '.xml', '.ini', '.cfg', ''}
+            '.toml', '.html', '.css', '.csv', '.xml', '.ini', '.cfg', '.svg', ''}
 
 
 def load_private():

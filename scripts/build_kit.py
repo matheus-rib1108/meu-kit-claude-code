@@ -17,6 +17,9 @@ import subprocess
 import sys
 from urllib.parse import quote
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from visuals import write_visuals  # noqa: E402
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOME = os.path.expanduser('~')
 CLAUDE = os.path.join(HOME, '.claude')
@@ -360,7 +363,16 @@ def main():
     meta['inventario'] = inv
 
     json.dump(meta, open(meta_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    write_readme(meta, skills, agents, commands, enabled, markets, servers, hooks, conta)
+    data, ultima = last_change()
+    counts = {'skills': len(skills), 'agentes': len(agents), 'plugins': len(enabled), 'mcp': len(servers)}
+    curto = {'metodo-de-trabalho': 'Método de trabalho', 'marketing-e-vendas': 'Marketing e vendas',
+             'publicar-e-banco': 'Publicar e banco', 'produtividade-e-pc': 'Produtividade e PC',
+             'video-foto-e-musica': 'Vídeo, foto e música', 'criar-skills': 'Criar skills'}
+    areas = sorted(((curto.get(a, t.split(' (')[0])[:22], sum(1 for n in skills if meta['skills'][n]['area'] == a))
+                    for a, t in meta['areas'].items() if a != 'outras'), key=lambda x: -x[1])
+    areas = [(t, v) for t, v in areas if v]
+    write_visuals(REPO, counts, areas, data, ultima)
+    write_readme(meta, skills, agents, commands, enabled, markets, servers, hooks, conta, data)
     for n in notes:
         print(n)
 
@@ -414,6 +426,19 @@ def diff_inventory(prev, cur):
     return lines
 
 
+def last_change():
+    """Data (dd/mm/aaaa) e primeira linha da entrada mais recente do CHANGELOG."""
+    try:
+        txt = open(os.path.join(REPO, 'CHANGELOG.md'), encoding='utf-8').read()
+    except OSError:
+        return datetime.date.today().strftime('%d/%m/%Y'), ''
+    m = re.search(r'^## (\d{4})-(\d{2})-(\d{2})[^\n]*\n+- (.+)$', txt, re.M)
+    if not m:
+        return datetime.date.today().strftime('%d/%m/%Y'), ''
+    linha = m.group(4).replace('`', '').replace('**', '')
+    return f'{m.group(3)}/{m.group(2)}/{m.group(1)}', linha
+
+
 def write_changelog(lines):
     path = os.path.join(REPO, 'CHANGELOG.md')
     head = ('# Changelog\n\nTudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, '
@@ -456,9 +481,8 @@ def badge(label, value, color):
     return f'![{label}](https://img.shields.io/badge/{esc(label)}-{esc(value)}-{color})'
 
 
-def write_readme(meta, skills, agents, commands, enabled, markets, servers, hooks, conta):
+def write_readme(meta, skills, agents, commands, enabled, markets, servers, hooks, conta, today):
     tmpl = open(os.path.join(REPO, 'scripts', 'README.template.md'), encoding='utf-8').read()
-    today = datetime.date.today().strftime('%d/%m/%Y')
     ent = meta.get('entrou', {})
 
     def link(src):

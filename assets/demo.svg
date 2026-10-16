@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Exemplo: um pedido em português, as skills que o Claude escolhe sozinho e o resultado">
+<style>
+  .l{animation:aparece 14s infinite both}
+  .l1{animation-delay:.3s}.l2{animation-delay:2.2s}.l3{animation-delay:3.2s}.l4{animation-delay:4.2s}.l5{animation-delay:5.2s}.l6{animation-delay:7s}.l7{animation-delay:8.2s}
+  @keyframes aparece{0%{opacity:0}3%{opacity:1}88%{opacity:1}94%{opacity:0}100%{opacity:0}}
+  .cur{animation:pisca 1s steps(1) infinite}
+  @keyframes pisca{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.l{animation:none;opacity:1}.cur{animation:none}}
+  .m{font-family:'JetBrains Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace}
+  .s{font-family:'Inter Tight','Segoe UI','Helvetica Neue',Arial,sans-serif}
+</style>
+<rect width="1280" height="400" fill="#14161a"/>
+<text x="64" y="64" class="m" font-size="14" fill="#8a8f98">EXEMPLO DE USO · você pede em português, o kit escolhe a skill</text>
+<g class="l l1"><text x="64" y="120" class="m" font-size="20" fill="#e8a33d">&gt;</text><text x="92" y="120" class="m" font-size="20" fill="#e8e6e1">faz um cardápio digital para uma pizzaria, com pedido pelo WhatsApp</text></g>
+<g class="l l2"><text x="560" y="172" text-anchor="end" class="m" font-size="17" fill="#8a8f98">CLAUDE.md: "site/cardápio" →</text><text x="580" y="172" class="m" font-size="17" fill="#e8a33d">cardapio-digital</text></g>
+<g class="l l3"><text x="560" y="204" text-anchor="end" class="m" font-size="17" fill="#8a8f98">estilo sem "cara de IA" →</text><text x="580" y="204" class="m" font-size="17" fill="#e8a33d">hallmark</text></g>
+<g class="l l4"><text x="560" y="236" text-anchor="end" class="m" font-size="17" fill="#8a8f98">política de privacidade e LGPD →</text><text x="580" y="236" class="m" font-size="17" fill="#e8a33d">legal-compliance</text></g>
+<g class="l l5"><text x="560" y="268" text-anchor="end" class="m" font-size="17" fill="#8a8f98">teste de segurança antes de publicar →</text><text x="580" y="268" class="m" font-size="17" fill="#e8a33d">site-fortress</text></g>
+<g class="l l6"><text x="64" y="324" class="s" font-size="22" font-weight="700" fill="#e8e6e1">Página pronta para publicar: categorias, preços, botão de pedido e QR code da mesa.</text></g>
+<g class="l l7"><text x="64" y="360" class="m" font-size="14" fill="#8a8f98">você confere e decide publicar · nada vai ao ar sem o seu ok</text><rect class="cur" x="560" y="346" width="10" height="18" fill="#e8a33d"/></g>
+</svg>

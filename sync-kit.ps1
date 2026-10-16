@@ -22,6 +22,19 @@ function Log([string]$msg) {
     [IO.File]::AppendAllText($Log, $line + "`r`n", $utf8)
 }
 
+# Notificação do Windows (canto da tela) quando o kit NÃO é publicado
+function Avisar([string]$texto) {
+    try {
+        [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime] | Out-Null
+        [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime] | Out-Null
+        $esc = [Security.SecurityElement]::Escape($texto)
+        $xml = New-Object Windows.Data.Xml.Dom.XmlDocument
+        $xml.LoadXml("<toast><visual><binding template='ToastGeneric'><text>Kit do Claude NÃO publicado</text><text>$esc</text><text>Veja sync-kit.log</text></binding></visual></toast>")
+        $app = '{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe'
+        [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($app).Show([Windows.UI.Notifications.ToastNotification]::new($xml))
+    } catch { Log "  (não consegui mostrar a notificação: $($_.Exception.Message))" }
+}
+
 # Uma execução por vez (o hook pode disparar várias conversas fechando juntas)
 if (Test-Path $Lock) {
     if ((Get-Item $Lock).LastWriteTime -gt (Get-Date).AddMinutes(-30)) { Write-Host 'Outra sincronização em andamento.'; exit 0 }
@@ -36,12 +49,12 @@ try {
         $gitleaks = Get-ChildItem "$env:LOCALAPPDATA\Microsoft\WinGet\Packages" -Recurse -Filter gitleaks.exe -ErrorAction SilentlyContinue |
             Select-Object -First 1 -ExpandProperty FullName
     }
-    if (-not $gitleaks) { Log 'NÃO PUBLICADO: gitleaks não encontrado (winget install Gitleaks.Gitleaks).'; exit 2 }
+    if (-not $gitleaks) { Log 'NÃO PUBLICADO: gitleaks não encontrado (winget install Gitleaks.Gitleaks).'; Avisar 'Gitleaks não encontrado.'; exit 2 }
 
     if (-not $SemPush) { git pull --rebase --quiet 2>&1 | Out-Null }
 
     $notas = & python scripts/build_kit.py 2>&1
-    if ($LASTEXITCODE -ne 0) { Log "NÃO PUBLICADO: erro ao montar o kit: $($notas -join ' | ')"; exit 3 }
+    if ($LASTEXITCODE -ne 0) { Log "NÃO PUBLICADO: erro ao montar o kit: $($notas -join ' | ')"; Avisar 'Erro ao montar o kit.'; exit 3 }
     foreach ($n in $notas) { if ("$n".Trim()) { Log "$n" } }
 
     $pessoais = & python scripts/check_personal.py 2>&1
@@ -52,6 +65,7 @@ try {
         Log 'NÃO PUBLICADO: algo suspeito foi encontrado. Nada foi enviado ao GitHub.'
         if (-not $okPessoais) { foreach ($l in $pessoais) { Log "  $l" } }
         if (-not $okLeaks) { foreach ($l in ($vaz | Select-String -Pattern 'File:|RuleID:|Line:')) { Log "  gitleaks $l" } }
+        Avisar 'Achei possível segredo, dado pessoal ou termo privado. Nada foi enviado.'
         exit 1
     }
 
@@ -75,6 +89,9 @@ try {
         elseif ($path -like 'plugins/*') { $nome = 'plugins'; $top = $null }
         elseif ($path -like 'mcp/*') { $nome = 'conectores MCP'; $top = $null }
         elseif ($path -eq 'CLAUDE.md') { $nome = 'CLAUDE.md'; $top = $null }
+        elseif ($path -match '^commands/(.+)\.md$') { $nome = "comando $($Matches[1])"; $top = $path }
+        elseif ($path -eq 'conta-claude-ai.md') { $nome = 'conta claude.ai'; $top = $null }
+        elseif ($path -eq 'CHANGELOG.md') { continue }
         else { $nome = 'arquivos do kit'; $top = $null }
         $sinal = '~'
         if ($top -and $path -eq $top -and $st -eq 'A') { $sinal = '+' }
@@ -87,10 +104,10 @@ try {
     $msgFile = Join-Path $env:TEMP 'kit-commit-msg.txt'
     [IO.File]::WriteAllText($msgFile, "Atualiza kit: $resumo`n`n" + ($partes -join "`n") + "`n", $utf8)
     git commit --quiet -F $msgFile
-    if ($LASTEXITCODE -ne 0) { Log 'NÃO PUBLICADO: falha no commit.'; exit 4 }
+    if ($LASTEXITCODE -ne 0) { Log 'NÃO PUBLICADO: falha no commit.'; Avisar 'Falha no commit.'; exit 4 }
     if ($SemPush) { Log "Commit feito (sem push): $resumo"; exit 0 }
     $out = git push --quiet 2>&1
-    if ($LASTEXITCODE -ne 0) { Log "NÃO PUBLICADO: falha no push: $out"; exit 5 }
+    if ($LASTEXITCODE -ne 0) { Log "NÃO PUBLICADO: falha no push: $out"; Avisar 'Falha ao enviar para o GitHub (push).'; exit 5 }
     Log "Publicado: Atualiza kit: $resumo"
 }
 finally {

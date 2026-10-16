@@ -1,11 +1,15 @@
 # Meu kit do Claude Code
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **{{N_SKILLS}} skills**,
-**{{N_AGENTES}} agentes**, **{{N_PLUGINS}} plugins** oficiais, os conectores MCP (sem nenhuma chave) e o meu
-`CLAUDE.md` com a tabela "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
+{{BADGES}}
 
-O repositório se atualiza sozinho: quando eu adiciono ou mudo uma skill, um agente ou um plugin no meu PC,
-um script copia tudo para cá, confere que não há senha nem dado pessoal e só então publica.
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **{{N_SKILLS}} skills**,
+**{{N_AGENTES}} agentes**, **{{N_PLUGINS}} plugins**, **{{N_MCP}} conectores MCP** (sem nenhuma chave), os hooks,
+o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
+"pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
+
+O repositório se atualiza sozinho: quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
+ou configuração no meu PC, um vigia percebe, espera 2 minutos e roda o script que copia tudo para cá, confere que
+não há senha nem dado pessoal e só então publica. O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md).
 
 **Última atualização:** {{DATA}}
 
@@ -92,25 +96,37 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 
 {{TABELA_AGENTES}}
 
-## Plugins ({{N_PLUGINS}}, do marketplace oficial `anthropics/claude-plugins-official`)
+## Plugins ({{N_PLUGINS}})
 
 {{TABELA_PLUGINS}}
 
-## Conectores MCP ([`mcp/.mcp.json`](mcp/.mcp.json))
+## Conectores MCP ({{N_MCP}}, [`mcp/.mcp.json`](mcp/.mcp.json))
 
 Sem nenhuma chave: cada um pede login na primeira vez (`/mcp` no Claude Code).
 
 {{TABELA_MCP}}
 
+## Hooks e barra de status
+
+Só o evento e o que faz (o comando completo fica no meu PC).
+
+{{TABELA_HOOKS}}
+
+## Minha conta claude.ai
+
+{{CONTA}}
+
 ## Como o kit se atualiza sozinho
 
-1. `sync-kit.ps1` copia skills, agentes, plugins, `.mcp.json` e `CLAUDE.md` do meu PC para cá e refaz este README.
-2. Roda o [Gitleaks](https://github.com/gitleaks/gitleaks) e uma busca por e-mail, telefone, CPF e nomes que não podem sair.
-3. Só se estiver tudo limpo e algo tiver mudado, faz o commit `Atualiza kit: <o que mudou>` e o push.
-   Se achar algo suspeito, não publica e grava o aviso em `sync-kit.log` (que fica só no meu PC).
+1. Um vigia (`kit-watch.ps1`, escondido, inicia com o Windows) observa `~/.claude/skills`, `agents`, `commands`,
+   `settings.json`, a lista de plugins instalados, a lista de MCPs do `~/.claude.json` e o `.mcp.json` dos projetos.
+   Quando algo muda, espera 2 minutos sem novas mudanças e roda o `sync-kit.ps1`.
+2. `sync-kit.ps1` copia tudo para cá, registra no `CHANGELOG.md` o que entrou, mudou ou saiu e refaz este README.
+3. Roda o [Gitleaks](https://github.com/gitleaks/gitleaks) e uma busca por e-mail, telefone, CPF e nomes que não podem sair.
+4. Só se estiver tudo limpo e algo tiver mudado, faz o commit `Atualiza kit: <o que mudou>` e o push.
+   Se achar algo suspeito, não publica, grava o aviso em `sync-kit.log` (que fica só no meu PC) e mostra uma notificação.
 
-Roda ao fechar cada conversa do Claude Code (hook `SessionEnd`), uma vez por dia pelo Agendador de Tarefas do
-Windows e quando eu peço "atualiza meu kit no GitHub".
+Reservas: hook `SessionEnd` ao fechar cada conversa, tarefa diária às 21h e o pedido "atualiza meu kit no GitHub".
 
 ## Créditos
 

@@ -34,7 +34,11 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 | Conversas do Claude normal (claude.ai / app) | skill `claude-chats` (lê o "Exportar dados") |
 | Documentação atualizada de biblioteca | plugin `context7` |
 | Pagamentos | plugins `mercadopago`, `stripe` + fase 6 da `site-fortress` |
-| Achar/instalar novas skills | skill `skill-hunter` |
+| Achar/instalar novas skills | skill `skill-hunter` (sempre verificar com `skill-inspector` antes) |
+| Pôster, flyer, arte estática (PNG/PDF) | skill `canvas-design` |
+| "Como funciona esse repositório do GitHub?" | MCP `deepwiki` (só repositórios públicos) |
+| "Quanto do meu limite eu usei?" | `npx -y ccusage@20.0.34 daily --offline` ou a barra do `claude-hud` |
+| Pesquisa grande e profunda | skill `deep-research` (vários agentes em paralelo); relatório do ecossistema em `Obsidian Vault/Claude/Pesquisa ecossistema Claude.md` |
 
 ## Sites que não parecem "vibe code"
 

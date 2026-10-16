@@ -6,8 +6,8 @@
     "hyperframes@claude-plugins-official": true,
     "chrome-devtools-mcp@claude-plugins-official": true,
     "browser-use@claude-plugins-official": true,
-    "telegram@claude-plugins-official": true,
-    "remember@claude-plugins-official": true,
+    "telegram@claude-plugins-official": false,
+    "remember@claude-plugins-official": false,
     "session-report@claude-plugins-official": true,
     "claude-md-management@claude-plugins-official": true,
     "code-simplifier@claude-plugins-official": true,
@@ -18,7 +18,10 @@
     "canva@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true,
     "expo@claude-plugins-official": false,
-    "cc-safety-net@cc-marketplace": true
+    "cc-safety-net@cc-marketplace": true,
+    "claude-hud@claude-hud": true,
+    "ponytail@ponytail": true,
+    "claude-code-setup@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -31,6 +34,18 @@
       "source": {
         "source": "github",
         "repo": "kenryu42/cc-marketplace"
+      }
+    },
+    "claude-hud": {
+      "source": {
+        "source": "github",
+        "repo": "jarrodwatts/claude-hud"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
       }
     }
   }

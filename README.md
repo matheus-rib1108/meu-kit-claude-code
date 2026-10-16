@@ -1,6 +1,6 @@
 # Meu kit do Claude Code
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **110 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **111 skills**,
 **29 agentes**, **18 plugins** oficiais, os conectores MCP (sem nenhuma chave) e o meu
 `CLAUDE.md` com a tabela "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
@@ -79,7 +79,7 @@ Plugins oficiais não são copiados para cá: só a lista.
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
-## Skills (110: 109 copiadas, o resto só com link)
+## Skills (111: 110 copiadas, o resto só com link)
 
 ### Sites e design (9)
 
@@ -240,6 +240,12 @@ Plugins oficiais não são copiados para cá: só a lista.
 | Skill | O que faz | Fonte | Licença |
 |---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | própria | MIT |
+
+### Outras (novas, ainda sem área) (1)
+
+| Skill | O que faz | Fonte | Licença |
+|---|---|---|---|
+| [`exemplo-teste-sync`](skills/outras/exemplo-teste-sync) | Skill de exemplo para testar a sincronização automática do kit. | própria | MIT |
 
 ### Só o link (sem licença que permita copiar)
 

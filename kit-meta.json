@@ -782,13 +782,6 @@
    "licenca": "MIT",
    "modo": "copia",
    "descricao": "Atualiza este kit no GitHub: copia tudo, confere segredos e dados pessoais e publica"
-  },
-  "exemplo-teste-sync": {
-   "fonte": "própria",
-   "licenca": "MIT",
-   "modo": "copia",
-   "area": "outras",
-   "descricao": "Skill de exemplo para testar a sincronização automática do kit."
   }
  },
  "agentes": {

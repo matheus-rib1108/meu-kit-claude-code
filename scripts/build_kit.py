@@ -96,6 +96,9 @@ def main():
 
     # ---------- skills ----------
     skills = collect_skills()
+    # Registros automáticos (área "outras") de skills que foram apagadas saem do meta
+    for n in [n for n, m in meta['skills'].items() if n not in skills and m['area'] == 'outras']:
+        del meta['skills'][n]
     for n, p in skills.items():
         if n in meta['skills']:
             continue

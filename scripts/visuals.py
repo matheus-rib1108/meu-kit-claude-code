@@ -77,11 +77,61 @@ def painel(t, n, areas, data, ultima):
 '''
 
 
-def write_visuals(repo, n, areas, data, ultima):
+# (chave da área, rótulo, pedido de exemplo, skill que atende)
+EXEMPLOS = [
+    ('sites-e-design', 'Sites e design', 'Faz um site para uma barbearia que não pareça feito por IA', 'hallmark'),
+    ('marketing-e-vendas', 'Marketing e vendas', 'Escreve a primeira mensagem de WhatsApp para oferecer um cardápio digital', 'abordagem-whatsapp-vendas'),
+    ('seguranca-e-lei', 'Segurança e lei', 'Deixa meu site seguro antes de publicar', 'site-fortress'),
+    ('publicar-e-banco', 'Publicar e banco', 'Quanto custa colocar esse site no ar?', 'cost-estimator'),
+    ('video-foto-e-musica', 'Vídeo, foto e música', 'Faz um Reels de 15 segundos com essas fotos', 'video-maker'),
+    ('estudos', 'Estudos', 'Corrige minha redação do ENEM', 'redacao-enem'),
+    ('produtividade-e-pc', 'Produtividade e PC', 'Salva essa página no meu Obsidian', 'defuddle'),
+    ('metodo-de-trabalho', 'Método de trabalho', 'Acha a causa desse bug antes de mexer', 'systematic-debugging'),
+]
+
+
+def quebra(txt, maxc=46):
+    linhas, atual = [], ''
+    for p in txt.split():
+        if len(atual) + len(p) + 1 > maxc and atual:
+            linhas.append(atual)
+            atual = p
+        else:
+            atual = f'{atual} {p}'.strip()
+    return linhas + [atual]
+
+
+def areas_svg(t, por_area):
+    c = TEMAS[t]
+    partes = []
+    for i, (chave, rotulo, pedido, skill) in enumerate(EXEMPLOS):
+        col, lin = i % 2, i // 2
+        x, y = 64 + 608 * col, 140 + 150 * lin
+        qtd = por_area.get(chave, 0)
+        partes.append(f'<text x="{x}" y="{y}" font-family="{SANS}" font-size="22" font-weight="700" fill="{c["ink"]}">{escape(rotulo)}</text>'
+                      f'<text x="{x + 544}" y="{y}" text-anchor="end" font-family="{MONO}" font-size="14" fill="{c["muted"]}">{qtd} skills</text>')
+        for j, l in enumerate(quebra(f'“{pedido}”')):
+            partes.append(f'<text x="{x}" y="{y + 32 + 24 * j}" font-family="{SANS}" font-size="17" fill="{c["ink"]}">{escape(l)}</text>')
+        partes.append(f'<text x="{x}" y="{y + 98}" font-family="{MONO}" font-size="15" fill="{c["accent"]}">→ {escape(skill)}</text>')
+        if lin < 3:
+            partes.append(f'<line x1="{x}" y1="{y + 120}" x2="{x + 544}" y2="{y + 120}" stroke="{c["rule"]}"/>')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="O que dá para pedir: um exemplo de pedido e a skill que atende, em 8 áreas">
+<rect width="1280" height="760" fill="{c["paper"]}"/>
+<text x="64" y="72" font-family="{MONO}" font-size="14" fill="{c["muted"]}">O QUE DÁ PARA PEDIR · um exemplo por área e a skill que entra em ação</text>
+<line x1="640" y1="110" x2="640" y2="720" stroke="{c["rule"]}"/>
+{"".join(partes)}
+</svg>
+'''
+
+
+def write_visuals(repo, n, areas, data, ultima, por_area=None):
     out = os.path.join(repo, 'assets')
     os.makedirs(out, exist_ok=True)
     for t in TEMAS:
-        for nome, svg in ((f'banner-{t}.svg', banner(t, n)), (f'painel-{t}.svg', painel(t, n, areas, data, ultima))):
+        arquivos = [(f'banner-{t}.svg', banner(t, n)), (f'painel-{t}.svg', painel(t, n, areas, data, ultima))]
+        if por_area is not None:
+            arquivos.append((f'areas-{t}.svg', areas_svg(t, por_area)))
+        for nome, svg in arquivos:
             path = os.path.join(out, nome)
             old = open(path, encoding='utf-8').read() if os.path.exists(path) else None
             if old != svg:

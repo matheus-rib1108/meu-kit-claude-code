@@ -99,6 +99,13 @@ Plugins oficiais não são copiados para cá: só a lista.
 
 ## Exemplos de pedidos por área
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/areas-dark.svg">
+  <img src="assets/areas-light.svg" alt="O que dá para pedir: um exemplo de pedido e a skill que atende, em 8 áreas." width="100%">
+</picture>
+
+Mais exemplos:
+
 | Área | Peça assim |
 |---|---|
 | Sites e design | "Faz um site para uma barbearia que não pareça feito por IA" · "Escolhe paleta e fontes para uma pizzaria" |

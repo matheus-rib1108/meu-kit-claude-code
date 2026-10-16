@@ -371,7 +371,8 @@ def main():
     areas = sorted(((curto.get(a, t.split(' (')[0])[:22], sum(1 for n in skills if meta['skills'][n]['area'] == a))
                     for a, t in meta['areas'].items() if a != 'outras'), key=lambda x: -x[1])
     areas = [(t, v) for t, v in areas if v]
-    write_visuals(REPO, counts, areas, data, ultima)
+    por_area = {a: sum(1 for n in skills if meta['skills'][n]['area'] == a) for a in meta['areas']}
+    write_visuals(REPO, counts, areas, data, ultima, por_area)
     write_readme(meta, skills, agents, commands, enabled, markets, servers, hooks, conta, data)
     for n in notes:
         print(n)

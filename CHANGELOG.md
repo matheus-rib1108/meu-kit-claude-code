@@ -2,6 +2,10 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-18 12:48
+
+- ~ skill `publicar-skills-github`
+
 ## 2026-10-16 09:46
 
 - + skill `kit-sync-conta`

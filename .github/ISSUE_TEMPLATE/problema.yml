@@ -1,0 +1,30 @@
+name: "🐞 Relatar um problema"
+description: A skill não ativou, não instalou ou fez algo errado.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Qual skill?
+      placeholder: cardapio-digital
+    validations:
+      required: true
+  - type: dropdown
+    id: onde
+    attributes:
+      label: Onde?
+      options:
+        - claude.ai (navegador)
+        - App do Claude (computador)
+        - App do Claude (celular)
+        - Claude Code
+    validations:
+      required: true
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      description: O que você pediu, o que esperava e o que aconteceu. Prints ajudam. Não cole senhas nem dados pessoais.
+    validations:
+      required: true

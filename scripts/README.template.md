@@ -10,6 +10,13 @@ Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar s�
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
+<p align="center">
+  <a href="#no-claudeai-ou-no-app-do-claude-sem-programar"><b>Usar no claude.ai / app</b></a> ·
+  <a href="#no-claude-code-tudo-de-uma-vez"><b>Instalar no Claude Code</b></a> ·
+  <a href="#todas-as-skills">Ver as skills</a> ·
+  <a href="#avalie-e-sugira">⭐ Avaliar e sugerir</a>
+</p>
+
 ## Como é usar
 
 <img src="assets/demo.svg" alt="Exemplo: você pede um cardápio digital para uma pizzaria; o Claude escolhe sozinho as skills cardapio-digital, hallmark, legal-compliance e site-fortress; a página fica pronta para você conferir e publicar." width="100%">
@@ -43,12 +50,25 @@ flowchart LR
 O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** {{DATA}}
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
-> As minhas skills também estão no catálogo [claude-skills-br](https://github.com/{{OWNER}}/claude-skills-br),
-> com página e exemplos para cada uma.
 
 ## Instalar
 
-### Tudo de uma vez
+### No claude.ai ou no app do Claude (sem programar)
+
+<p align="center">
+  <a href="https://github.com/{{OWNER}}/{{REPO}}/releases/download/skills/todas-as-skills.zip"><b>⬇ Baixar todas as skills (.zip)</b></a> ·
+  <a href="#todas-as-skills">Escolher uma skill</a> ·
+  <a href="#avalie-e-sugira">⭐ Avaliar</a>
+</p>
+
+1. Na [tabela de skills](#todas-as-skills), clique em **.zip** na linha da skill que você quer.
+2. No Claude: **Configurações → Capacidades → Skills → Enviar skill** e escolha o arquivo baixado. **Não descompacte.**
+3. Pronto. Peça normalmente, em português: o Claude abre a skill sozinho quando o pedido combina.
+
+No claude.ai cada .zip é **uma** skill. O `todas-as-skills.zip` serve para o Claude Code ou para descompactar e escolher.
+Os .zip se refazem sozinhos a cada mudança no kit.
+
+### No Claude Code: tudo de uma vez
 
 Windows (PowerShell):
 
@@ -73,7 +93,7 @@ dos plugins. **Não apaga nada**: se uma skill ou um agente com o mesmo nome já
 O `CLAUDE.md` e o `.mcp.json` não são instalados sozinhos, porque você provavelmente já tem os seus:
 copie à mão o que quiser de [`CLAUDE.md`](CLAUDE.md) e [`mcp/.mcp.json`](mcp/.mcp.json).
 
-### Só uma skill
+### No Claude Code: só uma skill
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\install.ps1 -Skill site-fortress
@@ -119,6 +139,8 @@ Mais exemplos:
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
+<a id="todas-as-skills"></a>
+
 ## Skills ({{N_SKILLS}}: {{N_COPIA}} copiadas, o resto só com link)
 {{TABELA_SKILLS}}
 
@@ -163,6 +185,27 @@ Só o evento e o que faz (o comando completo fica no meu PC).
    Se achar algo suspeito, não publica, grava o aviso em `sync-kit.log` (que fica só no meu PC) e mostra uma notificação.
 
 Reservas: hook `SessionEnd` ao fechar cada conversa, tarefa diária às 21h e o pedido "atualiza meu kit no GitHub".
+
+## Avalie e sugira
+
+Usou alguma skill? A sua nota ajuda outras pessoas a escolher e me mostra o que melhorar.
+
+- [⭐ Avaliar uma skill (1 a 5 estrelas)](https://github.com/{{OWNER}}/{{REPO}}/issues/new?template=avaliar-skill.yml)
+- [💡 Sugerir uma skill nova](https://github.com/{{OWNER}}/{{REPO}}/issues/new?template=sugerir-skill.yml)
+- [🐞 Avisar de um problema](https://github.com/{{OWNER}}/{{REPO}}/issues/new?template=problema.yml)
+- [💬 Conversar nas Discussões](https://github.com/{{OWNER}}/{{REPO}}/discussions)
+
+Gostou? Clique em **⭐ Star** no topo da página. É isso que faz o kit aparecer para mais gente no GitHub.
+
+## Use, copie, mude
+
+Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só mantenha a licença de cada pasta:
+as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
+
+```text
+Kit do Claude em português, grátis: {{N_SKILLS}} skills, {{N_AGENTES}} agentes e {{N_PLUGINS}} plugins, com .zip pra instalar no claude.ai.
+https://github.com/{{OWNER}}/{{REPO}}
+```
 
 ## Créditos
 

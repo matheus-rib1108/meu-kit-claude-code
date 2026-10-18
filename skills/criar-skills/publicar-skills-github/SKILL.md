@@ -5,10 +5,12 @@ description: Monta e publica no GitHub do usuário um repositório público de s
 
 # Publicar biblioteca de skills no GitHub
 
-## 0. Antes de começar
-- Descubra a conta: `gh auth status`. Se não estiver logado, peça para o usuário rodar `gh auth login` (ou criar o repositório vazio pelo navegador).
-- **Confirme com o usuário** o nome do repositório (sugestão `claude-skills-br`) e que ele será **público**. Não publique sem esse "sim".
-- Junte as skills: as criadas pelo usuário (pastas com `SKILL.md`) e a lista das que ele usa de terceiros (só link, nunca copiar).
+## 0. Regra principal: um repositório só
+- O repositório público é **sempre** https://github.com/matheus-rib1108/meu-kit-claude-code (local `~/repos/meu-kit-claude-code`). **Nunca crie outro repositório**; o antigo `claude-skills-br` foi substituído.
+- Skill nova ou alterada: edite em `~/.claude/skills/<nome>/` e rode a skill `kit-sync` (copia, gera README, passa gitleaks e faz o push). Área/descrição/licença ficam em `kit-meta.json`.
+- Os .zip para o claude.ai saem sozinhos pelo workflow `.github/workflows/zips.yml` na release `skills` (teste local: `python scripts/make_zips.py`).
+- Texto do README: edite `scripts/README.template.md`, nunca o `README.md` direto.
+- A estrutura abaixo é a referência do que o repositório deve ter; o que faltar, acrescente ao kit.
 
 ## 1. Estrutura do repositório
 ```

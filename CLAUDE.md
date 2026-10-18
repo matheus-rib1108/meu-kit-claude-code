@@ -66,3 +66,8 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 `.mcp.json` traz o Playwright MCP: abrir sites, pesquisar no Google, clicar, preencher,
 tirar print. Para contas pessoais (Instagram, TikTok, WhatsApp) veja `SKILLS-CATALOG.md`,
 seção "Precisa de você". Nunca enviar mensagem ou publicar sem o usuário confirmar texto e destinatário.
+
+## Repositório público de skills
+
+Tudo que for skill, agente ou kit para publicar vai para **um repositório só**: `matheus-rib1108/meu-kit-claude-code`
+(local `~/repos/meu-kit-claude-code`). Sempre atualizar esse; nunca criar repositório novo. Usar a skill `kit-sync`.

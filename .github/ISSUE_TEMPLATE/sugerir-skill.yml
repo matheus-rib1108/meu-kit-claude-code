@@ -1,0 +1,36 @@
+name: "💡 Sugerir uma skill nova"
+description: Conte o que você queria que o Claude soubesse fazer.
+title: "[Ideia] "
+labels: ["ideia de skill"]
+body:
+  - type: textarea
+    id: tarefa
+    attributes:
+      label: Qual tarefa?
+      description: O que você pede para o Claude e ele não faz do jeito que você queria.
+      placeholder: "Quero que ele monte a ficha técnica dos pratos com custo de cada ingrediente."
+    validations:
+      required: true
+  - type: textarea
+    id: exemplo
+    attributes:
+      label: Exemplo de pedido e de resultado bom
+      description: Como você pediria, e como seria a resposta ideal.
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - Estudo
+        - Vendas e negócio local
+        - Redes sociais, foto e vídeo
+        - Sites e programação
+        - Segurança e lei
+        - Produtividade e PC
+        - Jogos
+        - Outra
+  - type: input
+    id: existente
+    attributes:
+      label: Conhece alguma skill parecida?
+      description: Link, se souber.

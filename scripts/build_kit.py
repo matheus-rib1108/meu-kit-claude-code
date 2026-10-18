@@ -498,11 +498,13 @@ def write_readme(meta, skills, agents, commands, enabled, markets, servers, hook
         names = sorted(n for n in skills if meta['skills'][n]['area'] == area)
         if not names:
             continue
-        rows.append(f'\n### {title} ({len(names)})\n\n| Skill | O que faz | Fonte | Licença | Entrou |\n|---|---|---|---|---|')
+        rows.append(f'\n### {title} ({len(names)})\n\n| Skill | O que faz | Baixar | Fonte | Licença | Entrou |\n|---|---|---|---|---|---|')
         for n in names:
             m = meta['skills'][n]
             name = f'[`{n}`](skills/{area}/{n})' if m['modo'] == 'copia' else f'`{n}` (só link)'
-            rows.append(f'| {name} | {m["descricao"]} | {link(m["fonte"])} | {m["licenca"]} | {dt("skills", n)} |')
+            # os .zip ficam na release "skills", refeita pelo workflow .github/workflows/zips.yml
+            zipl = f'[.zip](https://github.com/{OWNER}/{REPO_NAME}/releases/download/skills/{n}.zip)' if m['modo'] == 'copia' else ''
+            rows.append(f'| {name} | {m["descricao"]} | {zipl} | {link(m["fonte"])} | {m["licenca"]} | {dt("skills", n)} |')
     skill_table = '\n'.join(rows)
 
     arows = ['| Agente | O que faz | Área | Fonte | Licença | Entrou |', '|---|---|---|---|---|---|']

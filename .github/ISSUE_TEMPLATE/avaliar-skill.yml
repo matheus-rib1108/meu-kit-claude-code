@@ -1,0 +1,39 @@
+name: "⭐ Avaliar uma skill"
+description: Dê uma nota de 1 a 5 e conte como foi usar a skill.
+title: "[Nota] "
+labels: ["avaliação"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Qual skill?
+      description: O nome da skill ou do agente, por exemplo tutor-sql.
+      placeholder: tutor-sql
+    validations:
+      required: true
+  - type: dropdown
+    id: nota
+    attributes:
+      label: Nota
+      options:
+        - "⭐⭐⭐⭐⭐ 5 - Excelente"
+        - "⭐⭐⭐⭐ 4 - Boa"
+        - "⭐⭐⭐ 3 - Ok"
+        - "⭐⭐ 2 - Fraca"
+        - "⭐ 1 - Não funcionou"
+    validations:
+      required: true
+  - type: dropdown
+    id: onde
+    attributes:
+      label: Onde você usou?
+      options:
+        - claude.ai (navegador)
+        - App do Claude (computador)
+        - App do Claude (celular)
+        - Claude Code
+  - type: textarea
+    id: comentario
+    attributes:
+      label: Comentário
+      description: O que funcionou bem? O que podia melhorar? Se quiser, cole o pedido que você fez.

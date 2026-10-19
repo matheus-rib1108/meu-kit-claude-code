@@ -2,6 +2,13 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-18 21:15
+
+- ~ skill `brainstorming`
+- ~ skill `golive`
+- ~ skill `supply-chain-risk-auditor`
+- ~ skill `vercel-optimize`
+
 ## 2026-10-18 12:48
 
 - ~ skill `publicar-skills-github`

@@ -912,7 +912,7 @@ function formatBytes(b) {
 
 function escape(s) {
   if (typeof s !== 'string') return String(s ?? '');
-  return s.replace(/\|/g, '\\|').replace(/\n/g, ' ');
+  return s.replace(/\\/g, '\\\\').replace(/\|/g, '\\|').replace(/\n/g, ' ');
 }
 
 function asArray(v) { return Array.isArray(v) ? v : []; }

@@ -497,7 +497,7 @@ def parse_pypi(project: Path) -> tuple[list[Dependency], list[str]]:
 
 # ------------------------------------------------------------------- Go manifests
 
-_GOMOD_REQUIRE = re.compile(r"^\s*(?:require\s+)?([\w.\-]+(?:\.[\w.\-]+)*/[^\s]+)\s+(v[^\s]+)")
+_GOMOD_REQUIRE = re.compile(r"^\s*(?:require\s+)?([\w.\-]+/[^\s]+)\s+(v[^\s]+)")
 _GOMOD_BLOCK_OPEN = re.compile(r"^(require|replace|exclude|retract)\s*\($")
 _GOMOD_OTHER = ("replace ", "exclude ", "retract ")
 

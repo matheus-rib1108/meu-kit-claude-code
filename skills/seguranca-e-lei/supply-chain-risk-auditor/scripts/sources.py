@@ -403,7 +403,8 @@ def pypi_metadata(http: Http, name: str, version: str | None = None) -> dict:
     repo_url = None
     for label in ("Source", "Source Code", "Repository", "Code", "GitHub", "Homepage"):
         candidate = urls.get(label)
-        if isinstance(candidate, str) and ("github.com" in candidate or "gitlab" in candidate):
+        host = (urllib.parse.urlparse(candidate).hostname or "") if isinstance(candidate, str) else ""
+        if host in ("github.com", "gitlab.com") or host.endswith((".github.com", ".gitlab.com")):
             repo_url = candidate
             break
     return {
@@ -548,7 +549,7 @@ def github_repo(http: Http, repo_id: str, token: str | None) -> dict:
         Unavailable: If GitHub could not be reached.
     """
     slug = normalize_repo(repo_id)
-    if not slug.startswith("github.com/"):
+    if slug.split("/", 1)[0] != "github.com":
         raise RepoIdentifierError(f"not a GitHub repository: {slug}")
     owner_repo = slug.removeprefix("github.com/")
     if owner_repo.count("/") != 1:

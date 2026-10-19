@@ -8941,7 +8941,7 @@ function pickKeys(keys3) {
 }
 function pooledUrl(entries, password, opts = {}) {
   const primary = entries.filter((e2) => e2.database_type === "PRIMARY");
-  const e = primary.find((x) => x.db_host?.includes("pooler.supabase.com")) ?? primary[0];
+  const e = primary.find((x) => /(^|\.)pooler\.supabase\.com$/.test(x.db_host ?? "")) ?? primary[0];
   if (!e) return void 0;
   const enc4 = encodeURIComponent(password);
   let url;
@@ -8951,12 +8951,12 @@ function pooledUrl(entries, password, opts = {}) {
     url = `postgresql://${e.db_user}:${enc4}@${e.db_host}:6543/${e.db_name}`;
   }
   if (!url) return void 0;
-  if (e.db_host?.includes("pooler.supabase.com")) url = url.replace(/:5432\//, ":6543/");
+  if (/(^|\.)pooler\.supabase\.com$/.test(e.db_host ?? "")) url = url.replace(/:5432\//, ":6543/");
   if (opts.prisma && !/[?&]pgbouncer=/.test(url)) url += `${url.includes("?") ? "&" : "?"}pgbouncer=true`;
   return url;
 }
 function sessionUrl(entries, password) {
-  const e = entries.filter((x) => x.database_type === "PRIMARY").find((x) => x.db_host?.includes("pooler.supabase.com"));
+  const e = entries.filter((x) => x.database_type === "PRIMARY").find((x) => /(^|\.)pooler\.supabase\.com$/.test(x.db_host ?? ""));
   if (!e) return void 0;
   const enc4 = encodeURIComponent(password);
   let url;
@@ -10671,7 +10671,7 @@ async function zoneApex(ctx, host) {
 async function dnsHost(ctx, domain) {
   const apex = await zoneApex(ctx, domain) ?? domain;
   const ns = await lookup(ctx, apex, "NS");
-  const provider = ns.some((n) => n.endsWith(".ns.cloudflare.com")) ? "cloudflare" : ns.some((n) => n.endsWith("vercel-dns.com")) ? "vercel" : ns[0] ? ns[0].split(".").slice(-2).join(".") : null;
+  const provider = ns.some((n) => n.endsWith(".ns.cloudflare.com")) ? "cloudflare" : ns.some((n) => (n === "vercel-dns.com" || n.endsWith(".vercel-dns.com"))) ? "vercel" : ns[0] ? ns[0].split(".").slice(-2).join(".") : null;
   return { provider, nameservers: ns };
 }
 
@@ -24044,7 +24044,7 @@ function scanSvelteKit(text4, add) {
   for (const m of text4.matchAll(/import\s*\{([^}]*)\}\s*from\s*['"]\$env\/dynamic\/(private|public)['"]/g)) {
     const binding = parseNamedImports(m[1]).find((i) => i.imported === "env")?.local;
     if (!binding || !/^[A-Za-z_$][\w$]*$/.test(binding)) continue;
-    for (const r of text4.matchAll(new RegExp(`\\b${binding.replace(/\$/g, "\\$")}\\.(${NAME})\\b`, "g"))) add(r[1], m[2] === "public");
+    for (const r of text4.matchAll(new RegExp(`\\b${binding.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\.(${NAME})\\b`, "g"))) add(r[1], m[2] === "public");
   }
 }
 function scanAstroEnv(text4, add) {
@@ -24222,7 +24222,7 @@ function callArgs(src, open) {
   }
   return args.filter(Boolean);
 }
-var escId = (id2) => id2.replace(/\$/g, "\\$");
+var escId = (id2) => id2.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 var wholeBinding = (ctx, v) => [...ctx.loadEnvAll].some((id2) => new RegExp(`(?<![\\w$.])${escId(id2)}\\b(?!\\s*(?:\\?\\.|\\.|\\[))`).test(v));
 function envReads(ctx, v) {
   const names = [];
@@ -25532,7 +25532,7 @@ function tag(p) {
   }
 }
 var tagKind = (kind) => tag(kind === "recorded" ? { kind: "recorded" } : { kind });
-var cell = (text4) => (text4 ?? "\u2014").replace(/\|/g, "\\|").replace(/\s*\n\s*/g, " ");
+var cell = (text4) => (text4 ?? "\u2014").replace(/\\/g, "\\\\").replace(/\|/g, "\\|").replace(/\s*\n\s*/g, " ");
 function renderHandover(doc) {
   const lines = [];
   lines.push("# Ownership and handover", "");

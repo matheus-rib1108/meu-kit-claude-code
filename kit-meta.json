@@ -1139,6 +1139,13 @@
    "licenca": "Apache-2.0",
    "modo": "copia",
    "descricao": "Como programar com a API do Claude (útil para o JARVIS e outros projetos com IA)."
+  },
+  "entregar-trabalho-teams": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra "
   }
  },
  "agentes": {
@@ -1563,7 +1570,8 @@
    "webapp-testing": "2026-10-15",
    "writing-plans": "2026-10-15",
    "writing-skills": "2026-10-15",
-   "kit-sync-conta": "2026-10-16"
+   "kit-sync-conta": "2026-10-16",
+   "entregar-trabalho-teams": "2026-10-21"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1675,6 +1683,7 @@
    "differential-review": "d8832fd90e70",
    "dispatching-parallel-agents": "13c0edd319f6",
    "doc-coauthoring": "3696999084eb",
+   "entregar-trabalho-teams": "4ed73d6e812e",
    "executing-plans": "4494a136cef9",
    "ffmpeg-skill": "d95e061eaed7",
    "financas-pessoais": "a2f28d3c08d7",

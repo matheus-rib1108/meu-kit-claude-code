@@ -2,6 +2,10 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-21 20:59
+
+- + skill `entregar-trabalho-teams`
+
 ## 2026-10-21 21:10
 
 - + skill `tdd`

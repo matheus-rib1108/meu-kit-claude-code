@@ -28,6 +28,7 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 | Git, GitHub, criar repositório | skill `github-helper` |
 | Mexer no PC, abrir programas, criar contas | skill `pc-control` |
 | Trabalhos, relatórios, documentos | skill `doc-coauthoring` (+ `research-analyst` para pesquisa) |
+| Entregar trabalho/tarefa no Microsoft Teams | skill `entregar-trabalho-teams` (só clica em Entregar depois do ok) |
 | Fazer vídeo (Reels, TikTok, propaganda, explicativo) | skill `video-maker` (HyperFrames / Remotion) |
 | Design de site (paleta, fontes, estilo por tipo de negócio) | skill `ui-ux-pro-max` + `hallmark` |
 | "O que tá acontecendo na outra conversa?" (Claude Code) | skill `session-radar` |

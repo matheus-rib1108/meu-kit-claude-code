@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 114 skills, 29 agentes, 22 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 123 skills, 29 agentes, 22 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-21%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-114-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-21%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-123-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **114 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **123 skills**,
 **29 agentes**, **22 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -141,9 +141,9 @@ Mais exemplos:
 
 <a id="todas-as-skills"></a>
 
-## Skills (114: 111 copiadas, o resto só com link)
+## Skills (123: 120 copiadas, o resto só com link)
 
-### Sites e design (10)
+### Sites e design (12)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -157,6 +157,8 @@ Mais exemplos:
 | [`web-artifacts-builder`](skills/sites-e-design/web-artifacts-builder) | Páginas HTML complexas com React, Tailwind e shadcn | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/web-artifacts-builder.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
 | [`web-design-guidelines`](skills/sites-e-design/web-design-guidelines) | Regras de design de interface da equipe da Vercel | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/web-design-guidelines.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`webapp-testing`](skills/sites-e-design/webapp-testing) | Testa o site num navegador de verdade (Playwright) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/webapp-testing.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
+| [`impeccable`](skills/sites-e-design/impeccable) | Caça os vícios de site feito por IA (gradiente roxo, tipografia, espaçamento) e corrige o design. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/impeccable.zip) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 | 21/10/2026 |
+| [`design-taste-frontend`](skills/sites-e-design/design-taste-frontend) | Direção de arte para sites, a partir de 247 sites premiados: tira a cara genérica de IA. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/design-taste-frontend.zip) | [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) | MIT | 21/10/2026 |
 
 ### Marketing, textos e vendas (15)
 
@@ -178,7 +180,7 @@ Mais exemplos:
 | [`seo-audit`](skills/marketing-e-vendas/seo-audit) | Auditoria de SEO técnico e de conteúdo | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/seo-audit.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`social`](skills/marketing-e-vendas/social) | Conteúdo e estratégia para redes sociais | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/social.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 
-### Método de trabalho e economia de tokens (21)
+### Método de trabalho e economia de tokens (25)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -203,8 +205,12 @@ Mais exemplos:
 | [`verification-before-completion`](skills/metodo-de-trabalho/verification-before-completion) | Confere de verdade antes de dizer "pronto" | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/verification-before-completion.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
 | [`verify-and-stop`](skills/metodo-de-trabalho/verify-and-stop) | Verifica e para, sem se estender | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/verify-and-stop.zip) | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Apache-2.0 | 15/10/2026 |
 | [`writing-plans`](skills/metodo-de-trabalho/writing-plans) | Escreve um plano de implementação detalhado | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-plans.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
+| [`karpathy-guidelines`](skills/metodo-de-trabalho/karpathy-guidelines) | As 4 regras do Karpathy: pensa antes de codar, mantém simples, mexe só no pedido e prova que funciona. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/karpathy-guidelines.zip) | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | MIT | 21/10/2026 |
+| [`grilling`](skills/metodo-de-trabalho/grilling) | Te enche de perguntas, em rodadas, até o plano ou a ideia ficar sem furo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/grilling.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`grill-me`](skills/metodo-de-trabalho/grill-me) | Versão por comando (/grill-me) da entrevista que testa o seu plano. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/grill-me.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`handoff`](skills/metodo-de-trabalho/handoff) | Resume a conversa num documento para outra sessão continuar de onde parou. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/handoff.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
 
-### Criar skills e agentes (8)
+### Criar skills e agentes (9)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -216,8 +222,9 @@ Mais exemplos:
 | [`skill-hunter`](skills/criar-skills/skill-hunter) | Procura skills, agentes e servidores MCP no GitHub, verifica a segurança e instala os bons. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/skill-hunter.zip) | própria | MIT | 15/10/2026 |
 | [`skill-inspector`](skills/criar-skills/skill-inspector) | Checklist de segurança antes de instalar uma skill | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/skill-inspector.zip) | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Apache-2.0 | 15/10/2026 |
 | [`writing-skills`](skills/criar-skills/writing-skills) | Como escrever e testar skills novas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-skills.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
+| [`find-skills`](skills/criar-skills/find-skills) | Você diz a tarefa e ela acha (e instala) a skill certa no diretório skills.sh. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/find-skills.zip) | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT | 21/10/2026 |
 
-### Segurança e lei (19)
+### Segurança e lei (20)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -240,6 +247,7 @@ Mais exemplos:
 | [`site-fortress`](skills/seguranca-e-lei/site-fortress) | Auditoria de segurança completa do seu próprio site em 12 fases: segredos, dependências, login, pagamentos, cabeçalhos, LGPD. Corrige e prova cada correção. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/site-fortress.zip) | própria | MIT | 15/10/2026 |
 | [`supply-chain-risk-auditor`](skills/seguranca-e-lei/supply-chain-risk-auditor) | Verifica se as bibliotecas instaladas são confiáveis | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/supply-chain-risk-auditor.zip) | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | 15/10/2026 |
 | [`variant-analysis`](skills/seguranca-e-lei/variant-analysis) | Achou um bug? Procura todos os parecidos | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/variant-analysis.zip) | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | 15/10/2026 |
+| [`security-audit`](skills/seguranca-e-lei/security-audit) | Auditoria de segurança da Cloudflare: agentes procuram falhas e outro agente tenta provar que não existem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/security-audit.zip) | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | MIT | 21/10/2026 |
 
 ### Publicar, GitHub e banco de dados (9)
 
@@ -255,7 +263,7 @@ Mais exemplos:
 | [`vercel-cli-with-tokens`](skills/publicar-e-banco/vercel-cli-with-tokens) | Usa a Vercel pelo terminal com token | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/vercel-cli-with-tokens.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`vercel-optimize`](skills/publicar-e-banco/vercel-optimize) | Deixa o site na Vercel mais rápido e barato | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/vercel-optimize.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 
-### Produtividade, PC e Obsidian (13)
+### Produtividade, PC e Obsidian (14)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -272,6 +280,7 @@ Mais exemplos:
 | [`obsidian-markdown`](skills/produtividade-e-pc/obsidian-markdown) | Notas no formato certo do Obsidian | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/obsidian-markdown.zip) | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | MIT | 15/10/2026 |
 | [`pc-control`](skills/produtividade-e-pc/pc-control) | Faz o Claude mexer no seu computador e no Chrome logado: abrir programas, usar sites, criar contas com o mínimo de esforço seu. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/pc-control.zip) | própria | MIT | 15/10/2026 |
 | [`session-radar`](skills/produtividade-e-pc/session-radar) | Mostra o que está acontecendo nas suas outras conversas do Claude Code (nuvem ou computador), resume e diz o que falta. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/session-radar.zip) | própria | MIT | 15/10/2026 |
+| [`agent-browser`](skills/produtividade-e-pc/agent-browser) | O Claude usa o navegador sozinho: abre página, clica, preenche e tira print (precisa do CLI agent-browser). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/agent-browser.zip) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 | 21/10/2026 |
 
 ### Vídeo, foto, redes e música (7)
 
@@ -489,6 +498,13 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [obra/superpowers](https://github.com/obra/superpowers) · MIT — brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills
 - [trailofbits/skills](https://github.com/trailofbits/skills) · CC-BY-SA-4.0 — audit-context-building, differential-review, fp-check, semgrep, sharp-edges, supply-chain-risk-auditor, variant-analysis
 - [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · MIT — deploy-to-vercel, vercel-cli-with-tokens, vercel-optimize, vercel-react-best-practices, web-design-guidelines
+- [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) · MIT — karpathy-guidelines
+- [mattpocock/skills](https://github.com/mattpocock/skills) · MIT — grilling, grill-me, handoff
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) · Apache-2.0 — impeccable
+- [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) · MIT — design-taste-frontend
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · MIT — security-audit
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) · MIT — find-skills
+- [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · Apache-2.0 — agent-browser
 
 ## Licença
 

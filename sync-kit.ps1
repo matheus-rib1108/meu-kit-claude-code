@@ -51,7 +51,21 @@ try {
     }
     if (-not $gitleaks) { Log 'NÃO PUBLICADO: gitleaks não encontrado (winget install Gitleaks.Gitleaks).'; Avisar 'Gitleaks não encontrado.'; exit 2 }
 
-    if (-not $SemPush) { git pull --rebase --quiet 2>&1 | Out-Null }
+    if (-not $SemPush) {
+        $antes = "$(git rev-parse HEAD)".Trim()
+        git pull --rebase --quiet 2>&1 | Out-Null
+        # Skills que chegaram pelo GitHub (adicionadas fora deste PC) vão para ~/.claude/skills antes de montar o kit.
+        # Sem isso o build_kit.py, que refaz skills/ a partir do PC, apagaria essas skills no próximo sync.
+        # Só entram skills NOVAS no pull; uma skill que você apagou no PC continua apagada.
+        $recebidas = @(git diff --name-only --diff-filter=A "$antes" HEAD -- 'skills/*/*/SKILL.md' 2>$null)
+        foreach ($f in $recebidas) {
+            $nome = ($f -split '/')[2]
+            if (-not (Test-Path (Join-Path $HOME ".claude\skills\$nome"))) {
+                & (Join-Path $Repo 'install.ps1') -Skill $nome | Out-Null
+                Log "skill recebida do GitHub e instalada no PC: $nome"
+            }
+        }
+    }
 
     $notas = & python scripts/build_kit.py 2>&1
     if ($LASTEXITCODE -ne 0) { Log "NÃO PUBLICADO: erro ao montar o kit: $($notas -join ' | ')"; Avisar 'Erro ao montar o kit.'; exit 3 }

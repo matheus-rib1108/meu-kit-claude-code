@@ -810,6 +810,69 @@
    "modo": "copia",
    "area": "produtividade-e-pc",
    "descricao": "Lê (só olhando) o que está ativado na conta claude.ai e gera a lista para o kit."
+  },
+  "karpathy-guidelines": {
+   "area": "metodo-de-trabalho",
+   "fonte": "forrestchang/andrej-karpathy-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "As 4 regras do Karpathy: pensa antes de codar, mantém simples, mexe só no pedido e prova que funciona."
+  },
+  "grilling": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Te enche de perguntas, em rodadas, até o plano ou a ideia ficar sem furo."
+  },
+  "grill-me": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Versão por comando (/grill-me) da entrevista que testa o seu plano."
+  },
+  "handoff": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Resume a conversa num documento para outra sessão continuar de onde parou."
+  },
+  "impeccable": {
+   "area": "sites-e-design",
+   "fonte": "pbakaus/impeccable",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Caça os vícios de site feito por IA (gradiente roxo, tipografia, espaçamento) e corrige o design."
+  },
+  "design-taste-frontend": {
+   "area": "sites-e-design",
+   "fonte": "leonxlnx/taste-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Direção de arte para sites, a partir de 247 sites premiados: tira a cara genérica de IA."
+  },
+  "security-audit": {
+   "area": "seguranca-e-lei",
+   "fonte": "cloudflare/security-audit-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Auditoria de segurança da Cloudflare: agentes procuram falhas e outro agente tenta provar que não existem."
+  },
+  "find-skills": {
+   "area": "criar-skills",
+   "fonte": "vercel-labs/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Você diz a tarefa e ela acha (e instala) a skill certa no diretório skills.sh."
+  },
+  "agent-browser": {
+   "area": "produtividade-e-pc",
+   "fonte": "vercel-labs/agent-browser",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "O Claude usa o navegador sozinho: abre página, clica, preenche e tira print (precisa do CLI agent-browser)."
   }
  },
  "agentes": {
@@ -1234,7 +1297,16 @@
    "webapp-testing": "2026-10-15",
    "writing-plans": "2026-10-15",
    "writing-skills": "2026-10-15",
-   "kit-sync-conta": "2026-10-16"
+   "kit-sync-conta": "2026-10-16",
+   "karpathy-guidelines": "2026-10-21",
+   "grilling": "2026-10-21",
+   "grill-me": "2026-10-21",
+   "handoff": "2026-10-21",
+   "impeccable": "2026-10-21",
+   "design-taste-frontend": "2026-10-21",
+   "security-audit": "2026-10-21",
+   "find-skills": "2026-10-21",
+   "agent-browser": "2026-10-21"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",

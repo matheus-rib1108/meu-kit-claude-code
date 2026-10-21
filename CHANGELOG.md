@@ -2,6 +2,19 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-21 20:30
+
+- + skill `karpathy-guidelines`
+- + skill `grilling`
+- + skill `grill-me`
+- + skill `handoff`
+- + skill `impeccable`
+- + skill `design-taste-frontend`
+- + skill `security-audit`
+- + skill `find-skills`
+- + skill `agent-browser`
+- ~ `sync-kit.ps1`: skills que chegam pelo GitHub são instaladas no PC antes do sync
+
 ## 2026-10-21 12:43
 
 - + claude.ai `conectores: Figma`

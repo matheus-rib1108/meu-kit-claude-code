@@ -873,6 +873,272 @@
    "licenca": "Apache-2.0",
    "modo": "copia",
    "descricao": "O Claude usa o navegador sozinho: abre página, clica, preenche e tira print (precisa do CLI agent-browser)."
+  },
+  "tdd": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Programa com teste primeiro (vermelho, verde, refatora) para o código não quebrar o que já funciona."
+  },
+  "improve-codebase-architecture": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Varre o projeto, mostra num relatório HTML onde a estrutura pode melhorar e discute a melhor opção com você."
+  },
+  "diagnosing-bugs": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Ciclo de diagnóstico para bug difícil ou lentidão: reproduz, isola a causa e só depois corrige."
+  },
+  "prototype": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Faz um protótipo descartável para testar uma ideia de tela ou de lógica antes de construir de verdade."
+  },
+  "grill-with-docs": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "A entrevista que testa o seu plano, já escrevendo as decisões e o glossário do projeto."
+  },
+  "to-spec": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Transforma a conversa numa especificação (spec) pronta para virar tarefas."
+  },
+  "implement": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Implementa uma tarefa a partir da spec ou dos tickets, passo a passo."
+  },
+  "code-review": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Revisa as mudanças desde um commit: segue os padrões do projeto e resolve o que foi pedido?"
+  },
+  "domain-modeling": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Organiza os nomes e conceitos do projeto (glossário e registro de decisões)."
+  },
+  "codebase-design": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Vocabulário para desenhar módulos simples por fora e completos por dentro."
+  },
+  "research": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pesquisa uma dúvida técnica em fontes primárias e salva o resultado num arquivo do projeto."
+  },
+  "writing-for-agents": {
+   "area": "criar-skills",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Como escrever skills, CLAUDE.md e AGENTS.md que a IA entende bem."
+  },
+  "setup-matt-pocock-skills": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Prepara o repositório (tarefas, etiquetas, pasta de docs) para as skills de engenharia do Matt Pocock."
+  },
+  "wait-what": {
+   "area": "metodo-de-trabalho",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Quando a resposta não ficou clara: o Claude explica de novo, de outro jeito."
+  },
+  "teach": {
+   "area": "estudos",
+   "fonte": "mattpocock/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "O Claude vira professor e te ensina um assunto ou ferramenta nova, no seu ritmo."
+  },
+  "product-marketing": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Monta o documento base do produto (público, dores, diferenciais) que as outras skills de marketing usam."
+  },
+  "ads": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Campanhas pagas no Meta (Instagram/Facebook), Google e outras: estrutura, público, orçamento e métricas."
+  },
+  "ad-creative": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Cria títulos, textos e variações de anúncio para testar."
+  },
+  "content-strategy": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Decide o que postar e sobre quais temas, com um plano de conteúdo."
+  },
+  "emails": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Sequências de e-mail automáticas (boas-vindas, reativação, promoção)."
+  },
+  "cold-email": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Primeiro contato com quem não te conhece, acompanhamentos e respostas."
+  },
+  "copy-editing": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Revisa e melhora textos de venda que já existem."
+  },
+  "launch": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Planeja o lançamento de um produto ou novidade."
+  },
+  "lead-magnets": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Cria materiais gratuitos (e-book, checklist, cupom) para conseguir contatos."
+  },
+  "marketing-ideas": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Banco de ideias de marketing e crescimento para escolher e aplicar."
+  },
+  "marketing-plan": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Plano de marketing completo para um cliente ou para o seu negócio."
+  },
+  "pricing": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Ajuda a definir preço, pacotes e planos."
+  },
+  "customer-research": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Pesquisa com clientes: o que perguntar e como tirar conclusões das respostas."
+  },
+  "competitors": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Páginas de comparação com concorrentes (\"X vs Y\", \"alternativa a X\")."
+  },
+  "programmatic-seo": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Cria muitas páginas de SEO a partir de um modelo e uma lista de dados."
+  },
+  "prospecting": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Encontra e qualifica possíveis clientes, inclusive negócios locais."
+  },
+  "supabase": {
+   "area": "publicar-e-banco",
+   "fonte": "supabase/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Tudo de Supabase: banco, login, armazenamento, funções e segurança (RLS)."
+  },
+  "supabase-postgres-best-practices": {
+   "area": "publicar-e-banco",
+   "fonte": "supabase/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Boas práticas de Postgres/SQL: tabelas, índices, consultas rápidas e seguras."
+  },
+  "composition-patterns": {
+   "area": "sites-e-design",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Padrões de componentes React que não viram bagunça quando o app cresce."
+  },
+  "react-native-skills": {
+   "area": "sites-e-design",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Boas práticas para apps de celular com React Native e Expo."
+  },
+  "react-view-transitions": {
+   "area": "sites-e-design",
+   "fonte": "vercel-labs/agent-skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Animações suaves entre telas com a View Transition API do React."
+  },
+  "algorithmic-art": {
+   "area": "video-foto-e-musica",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Arte generativa com código (p5.js), com controles para ajustar o resultado."
+  },
+  "claude-api": {
+   "area": "criar-skills",
+   "fonte": "anthropics/skills",
+   "licenca": "Apache-2.0",
+   "modo": "copia",
+   "descricao": "Como programar com a API do Claude (útil para o JARVIS e outros projetos com IA)."
   }
  },
  "agentes": {
@@ -1306,7 +1572,45 @@
    "design-taste-frontend": "2026-10-21",
    "security-audit": "2026-10-21",
    "find-skills": "2026-10-21",
-   "agent-browser": "2026-10-21"
+   "agent-browser": "2026-10-21",
+   "tdd": "2026-10-21",
+   "improve-codebase-architecture": "2026-10-21",
+   "diagnosing-bugs": "2026-10-21",
+   "prototype": "2026-10-21",
+   "grill-with-docs": "2026-10-21",
+   "to-spec": "2026-10-21",
+   "implement": "2026-10-21",
+   "code-review": "2026-10-21",
+   "domain-modeling": "2026-10-21",
+   "codebase-design": "2026-10-21",
+   "research": "2026-10-21",
+   "writing-for-agents": "2026-10-21",
+   "setup-matt-pocock-skills": "2026-10-21",
+   "wait-what": "2026-10-21",
+   "teach": "2026-10-21",
+   "product-marketing": "2026-10-21",
+   "ads": "2026-10-21",
+   "ad-creative": "2026-10-21",
+   "content-strategy": "2026-10-21",
+   "emails": "2026-10-21",
+   "cold-email": "2026-10-21",
+   "copy-editing": "2026-10-21",
+   "launch": "2026-10-21",
+   "lead-magnets": "2026-10-21",
+   "marketing-ideas": "2026-10-21",
+   "marketing-plan": "2026-10-21",
+   "pricing": "2026-10-21",
+   "customer-research": "2026-10-21",
+   "competitors": "2026-10-21",
+   "programmatic-seo": "2026-10-21",
+   "prospecting": "2026-10-21",
+   "supabase": "2026-10-21",
+   "supabase-postgres-best-practices": "2026-10-21",
+   "composition-patterns": "2026-10-21",
+   "react-native-skills": "2026-10-21",
+   "react-view-transitions": "2026-10-21",
+   "algorithmic-art": "2026-10-21",
+   "claude-api": "2026-10-21"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",

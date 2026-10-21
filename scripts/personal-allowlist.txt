@@ -6,3 +6,6 @@ auth@mail.myneon.app
 mesa@osterianove.pt
 mara@lindqvist.studio
 reservas@casamirante.pt
+jane@co.com
+john@co.com
+john@example.com

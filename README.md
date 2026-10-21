@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 123 skills, 29 agentes, 22 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 161 skills, 29 agentes, 22 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-21%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-123-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-21%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-161-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **123 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **161 skills**,
 **29 agentes**, **22 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -141,9 +141,9 @@ Mais exemplos:
 
 <a id="todas-as-skills"></a>
 
-## Skills (123: 120 copiadas, o resto só com link)
+## Skills (161: 158 copiadas, o resto só com link)
 
-### Sites e design (12)
+### Sites e design (15)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -159,8 +159,11 @@ Mais exemplos:
 | [`webapp-testing`](skills/sites-e-design/webapp-testing) | Testa o site num navegador de verdade (Playwright) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/webapp-testing.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
 | [`impeccable`](skills/sites-e-design/impeccable) | Caça os vícios de site feito por IA (gradiente roxo, tipografia, espaçamento) e corrige o design. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/impeccable.zip) | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Apache-2.0 | 21/10/2026 |
 | [`design-taste-frontend`](skills/sites-e-design/design-taste-frontend) | Direção de arte para sites, a partir de 247 sites premiados: tira a cara genérica de IA. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/design-taste-frontend.zip) | [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) | MIT | 21/10/2026 |
+| [`composition-patterns`](skills/sites-e-design/composition-patterns) | Padrões de componentes React que não viram bagunça quando o app cresce. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/composition-patterns.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 21/10/2026 |
+| [`react-native-skills`](skills/sites-e-design/react-native-skills) | Boas práticas para apps de celular com React Native e Expo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/react-native-skills.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 21/10/2026 |
+| [`react-view-transitions`](skills/sites-e-design/react-view-transitions) | Animações suaves entre telas com a View Transition API do React. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/react-view-transitions.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 21/10/2026 |
 
-### Marketing, textos e vendas (15)
+### Marketing, textos e vendas (31)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -179,8 +182,24 @@ Mais exemplos:
 | [`schema`](skills/marketing-e-vendas/schema) | Dados estruturados (schema.org) para o Google | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/schema.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`seo-audit`](skills/marketing-e-vendas/seo-audit) | Auditoria de SEO técnico e de conteúdo | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/seo-audit.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`social`](skills/marketing-e-vendas/social) | Conteúdo e estratégia para redes sociais | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/social.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
+| [`product-marketing`](skills/marketing-e-vendas/product-marketing) | Monta o documento base do produto (público, dores, diferenciais) que as outras skills de marketing usam. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/product-marketing.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`ads`](skills/marketing-e-vendas/ads) | Campanhas pagas no Meta (Instagram/Facebook), Google e outras: estrutura, público, orçamento e métricas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ads.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`ad-creative`](skills/marketing-e-vendas/ad-creative) | Cria títulos, textos e variações de anúncio para testar. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ad-creative.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`content-strategy`](skills/marketing-e-vendas/content-strategy) | Decide o que postar e sobre quais temas, com um plano de conteúdo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/content-strategy.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`emails`](skills/marketing-e-vendas/emails) | Sequências de e-mail automáticas (boas-vindas, reativação, promoção). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/emails.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`cold-email`](skills/marketing-e-vendas/cold-email) | Primeiro contato com quem não te conhece, acompanhamentos e respostas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/cold-email.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`copy-editing`](skills/marketing-e-vendas/copy-editing) | Revisa e melhora textos de venda que já existem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/copy-editing.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`launch`](skills/marketing-e-vendas/launch) | Planeja o lançamento de um produto ou novidade. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/launch.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`lead-magnets`](skills/marketing-e-vendas/lead-magnets) | Cria materiais gratuitos (e-book, checklist, cupom) para conseguir contatos. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/lead-magnets.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`marketing-ideas`](skills/marketing-e-vendas/marketing-ideas) | Banco de ideias de marketing e crescimento para escolher e aplicar. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/marketing-ideas.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`marketing-plan`](skills/marketing-e-vendas/marketing-plan) | Plano de marketing completo para um cliente ou para o seu negócio. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/marketing-plan.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`pricing`](skills/marketing-e-vendas/pricing) | Ajuda a definir preço, pacotes e planos. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/pricing.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`customer-research`](skills/marketing-e-vendas/customer-research) | Pesquisa com clientes: o que perguntar e como tirar conclusões das respostas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/customer-research.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`competitors`](skills/marketing-e-vendas/competitors) | Páginas de comparação com concorrentes ("X vs Y", "alternativa a X"). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/competitors.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`programmatic-seo`](skills/marketing-e-vendas/programmatic-seo) | Cria muitas páginas de SEO a partir de um modelo e uma lista de dados. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/programmatic-seo.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
+| [`prospecting`](skills/marketing-e-vendas/prospecting) | Encontra e qualifica possíveis clientes, inclusive negócios locais. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/prospecting.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 21/10/2026 |
 
-### Método de trabalho e economia de tokens (25)
+### Método de trabalho e economia de tokens (38)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -209,8 +228,21 @@ Mais exemplos:
 | [`grilling`](skills/metodo-de-trabalho/grilling) | Te enche de perguntas, em rodadas, até o plano ou a ideia ficar sem furo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/grilling.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
 | [`grill-me`](skills/metodo-de-trabalho/grill-me) | Versão por comando (/grill-me) da entrevista que testa o seu plano. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/grill-me.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
 | [`handoff`](skills/metodo-de-trabalho/handoff) | Resume a conversa num documento para outra sessão continuar de onde parou. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/handoff.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`tdd`](skills/metodo-de-trabalho/tdd) | Programa com teste primeiro (vermelho, verde, refatora) para o código não quebrar o que já funciona. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/tdd.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`improve-codebase-architecture`](skills/metodo-de-trabalho/improve-codebase-architecture) | Varre o projeto, mostra num relatório HTML onde a estrutura pode melhorar e discute a melhor opção com você. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/improve-codebase-architecture.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`diagnosing-bugs`](skills/metodo-de-trabalho/diagnosing-bugs) | Ciclo de diagnóstico para bug difícil ou lentidão: reproduz, isola a causa e só depois corrige. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/diagnosing-bugs.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`prototype`](skills/metodo-de-trabalho/prototype) | Faz um protótipo descartável para testar uma ideia de tela ou de lógica antes de construir de verdade. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/prototype.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`grill-with-docs`](skills/metodo-de-trabalho/grill-with-docs) | A entrevista que testa o seu plano, já escrevendo as decisões e o glossário do projeto. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/grill-with-docs.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`to-spec`](skills/metodo-de-trabalho/to-spec) | Transforma a conversa numa especificação (spec) pronta para virar tarefas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/to-spec.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`implement`](skills/metodo-de-trabalho/implement) | Implementa uma tarefa a partir da spec ou dos tickets, passo a passo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/implement.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`code-review`](skills/metodo-de-trabalho/code-review) | Revisa as mudanças desde um commit: segue os padrões do projeto e resolve o que foi pedido? | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/code-review.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`domain-modeling`](skills/metodo-de-trabalho/domain-modeling) | Organiza os nomes e conceitos do projeto (glossário e registro de decisões). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/domain-modeling.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`codebase-design`](skills/metodo-de-trabalho/codebase-design) | Vocabulário para desenhar módulos simples por fora e completos por dentro. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/codebase-design.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`research`](skills/metodo-de-trabalho/research) | Pesquisa uma dúvida técnica em fontes primárias e salva o resultado num arquivo do projeto. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/research.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`setup-matt-pocock-skills`](skills/metodo-de-trabalho/setup-matt-pocock-skills) | Prepara o repositório (tarefas, etiquetas, pasta de docs) para as skills de engenharia do Matt Pocock. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/setup-matt-pocock-skills.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`wait-what`](skills/metodo-de-trabalho/wait-what) | Quando a resposta não ficou clara: o Claude explica de novo, de outro jeito. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/wait-what.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
 
-### Criar skills e agentes (9)
+### Criar skills e agentes (11)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -223,6 +255,8 @@ Mais exemplos:
 | [`skill-inspector`](skills/criar-skills/skill-inspector) | Checklist de segurança antes de instalar uma skill | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/skill-inspector.zip) | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Apache-2.0 | 15/10/2026 |
 | [`writing-skills`](skills/criar-skills/writing-skills) | Como escrever e testar skills novas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-skills.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
 | [`find-skills`](skills/criar-skills/find-skills) | Você diz a tarefa e ela acha (e instala) a skill certa no diretório skills.sh. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/find-skills.zip) | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT | 21/10/2026 |
+| [`writing-for-agents`](skills/criar-skills/writing-for-agents) | Como escrever skills, CLAUDE.md e AGENTS.md que a IA entende bem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-for-agents.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
+| [`claude-api`](skills/criar-skills/claude-api) | Como programar com a API do Claude (útil para o JARVIS e outros projetos com IA). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/claude-api.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 21/10/2026 |
 
 ### Segurança e lei (20)
 
@@ -249,7 +283,7 @@ Mais exemplos:
 | [`variant-analysis`](skills/seguranca-e-lei/variant-analysis) | Achou um bug? Procura todos os parecidos | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/variant-analysis.zip) | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | 15/10/2026 |
 | [`security-audit`](skills/seguranca-e-lei/security-audit) | Auditoria de segurança da Cloudflare: agentes procuram falhas e outro agente tenta provar que não existem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/security-audit.zip) | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | MIT | 21/10/2026 |
 
-### Publicar, GitHub e banco de dados (9)
+### Publicar, GitHub e banco de dados (11)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -262,6 +296,8 @@ Mais exemplos:
 | [`neon-postgres`](skills/publicar-e-banco/neon-postgres) | Banco Postgres no Neon: SQL, schema, conexão | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/neon-postgres.zip) | [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills) | Apache-2.0 | 15/10/2026 |
 | [`vercel-cli-with-tokens`](skills/publicar-e-banco/vercel-cli-with-tokens) | Usa a Vercel pelo terminal com token | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/vercel-cli-with-tokens.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`vercel-optimize`](skills/publicar-e-banco/vercel-optimize) | Deixa o site na Vercel mais rápido e barato | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/vercel-optimize.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
+| [`supabase`](skills/publicar-e-banco/supabase) | Tudo de Supabase: banco, login, armazenamento, funções e segurança (RLS). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/supabase.zip) | [supabase/agent-skills](https://github.com/supabase/agent-skills) | MIT | 21/10/2026 |
+| [`supabase-postgres-best-practices`](skills/publicar-e-banco/supabase-postgres-best-practices) | Boas práticas de Postgres/SQL: tabelas, índices, consultas rápidas e seguras. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/supabase-postgres-best-practices.zip) | [supabase/agent-skills](https://github.com/supabase/agent-skills) | MIT | 21/10/2026 |
 
 ### Produtividade, PC e Obsidian (14)
 
@@ -282,7 +318,7 @@ Mais exemplos:
 | [`session-radar`](skills/produtividade-e-pc/session-radar) | Mostra o que está acontecendo nas suas outras conversas do Claude Code (nuvem ou computador), resume e diz o que falta. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/session-radar.zip) | própria | MIT | 15/10/2026 |
 | [`agent-browser`](skills/produtividade-e-pc/agent-browser) | O Claude usa o navegador sozinho: abre página, clica, preenche e tira print (precisa do CLI agent-browser). | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/agent-browser.zip) | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 | 21/10/2026 |
 
-### Vídeo, foto, redes e música (7)
+### Vídeo, foto, redes e música (8)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -293,8 +329,9 @@ Mais exemplos:
 | [`roteiro-reels-br`](skills/video-foto-e-musica/roteiro-reels-br) | Roteiro de Reels/TikTok/Shorts para negócio local | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/roteiro-reels-br.zip) | própria | MIT | 15/10/2026 |
 | [`video-link`](skills/video-foto-e-musica/video-link) | Você manda o link (Instagram, TikTok, YouTube) e o Claude "assiste": baixa, transcreve a fala e tira quadros da imagem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/video-link.zip) | própria | MIT | 15/10/2026 |
 | [`video-maker`](skills/video-foto-e-musica/video-maker) | Faz vídeos .mp4 de verdade: Reels, TikTok, propaganda, explicativo com narração e legenda, slideshow de fotos. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/video-maker.zip) | própria | MIT | 15/10/2026 |
+| [`algorithmic-art`](skills/video-foto-e-musica/algorithmic-art) | Arte generativa com código (p5.js), com controles para ajustar o resultado. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/algorithmic-art.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 21/10/2026 |
 
-### Estudos (11)
+### Estudos (12)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -309,6 +346,7 @@ Mais exemplos:
 | [`trabalho-escolar`](skills/estudos/trabalho-escolar) | Ajuda em trabalhos de escola, SESI e SENAI: pesquisa, resumo, cartaz, slides, roteiro de fala cronometrado e perguntas do professor. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/trabalho-escolar.zip) | própria | MIT | 15/10/2026 |
 | [`tutor-ingles`](skills/estudos/tutor-ingles) | Professor de inglês para brasileiros, do A1 ao C1 | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/tutor-ingles.zip) | própria | MIT | 15/10/2026 |
 | [`tutor-sql`](skills/estudos/tutor-sql) | Professor de SQL/MySQL em português: corrige scripts, explica comandos e cria missões no seu próprio banco de exemplo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/tutor-sql.zip) | própria | MIT | 15/10/2026 |
+| [`teach`](skills/estudos/teach) | O Claude vira professor e te ensina um assunto ou ferramenta nova, no seu ritmo. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/teach.zip) | [mattpocock/skills](https://github.com/mattpocock/skills) | MIT | 21/10/2026 |
 
 ### Jogos (1)
 
@@ -505,6 +543,11 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · MIT — security-audit
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) · MIT — find-skills
 - [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) · Apache-2.0 — agent-browser
+- [mattpocock/skills](https://github.com/mattpocock/skills) · MIT — tdd, improve-codebase-architecture, diagnosing-bugs, prototype, grill-with-docs, to-spec, implement, code-review, domain-modeling, codebase-design, research, writing-for-agents, setup-matt-pocock-skills, wait-what, teach
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — product-marketing, ads, ad-creative, content-strategy, emails, cold-email, copy-editing, launch, lead-magnets, marketing-ideas, marketing-plan, pricing, customer-research, competitors, programmatic-seo, prospecting
+- [supabase/agent-skills](https://github.com/supabase/agent-skills) · MIT — supabase, supabase-postgres-best-practices
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · MIT — composition-patterns, react-native-skills, react-view-transitions
+- [anthropics/skills](https://github.com/anthropics/skills) · Apache-2.0 — algorithmic-art, claude-api
 
 ## Licença
 

@@ -2,6 +2,48 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-21 21:10
+
+- + skill `tdd`
+- + skill `improve-codebase-architecture`
+- + skill `diagnosing-bugs`
+- + skill `prototype`
+- + skill `grill-with-docs`
+- + skill `to-spec`
+- + skill `implement`
+- + skill `code-review`
+- + skill `domain-modeling`
+- + skill `codebase-design`
+- + skill `research`
+- + skill `writing-for-agents`
+- + skill `setup-matt-pocock-skills`
+- + skill `wait-what`
+- + skill `teach`
+- + skill `product-marketing`
+- + skill `ads`
+- + skill `ad-creative`
+- + skill `content-strategy`
+- + skill `emails`
+- + skill `cold-email`
+- + skill `copy-editing`
+- + skill `launch`
+- + skill `lead-magnets`
+- + skill `marketing-ideas`
+- + skill `marketing-plan`
+- + skill `pricing`
+- + skill `customer-research`
+- + skill `competitors`
+- + skill `programmatic-seo`
+- + skill `prospecting`
+- + skill `supabase`
+- + skill `supabase-postgres-best-practices`
+- + skill `composition-patterns`
+- + skill `react-native-skills`
+- + skill `react-view-transitions`
+- + skill `algorithmic-art`
+- + skill `claude-api`
+- + `instalar-plugins-extras.ps1`: 14 plugins (feature-dev, code-review, pr-review-toolkit, commit-commands, frontend-design, playwright, supabase, vercel, figma, hookify, plugin-dev, skill-creator, agent-sdk-dev, claude-mem), instalados sozinhos no próximo sync
+
 ## 2026-10-21 20:30
 
 - + skill `karpathy-guidelines`

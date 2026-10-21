@@ -65,6 +65,12 @@ try {
                 Log "skill recebida do GitHub e instalada no PC: $nome"
             }
         }
+        # Plugins extras do kit: instala uma vez por versão da lista (o script guarda a marca em ~/.claude/kit-sync)
+        $extras = Join-Path $Repo 'instalar-plugins-extras.ps1'
+        if (Test-Path $extras) {
+            $r = & powershell -NoProfile -ExecutionPolicy Bypass -File $extras 2>&1
+            foreach ($l in ($r | Select-String -Pattern 'Plugins:|não encontrado')) { Log "plugins extras: $l" }
+        }
     }
 
     $notas = & python scripts/build_kit.py 2>&1

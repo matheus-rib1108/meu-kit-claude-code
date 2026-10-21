@@ -1312,7 +1312,10 @@
    "conectores: Canva": "2026-10-16",
    "conectores: GitHub": "2026-10-16",
    "conectores: Gmail": "2026-10-16",
-   "conectores: Higgsfield": "2026-10-16"
+   "conectores: Higgsfield": "2026-10-16",
+   "conectores: Figma": "2026-10-21",
+   "conectores: Notion": "2026-10-21",
+   "conectores: Vercel": "2026-10-21"
   }
  },
  "inventario": {
@@ -1506,9 +1509,12 @@
    "skills: morning": "Resumo da manhã: agenda, e-mails e o que importa no dia",
    "skills: skill-creator": "Cria, testa e melhora skills",
    "conectores: Canva": "Busca, cria e exporta designs do Canva (pendente)",
+   "conectores: Figma": "Lê arquivos e designs do Figma para transformar em código (pendente)",
    "conectores: GitHub": "Lê repositórios, issues e PRs do GitHub nas conversas (conectado)",
    "conectores: Gmail": "Resume conversas, busca e rascunha respostas de e-mail (pendente)",
-   "conectores: Higgsfield": "Conector personalizado de geração de vídeo e imagem com IA (pendente)"
+   "conectores: Higgsfield": "Conector personalizado de geração de vídeo e imagem com IA (pendente)",
+   "conectores: Notion": "Busca, lê e cria páginas e bancos de dados no Notion (pendente)",
+   "conectores: Vercel": "Vê projetos, deploys e logs da Vercel (pendente)"
   }
  }
 }

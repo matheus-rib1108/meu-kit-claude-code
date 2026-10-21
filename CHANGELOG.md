@@ -2,6 +2,12 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-21 12:43
+
+- + claude.ai `conectores: Figma`
+- + claude.ai `conectores: Notion`
+- + claude.ai `conectores: Vercel`
+
 ## 2026-10-18 21:15
 
 - ~ skill `brainstorming`

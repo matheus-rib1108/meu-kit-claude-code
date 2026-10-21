@@ -3,7 +3,7 @@
   <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 114 skills, 29 agentes, 22 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-18%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-114-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-9-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-21%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-114-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-22-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
 Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **114 skills**,
 **29 agentes**, **22 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 18/10/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 21/10/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 18/10/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 21/10/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -399,7 +399,7 @@ Só o evento e o que faz (o comando completo fica no meu PC).
 
 ## Minha conta claude.ai
 
-Conferido em 2026-10-16 pela skill `kit-sync-conta` (só nomes; detalhes em [`conta-claude-ai.md`](conta-claude-ai.md)).
+Conferido em 2026-10-21 pela skill `kit-sync-conta` (só nomes; detalhes em [`conta-claude-ai.md`](conta-claude-ai.md)).
 
 ### Skills (5)
 
@@ -411,14 +411,17 @@ Conferido em 2026-10-16 pela skill `kit-sync-conta` (só nomes; detalhes em [`co
 | morning | Resumo da manhã: agenda, e-mails e o que importa no dia |
 | skill-creator | Cria, testa e melhora skills |
 
-### Conectores (4)
+### Conectores (7)
 
 | Nome | Para que serve |
 |---|---|
 | Canva | Busca, cria e exporta designs do Canva (pendente) |
+| Figma | Lê arquivos e designs do Figma para transformar em código (pendente) |
 | GitHub | Lê repositórios, issues e PRs do GitHub nas conversas (conectado) |
 | Gmail | Resume conversas, busca e rascunha respostas de e-mail (pendente) |
 | Higgsfield | Conector personalizado de geração de vídeo e imagem com IA (pendente) |
+| Notion | Busca, lê e cria páginas e bancos de dados no Notion (pendente) |
+| Vercel | Vê projetos, deploys e logs da Vercel (pendente) |
 
 ### Plugins (0)
 

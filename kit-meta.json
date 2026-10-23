@@ -1146,6 +1146,13 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra "
+  },
+  "clonar-app": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto"
   }
  },
  "agentes": {
@@ -1571,7 +1578,8 @@
    "writing-plans": "2026-10-15",
    "writing-skills": "2026-10-15",
    "kit-sync-conta": "2026-10-16",
-   "entregar-trabalho-teams": "2026-10-21"
+   "entregar-trabalho-teams": "2026-10-21",
+   "clonar-app": "2026-10-23"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1669,6 +1677,7 @@
    "caveman": "3b7b1547aed0",
    "caveman-compress": "49546aff5a63",
    "claude-chats": "e7d78eb5d53f",
+   "clonar-app": "c05a7563dd42",
    "comparador-produtos-br": "ae254b28bf6d",
    "copywriting": "cdce69d6e192",
    "cost-estimator": "a0217fc03675",

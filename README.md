@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 118 skills, 29 agentes, 30 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 121 skills, 29 agentes, 30 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-118-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-30-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-121-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-30-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **118 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **121 skills**,
 **29 agentes**, **30 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -139,9 +139,23 @@ Mais exemplos:
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
+## Alternativas grátis a ferramentas pagas
+
+Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, e o que fazer no lugar sem pagar:
+
+| Em vez de | Use | Como |
+|---|---|---|
+| Strix (pentest com IA, pede chave) | `site-fortress` + `dast-zap` + `dast-nuclei` | Ataca só o seu site, parte por parte, e corrige o que achar |
+| 21st.dev Magic (catálogo de componentes, pede chave) | `componentes-ui` | Busca e instala componentes grátis do shadcn/ui, Magic UI e Aceternity, mais logos do SVGL |
+| Firecrawl (raspar sites, pede chave) | `raspar-site` + `defuddle` | Várias páginas de um site viram Markdown, respeitando o robots.txt |
+| PostHog (analytics) | `analytics-gratis` | Vercel Analytics + Speed Insights ou Umami, sem cookie |
+| Perplexity (pesquisa) | `deep-research` | Vários agentes pesquisam em paralelo e citam as fontes |
+| Composio (conectar apps) | conectores MCP (`/mcp`) | Cada app com o conector oficial, sem um intermediário com acesso a tudo |
+| Higgsfield (vídeo com IA, pago) | `video-maker` + HyperFrames | Vídeo montado com código e as suas fotos e vídeos. Não gera cena do zero com IA. |
+
 <a id="todas-as-skills"></a>
 
-## Skills (118: 115 copiadas, o resto só com link)
+## Skills (121: 118 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -308,12 +322,15 @@ Mais exemplos:
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (3)
+### Outras (novas, ainda sem área) (6)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
+| [`analytics-gratis`](skills/outras/analytics-gratis) | Coloca medição de visitas e desempenho num site de graça e sem cookie, como alternativa ao PostHog pago — Vercel Web Analytics + Speed Insights para sites na Ve | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/analytics-gratis.zip) | própria | MIT | 26/10/2026 |
 | [`clonar-app`](skills/outras/clonar-app) | Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/clonar-app.zip) | própria | MIT | 23/10/2026 |
+| [`componentes-ui`](skills/outras/componentes-ui) | Busca e instala componentes de interface prontos e grátis (botão, card de preço, hero, gráfico, formulário, bento, animações) dos catálogos shadcn/ui, Magic UI  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/componentes-ui.zip) | própria | MIT | 26/10/2026 |
 | [`entregar-trabalho-teams`](skills/outras/entregar-trabalho-teams) | Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/entregar-trabalho-teams.zip) | própria | MIT | 21/10/2026 |
+| [`raspar-site`](skills/outras/raspar-site) | Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/raspar-site.zip) | própria | MIT | 26/10/2026 |
 | [`search-first`](skills/outras/search-first) | Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/search-first.zip) | própria | MIT | 26/10/2026 |
 
 ### Só o link (sem licença que permita copiar)
@@ -412,6 +429,7 @@ Só o evento e o que faz (o comando completo fica no meu PC).
 | Evento | O que faz |
 |---|---|
 | `SessionEnd` | atualiza este kit no GitHub |
+| `SessionStart` | roda `context-mode-cache-heal.mjs` |
 | `statusLine` | barra de status claude-hud |
 
 ## Minha conta claude.ai
@@ -474,7 +492,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 118 skills, 29 agentes e 30 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 121 skills, 29 agentes e 30 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 

@@ -1160,6 +1160,27 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build."
+  },
+  "analytics-gratis": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Coloca medição de visitas e desempenho num site de graça e sem cookie, como alternativa ao PostHog pago — Vercel Web Analytics + Speed Insights para sites na Ve"
+  },
+  "componentes-ui": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Busca e instala componentes de interface prontos e grátis (botão, card de preço, hero, gráfico, formulário, bento, animações) dos catálogos shadcn/ui, Magic UI "
+  },
+  "raspar-site": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl."
   }
  },
  "agentes": {
@@ -1588,7 +1609,10 @@
    "entregar-trabalho-teams": "2026-10-21",
    "clonar-app": "2026-10-23",
    "find-skills": "2026-10-26",
-   "search-first": "2026-10-26"
+   "search-first": "2026-10-26",
+   "analytics-gratis": "2026-10-26",
+   "componentes-ui": "2026-10-26",
+   "raspar-site": "2026-10-26"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1663,7 +1687,8 @@
   },
   "hooks": {
    "SessionEnd": "2026-10-15",
-   "statusLine": "2026-10-16"
+   "statusLine": "2026-10-16",
+   "SessionStart": "2026-10-26"
   },
   "conta": {
    "skills: deep-research": "2026-10-16",
@@ -1685,6 +1710,7 @@
    "abordagem-whatsapp-vendas": "cb055118091f",
    "agent-builder": "db9a3365e6e1",
    "ai-seo": "8faec5943e4f",
+   "analytics-gratis": "411167e6181b",
    "apple-design": "f7a237e5eb89",
    "assistente-voz-jarvis": "b00818d50b87",
    "audit-context-building": "63b1c37cd3b7",
@@ -1696,6 +1722,7 @@
    "claude-chats": "e7d78eb5d53f",
    "clonar-app": "c05a7563dd42",
    "comparador-produtos-br": "ae254b28bf6d",
+   "componentes-ui": "b59e0ff9f953",
    "copywriting": "cdce69d6e192",
    "cost-estimator": "a0217fc03675",
    "cro": "f5a60f5fec0c",
@@ -1755,6 +1782,7 @@
    "projeto-senai-desafio": "b3557f91a720",
    "prospeccao-local-br": "c0373d9dddea",
    "publicar-skills-github": "dd46975f985c",
+   "raspar-site": "71bf4557c56a",
    "receiving-code-review": "cfe736aa2068",
    "redacao-enem": "5aa6a9d3ffd7",
    "requesting-code-review": "85e0940332e7",
@@ -1874,6 +1902,7 @@
   },
   "hooks": {
    "SessionEnd": "atualiza este kit no GitHub",
+   "SessionStart": "roda `context-mode-cache-heal.mjs`",
    "statusLine": "barra de status claude-hud"
   },
   "conta": {

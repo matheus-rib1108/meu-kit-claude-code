@@ -37,6 +37,9 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 | Pagamentos | plugins `mercadopago`, `stripe` + fase 6 da `site-fortress` |
 | Achar/instalar novas skills | skill `skill-hunter` (sempre verificar com `skill-inspector` antes) |
 | Pôster, flyer, arte estática (PNG/PDF) | skill `canvas-design` |
+| Componente pronto (card de preço, hero, gráfico, logo de marca) | skill `componentes-ui` (shadcn/Magic UI/Aceternity grátis) |
+| Raspar várias páginas de um site | skill `raspar-site` (uma página: `defuddle`) |
+| Visitas / analytics / "onde as pessoas desistem" | skill `analytics-gratis` |
 | "Como funciona esse repositório do GitHub?" | MCP `deepwiki` (só repositórios públicos) |
 | "Quanto do meu limite eu usei?" | `npx -y ccusage@20.0.34 daily --offline` ou a barra do `claude-hud` |
 | Pesquisa grande e profunda | skill `deep-research` (vários agentes em paralelo); relatório do ecossistema em `Obsidian Vault/Claude/Pesquisa ecossistema Claude.md` |

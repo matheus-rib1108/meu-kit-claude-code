@@ -139,6 +139,20 @@ Mais exemplos:
 | Criar skills | "Cria um agente que me ajuda a estudar" · "Procura skills de Excel e instala as seguras" |
 | Atualizar este kit | "Atualiza meu kit no GitHub" (skill `kit-sync`) |
 
+## Alternativas grátis a ferramentas pagas
+
+Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, e o que fazer no lugar sem pagar:
+
+| Em vez de | Use | Como |
+|---|---|---|
+| Strix (pentest com IA, pede chave) | `site-fortress` + `dast-zap` + `dast-nuclei` | Ataca só o seu site, parte por parte, e corrige o que achar |
+| 21st.dev Magic (catálogo de componentes, pede chave) | `componentes-ui` | Busca e instala componentes grátis do shadcn/ui, Magic UI e Aceternity, mais logos do SVGL |
+| Firecrawl (raspar sites, pede chave) | `raspar-site` + `defuddle` | Várias páginas de um site viram Markdown, respeitando o robots.txt |
+| PostHog (analytics) | `analytics-gratis` | Vercel Analytics + Speed Insights ou Umami, sem cookie |
+| Perplexity (pesquisa) | `deep-research` | Vários agentes pesquisam em paralelo e citam as fontes |
+| Composio (conectar apps) | conectores MCP (`/mcp`) | Cada app com o conector oficial, sem um intermediário com acesso a tudo |
+| Higgsfield (vídeo com IA, pago) | `video-maker` + HyperFrames | Vídeo montado com código e as suas fotos e vídeos. Não gera cena do zero com IA. |
+
 <a id="todas-as-skills"></a>
 
 ## Skills ({{N_SKILLS}}: {{N_COPIA}} copiadas, o resto só com link)

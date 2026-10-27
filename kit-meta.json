@@ -1181,6 +1181,48 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl."
+  },
+  "anti-cara-de-ia": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Revisa e corrige sites e apps com \"cara de feito por IA\" (gradiente roxo, cards iguais em grade, hero centralizado genérico, emoji como ícone, fonte Inter em tu"
+  },
+  "dashboard-design": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Desenha dashboards, painéis admin e telas de relatório com cara de produto de verdade (Linear, Stripe, Plausible, Mercury) e não de template — hierarquia de KPI"
+  },
+  "motion-sutil": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Coloca animação e movimento com cara de site premiado (curvas próprias, duração certa, rolagem suave, hover magnético, revelação de texto) sem exagero e sem pes"
+  },
+  "paleta-por-negocio": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Escolhe a paleta de cores de um site ou app pelo tipo de negócio (pizzaria, hamburgueria, açaí, restaurante, salão, barbearia, clínica, dentista, floricultura, "
+  },
+  "referencias-design": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Biblioteca de referências de design reais (sites premiados no Awwwards, Godly, Siteinspire, Land-book, Lapa Ninja e outros, mais de 500 sites) organizada por ca"
+  },
+  "tipografia-pares": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Escolhe fontes e pares de fontes grátis (Google Fonts, Fontshare, OFL) com escala, pesos, entrelinha e espaçamento entre letras prontos em CSS, por tipo de negó"
   }
  },
  "agentes": {
@@ -1612,7 +1654,13 @@
    "search-first": "2026-10-26",
    "analytics-gratis": "2026-10-26",
    "componentes-ui": "2026-10-26",
-   "raspar-site": "2026-10-26"
+   "raspar-site": "2026-10-26",
+   "anti-cara-de-ia": "2026-10-26",
+   "dashboard-design": "2026-10-26",
+   "motion-sutil": "2026-10-26",
+   "paleta-por-negocio": "2026-10-26",
+   "referencias-design": "2026-10-26",
+   "tipografia-pares": "2026-10-26"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1711,6 +1759,7 @@
    "agent-builder": "db9a3365e6e1",
    "ai-seo": "8faec5943e4f",
    "analytics-gratis": "411167e6181b",
+   "anti-cara-de-ia": "eee3d8754e95",
    "apple-design": "f7a237e5eb89",
    "assistente-voz-jarvis": "b00818d50b87",
    "audit-context-building": "63b1c37cd3b7",
@@ -1728,6 +1777,7 @@
    "cro": "f5a60f5fec0c",
    "curriculo-jovem-aprendiz": "4d48b00599c8",
    "cybersecurity": "8398336aadc8",
+   "dashboard-design": "87a97ac0d308",
    "dast-nuclei": "58d54117d6ac",
    "dast-zap": "7e050039ec47",
    "defuddle": "d1c88c0d168c",
@@ -1765,6 +1815,7 @@
    "matematica-passo-a-passo": "1e707d6d0394",
    "mcp-builder": "faafd51014e3",
    "minecraft-construcoes": "09a483d0c227",
+   "motion-sutil": "d087fd6ebc3e",
    "musica-ia": "91434adde561",
    "neon": "60242bc0fbf6",
    "neon-auth": "042a6036075e",
@@ -1776,6 +1827,7 @@
    "orcamento-servicos": "097b983698ef",
    "organizador-de-estudos": "6549ca1daad2",
    "owasp-security": "c3930435669b",
+   "paleta-por-negocio": "f8a688dde140",
    "pc-control": "9549fd8537b1",
    "photo-editor": "38c0ee62ca87",
    "planning-with-files": "cbee1d0b29d7",
@@ -1785,6 +1837,7 @@
    "raspar-site": "71bf4557c56a",
    "receiving-code-review": "cfe736aa2068",
    "redacao-enem": "5aa6a9d3ffd7",
+   "referencias-design": "1395581e3001",
    "requesting-code-review": "85e0940332e7",
    "revisao-flashcards": "ccc24866ba5e",
    "roteiro-reels-br": "1bbc727255af",
@@ -1809,6 +1862,7 @@
    "systematic-debugging": "9fb5c568f975",
    "test-driven-development": "3d5cc356c843",
    "theme-factory": "a1bab7e59d81",
+   "tipografia-pares": "31add9d0958b",
    "trabalho-escolar": "98d19d78e280",
    "tutor-ingles": "9afe4b32b43b",
    "tutor-sql": "c2449dee89bf",

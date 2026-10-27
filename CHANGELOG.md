@@ -2,6 +2,15 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-26 22:42
+
+- + skill `anti-cara-de-ia`
+- + skill `dashboard-design`
+- + skill `motion-sutil`
+- + skill `paleta-por-negocio`
+- + skill `referencias-design`
+- + skill `tipografia-pares`
+
 ## 2026-10-26 22:19
 
 - + skill `analytics-gratis`

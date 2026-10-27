@@ -2,6 +2,10 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-26 23:06
+
+- ~ skill `referencias-design`
+
 ## 2026-10-26 22:44
 
 - ~ skill `referencias-design`

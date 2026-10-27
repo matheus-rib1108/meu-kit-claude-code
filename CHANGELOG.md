@@ -2,6 +2,11 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-26 22:08
+
+- + plugin `impeccable@impeccable`
+- + plugin `logo-design@logo-design-skill`
+
 ## 2026-10-23 15:34
 
 - + skill `clonar-app`

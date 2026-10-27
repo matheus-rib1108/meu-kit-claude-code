@@ -21,7 +21,9 @@
     "cc-safety-net@cc-marketplace": true,
     "claude-hud@claude-hud": true,
     "ponytail@ponytail": true,
-    "claude-code-setup@claude-plugins-official": true
+    "claude-code-setup@claude-plugins-official": true,
+    "impeccable@impeccable": true,
+    "logo-design@logo-design-skill": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {

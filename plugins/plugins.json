@@ -23,7 +23,9 @@
     "ponytail@ponytail": true,
     "claude-code-setup@claude-plugins-official": true,
     "impeccable@impeccable": true,
-    "logo-design@logo-design-skill": true
+    "logo-design@logo-design-skill": true,
+    "diagram-design@diagram-design": true,
+    "lgpd-skills@lgpd-skills": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {

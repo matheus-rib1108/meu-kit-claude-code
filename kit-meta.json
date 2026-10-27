@@ -1637,7 +1637,9 @@
    "ponytail@ponytail": "2026-10-16",
    "claude-code-setup@claude-plugins-official": "2026-10-16",
    "impeccable@impeccable": "2026-10-26",
-   "logo-design@logo-design-skill": "2026-10-26"
+   "logo-design@logo-design-skill": "2026-10-26",
+   "diagram-design@diagram-design": "2026-10-26",
+   "lgpd-skills@lgpd-skills": "2026-10-26"
   },
   "mcp": {
    "playwright": "2026-10-15",
@@ -1840,7 +1842,9 @@
    "ponytail@ponytail": "ligado",
    "claude-code-setup@claude-plugins-official": "ligado",
    "impeccable@impeccable": "ligado",
-   "logo-design@logo-design-skill": "ligado"
+   "logo-design@logo-design-skill": "ligado",
+   "diagram-design@diagram-design": "ligado",
+   "lgpd-skills@lgpd-skills": "ligado"
   },
   "mcp": {
    "playwright": "{\"args\": [\".claude/bin/playwright-mcp.sh\"], \"command\": \"sh\"}",

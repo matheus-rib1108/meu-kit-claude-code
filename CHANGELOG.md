@@ -4,6 +4,11 @@ Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atual
 
 ## 2026-10-26 22:08
 
+- + plugin `diagram-design@diagram-design`
+- + plugin `lgpd-skills@lgpd-skills`
+
+## 2026-10-26 22:08
+
 - + plugin `impeccable@impeccable`
 - + plugin `logo-design@logo-design-skill`
 

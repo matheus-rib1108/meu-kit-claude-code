@@ -1724,7 +1724,8 @@
    "agent-skills@addy-agent-skills": "2026-10-26",
    "andrej-karpathy-skills@karpathy-skills": "2026-10-26",
    "mattpocock-skills@claude-plugins-official": "2026-10-26",
-   "context-mode@context-mode": "2026-10-26"
+   "context-mode@context-mode": "2026-10-26",
+   "taste-skill@taste-skill": "2026-10-27"
   },
   "mcp": {
    "playwright": "2026-10-15",
@@ -1945,7 +1946,8 @@
    "agent-skills@addy-agent-skills": "ligado",
    "andrej-karpathy-skills@karpathy-skills": "ligado",
    "mattpocock-skills@claude-plugins-official": "ligado",
-   "context-mode@context-mode": "ligado"
+   "context-mode@context-mode": "ligado",
+   "taste-skill@taste-skill": "ligado"
   },
   "mcp": {
    "playwright": "{\"args\": [\".claude/bin/playwright-mcp.sh\"], \"command\": \"sh\"}",

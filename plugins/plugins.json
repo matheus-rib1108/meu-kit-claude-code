@@ -29,7 +29,8 @@
     "agent-skills@addy-agent-skills": true,
     "andrej-karpathy-skills@karpathy-skills": true,
     "mattpocock-skills@claude-plugins-official": true,
-    "context-mode@context-mode": true
+    "context-mode@context-mode": true,
+    "taste-skill@taste-skill": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -96,6 +97,12 @@
       "source": {
         "source": "github",
         "repo": "mksglu/context-mode"
+      }
+    },
+    "taste-skill": {
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill"
       }
     }
   }

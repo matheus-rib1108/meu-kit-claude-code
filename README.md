@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 127 skills, 29 agentes, 30 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 127 skills, 29 agentes, 31 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-127-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-30-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-27%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-127-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-31-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
 Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **127 skills**,
-**29 agentes**, **30 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
+**29 agentes**, **31 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 26/10/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 27/10/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 26/10/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 27/10/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -381,7 +381,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | [`qa-expert`](agents/qa-expert.md) | Estratégia e plano de testes | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 | [`security-auditor`](agents/security-auditor.md) | Auditoria de segurança | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 
-## Plugins (30)
+## Plugins (31)
 
 | Plugin | O que faz | Área | Fonte | Licença | Entrou | Instalar |
 |---|---|---|---|---|---|---|
@@ -413,6 +413,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | `security-guidance` | Avisa na hora quando um código inseguro é escrito | segurança | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install security-guidance@claude-plugins-official` |
 | `session-report` | Relatório de onde os tokens foram gastos | produtividade | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install session-report@claude-plugins-official` |
 | `stripe` | Integração oficial do Stripe | pagamentos | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install stripe@claude-plugins-official` |
+| `taste-skill` |  |  | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | ver fonte | 27/10/2026 | `/plugin install taste-skill@taste-skill` |
 | `telegram` | Conversa com o Claude Code pelo Telegram (desligado) | produtividade | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install telegram@claude-plugins-official` |
 | `typescript-lsp` | Entende TypeScript de verdade | programação | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install typescript-lsp@claude-plugins-official` |
 
@@ -498,7 +499,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 127 skills, 29 agentes e 30 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 127 skills, 29 agentes e 31 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 

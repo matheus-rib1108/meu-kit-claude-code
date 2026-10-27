@@ -1153,6 +1153,13 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto"
+  },
+  "search-first": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build."
   }
  },
  "agentes": {
@@ -1579,7 +1586,9 @@
    "writing-skills": "2026-10-15",
    "kit-sync-conta": "2026-10-16",
    "entregar-trabalho-teams": "2026-10-21",
-   "clonar-app": "2026-10-23"
+   "clonar-app": "2026-10-23",
+   "find-skills": "2026-10-26",
+   "search-first": "2026-10-26"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1642,7 +1651,8 @@
    "lgpd-skills@lgpd-skills": "2026-10-26",
    "agent-skills@addy-agent-skills": "2026-10-26",
    "andrej-karpathy-skills@karpathy-skills": "2026-10-26",
-   "mattpocock-skills@claude-plugins-official": "2026-10-26"
+   "mattpocock-skills@claude-plugins-official": "2026-10-26",
+   "context-mode@context-mode": "2026-10-26"
   },
   "mcp": {
    "playwright": "2026-10-15",
@@ -1703,6 +1713,7 @@
    "executing-plans": "4494a136cef9",
    "ffmpeg-skill": "d95e061eaed7",
    "financas-pessoais": "a2f28d3c08d7",
+   "find-skills": "9c5265b5262f",
    "finishing-a-development-branch": "7b7f730f721f",
    "formatador-abnt": "8aa3da0fede4",
    "fp-check": "4a93f00ff9b7",
@@ -1751,6 +1762,7 @@
    "roteiro-reels-br": "1bbc727255af",
    "sca-trivy": "93f894e6726d",
    "schema": "7067e2aa03ce",
+   "search-first": "a388f852ddba",
    "secrets-gitleaks": "5afd6aa06253",
    "semgrep": "91e09c7f51a0",
    "seo-audit": "0056976ad47d",
@@ -1850,7 +1862,8 @@
    "lgpd-skills@lgpd-skills": "ligado",
    "agent-skills@addy-agent-skills": "ligado",
    "andrej-karpathy-skills@karpathy-skills": "ligado",
-   "mattpocock-skills@claude-plugins-official": "ligado"
+   "mattpocock-skills@claude-plugins-official": "ligado",
+   "context-mode@context-mode": "ligado"
   },
   "mcp": {
    "playwright": "{\"args\": [\".claude/bin/playwright-mcp.sh\"], \"command\": \"sh\"}",

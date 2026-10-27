@@ -2,6 +2,12 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-26 22:11
+
+- + skill `find-skills`
+- + skill `search-first`
+- + plugin `context-mode@context-mode`
+
 ## 2026-10-26 22:09
 
 - + plugin `agent-skills@addy-agent-skills`

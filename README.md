@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 116 skills, 29 agentes, 29 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 118 skills, 29 agentes, 30 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-116-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-29-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-118-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-30-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **116 skills**,
-**29 agentes**, **29 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **118 skills**,
+**29 agentes**, **30 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
@@ -141,7 +141,7 @@ Mais exemplos:
 
 <a id="todas-as-skills"></a>
 
-## Skills (116: 113 copiadas, o resto só com link)
+## Skills (118: 115 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -204,11 +204,12 @@ Mais exemplos:
 | [`verify-and-stop`](skills/metodo-de-trabalho/verify-and-stop) | Verifica e para, sem se estender | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/verify-and-stop.zip) | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Apache-2.0 | 15/10/2026 |
 | [`writing-plans`](skills/metodo-de-trabalho/writing-plans) | Escreve um plano de implementação detalhado | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-plans.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
 
-### Criar skills e agentes (8)
+### Criar skills e agentes (9)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
 | [`agent-builder`](skills/criar-skills/agent-builder) | Cria seus próprios agentes de IA para tarefas que se repetem, como assistente de estudos, de redes sociais ou de sites. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/agent-builder.zip) | própria | MIT | 15/10/2026 |
+| [`find-skills`](skills/criar-skills/find-skills) | Você diz a tarefa e ela acha (e instala) a skill certa no diretório skills.sh. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/find-skills.zip) | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT | 26/10/2026 |
 | [`kit-sync`](skills/criar-skills/kit-sync) | Atualiza este kit no GitHub: copia tudo, confere segredos e dados pessoais e publica | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/kit-sync.zip) | própria | MIT | 15/10/2026 |
 | [`mcp-builder`](skills/criar-skills/mcp-builder) | Cria servidores MCP para ligar o Claude a qualquer API | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/mcp-builder.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
 | [`publicar-skills-github`](skills/criar-skills/publicar-skills-github) | Monta e publica um repositório público de skills, como este: página de cada skill, downloads, instalação, notas e sugestões. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/publicar-skills-github.zip) | própria | MIT | 15/10/2026 |
@@ -307,12 +308,13 @@ Mais exemplos:
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (2)
+### Outras (novas, ainda sem área) (3)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
 | [`clonar-app`](skills/outras/clonar-app) | Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/clonar-app.zip) | própria | MIT | 23/10/2026 |
 | [`entregar-trabalho-teams`](skills/outras/entregar-trabalho-teams) | Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/entregar-trabalho-teams.zip) | própria | MIT | 21/10/2026 |
+| [`search-first`](skills/outras/search-first) | Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/search-first.zip) | própria | MIT | 26/10/2026 |
 
 ### Só o link (sem licença que permita copiar)
 
@@ -356,7 +358,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | [`qa-expert`](agents/qa-expert.md) | Estratégia e plano de testes | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 | [`security-auditor`](agents/security-auditor.md) | Auditoria de segurança | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 
-## Plugins (29)
+## Plugins (30)
 
 | Plugin | O que faz | Área | Fonte | Licença | Entrou | Instalar |
 |---|---|---|---|---|---|---|
@@ -371,6 +373,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | `claude-md-management` | Mantém o CLAUDE.md atualizado | produtividade | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install claude-md-management@claude-plugins-official` |
 | `claude-security` | Varredura profunda de vulnerabilidades | segurança | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install claude-security@claude-plugins-official` |
 | `code-simplifier` | Deixa o código mais limpo | programação | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install code-simplifier@claude-plugins-official` |
+| `context-mode` |  |  | [mksglu/context-mode](https://github.com/mksglu/context-mode) | ver fonte | 26/10/2026 | `/plugin install context-mode@context-mode` |
 | `context7` | Documentação atualizada das bibliotecas | programação | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install context7@claude-plugins-official` |
 | `diagram-design` |  |  | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | ver fonte | 26/10/2026 | `/plugin install diagram-design@diagram-design` |
 | `expo` | Apps de celular com Expo/React Native (instalado desligado) (desligado) | apps | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install expo@claude-plugins-official` |
@@ -471,7 +474,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 116 skills, 29 agentes e 29 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 118 skills, 29 agentes e 30 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 
@@ -503,6 +506,7 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [obra/superpowers](https://github.com/obra/superpowers) · MIT — brainstorming, diagnosing-superpowers, dispatching-parallel-agents, executing-plans, finishing-a-development-branch, receiving-code-review, requesting-code-review, subagent-driven-development, systematic-debugging, test-driven-development, using-git-worktrees, using-superpowers, verification-before-completion, writing-plans, writing-skills
 - [trailofbits/skills](https://github.com/trailofbits/skills) · CC-BY-SA-4.0 — audit-context-building, differential-review, fp-check, semgrep, sharp-edges, supply-chain-risk-auditor, variant-analysis
 - [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) · MIT — deploy-to-vercel, vercel-cli-with-tokens, vercel-optimize, vercel-react-best-practices, web-design-guidelines
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) · MIT — find-skills
 
 ## Licença
 

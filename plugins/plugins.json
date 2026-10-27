@@ -28,7 +28,8 @@
     "lgpd-skills@lgpd-skills": true,
     "agent-skills@addy-agent-skills": true,
     "andrej-karpathy-skills@karpathy-skills": true,
-    "mattpocock-skills@claude-plugins-official": true
+    "mattpocock-skills@claude-plugins-official": true,
+    "context-mode@context-mode": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -89,6 +90,12 @@
       "source": {
         "source": "github",
         "repo": "forrestchang/andrej-karpathy-skills"
+      }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
       }
     }
   }

@@ -2,6 +2,12 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-27 06:59
+
+- + skill `baseline-ui`
+- + skill `fixing-accessibility`
+- + skill `fixing-motion-performance`
+
 ## 2026-10-27 06:54
 
 - + plugin `taste-skill@taste-skill`

@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 127 skills, 29 agentes, 31 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 130 skills, 29 agentes, 31 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-27%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-127-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-31-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-27%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-130-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-31-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **127 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **130 skills**,
 **29 agentes**, **31 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (127: 124 copiadas, o resto só com link)
+## Skills (130: 127 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -322,16 +322,19 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (12)
+### Outras (novas, ainda sem área) (15)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
 | [`analytics-gratis`](skills/outras/analytics-gratis) | Coloca medição de visitas e desempenho num site de graça e sem cookie, como alternativa ao PostHog pago — Vercel Web Analytics + Speed Insights para sites na Ve | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/analytics-gratis.zip) | própria | MIT | 26/10/2026 |
 | [`anti-cara-de-ia`](skills/outras/anti-cara-de-ia) | Revisa e corrige sites e apps com "cara de feito por IA" (gradiente roxo, cards iguais em grade, hero centralizado genérico, emoji como ícone, fonte Inter em tu | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/anti-cara-de-ia.zip) | própria | MIT | 26/10/2026 |
+| [`baseline-ui`](skills/outras/baseline-ui) | Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/baseline-ui.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
 | [`clonar-app`](skills/outras/clonar-app) | Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/clonar-app.zip) | própria | MIT | 23/10/2026 |
 | [`componentes-ui`](skills/outras/componentes-ui) | Busca e instala componentes de interface prontos e grátis (botão, card de preço, hero, gráfico, formulário, bento, animações) dos catálogos shadcn/ui, Magic UI  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/componentes-ui.zip) | própria | MIT | 26/10/2026 |
 | [`dashboard-design`](skills/outras/dashboard-design) | Desenha dashboards, painéis admin e telas de relatório com cara de produto de verdade (Linear, Stripe, Plausible, Mercury) e não de template — hierarquia de KPI | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/dashboard-design.zip) | própria | MIT | 26/10/2026 |
 | [`entregar-trabalho-teams`](skills/outras/entregar-trabalho-teams) | Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/entregar-trabalho-teams.zip) | própria | MIT | 21/10/2026 |
+| [`fixing-accessibility`](skills/outras/fixing-accessibility) | Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-accessibility.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
+| [`fixing-motion-performance`](skills/outras/fixing-motion-performance) | Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-motion-performance.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
 | [`motion-sutil`](skills/outras/motion-sutil) | Coloca animação e movimento com cara de site premiado (curvas próprias, duração certa, rolagem suave, hover magnético, revelação de texto) sem exagero e sem pes | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/motion-sutil.zip) | própria | MIT | 26/10/2026 |
 | [`paleta-por-negocio`](skills/outras/paleta-por-negocio) | Escolhe a paleta de cores de um site ou app pelo tipo de negócio (pizzaria, hamburgueria, açaí, restaurante, salão, barbearia, clínica, dentista, floricultura,  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/paleta-por-negocio.zip) | própria | MIT | 26/10/2026 |
 | [`raspar-site`](skills/outras/raspar-site) | Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/raspar-site.zip) | própria | MIT | 26/10/2026 |
@@ -499,7 +502,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 127 skills, 29 agentes e 31 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 130 skills, 29 agentes e 31 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 
@@ -523,6 +526,7 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ai-seo, copywriting, cro, marketing-psychology, offers, schema, seo-audit, site-architecture, social
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT — apple-design
 - [ghostsecurity/skills](https://github.com/ghostsecurity/skills) · Apache-2.0 — ghost-repo-context, ghost-report, ghost-scan-code, ghost-validate
+- [ibelick/ui-skills](https://github.com/ibelick/ui-skills) · MIT — baseline-ui, fixing-accessibility, fixing-motion-performance
 - [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · MIT — ffmpeg-skill
 - [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) · MIT — defuddle, json-canvas, obsidian-bases, obsidian-cli, obsidian-markdown
 - [mikehasa/golive-skill](https://github.com/mikehasa/golive-skill) · MIT — golive

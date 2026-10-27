@@ -30,7 +30,12 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 | Trabalhos, relatórios, documentos | skill `doc-coauthoring` (+ `research-analyst` para pesquisa) |
 | Entregar trabalho/tarefa no Microsoft Teams | skill `entregar-trabalho-teams` (só clica em Entregar depois do ok) |
 | Fazer vídeo (Reels, TikTok, propaganda, explicativo) | skill `video-maker` (HyperFrames / Remotion) |
-| Design de site (paleta, fontes, estilo por tipo de negócio) | skill `ui-ux-pro-max` + `hallmark` |
+| Design de site (sempre, antes de construir) | skill `referencias-design` (3–5 referências → `skillui --url` → direção → construir → comparar) + `hallmark` + `ui-ux-pro-max` |
+| Cores / paleta / "que cor usar" | skill `paleta-por-negocio` (psicologia das cores + 45 paletas com contraste) |
+| Fontes / tipografia | skill `tipografia-pares` |
+| Animação / efeitos | skill `motion-sutil` (+ `apple-design`) |
+| Dashboard / painel / gráficos | skill `dashboard-design` + `dataviz` + `componentes-ui` |
+| "Tá com cara de IA" / revisão final de design | skill `anti-cara-de-ia` (detector) + `impeccable` audit/polish |
 | "O que tá acontecendo na outra conversa?" (Claude Code) | skill `session-radar` |
 | Conversas do Claude normal (claude.ai / app) | skill `claude-chats` (lê o "Exportar dados") |
 | Documentação atualizada de biblioteca | plugin `context7` |
@@ -46,7 +51,7 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 
 ## Sites que não parecem "vibe code"
 
-- Sempre carregue `hallmark` e `frontend-design` antes de escrever UI.
+- Sempre carregue `hallmark`, `frontend-design` e `referencias-design` antes de escrever UI; antes de entregar, rode `anti-cara-de-ia`.
 - Nada de gradiente roxo genérico, emojis como ícones, cards iguais em grade, "Unlock the power of…".
   Escolha uma direção visual concreta (tipografia, paleta, grid) e mantenha.
 - Textos reais e específicos do negócio — nunca lorem ipsum nem frases de marketing vazias.

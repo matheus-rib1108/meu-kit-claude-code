@@ -115,3 +115,27 @@ Para cada site: **o que pegar** e **por que não parece IA**.
 ## Comércio local
 
 (Abaixo, preenchido pela pesquisa de comércio local.)
+
+| Site | Ramo | Tipografia | Paleta | O que pegar / por que não parece IA | Nota |
+|---|---|---|---|---|---|
+| **Pizza Amici** (pizza-amici.nl, Awwwards HM 2026) | Pizzaria | salo-variable em caixa alta com tracking −.015em; Awesome Serif; manuscrita La Belle Aurore; Azeret Mono 9.6px | dough #ECE6E1 · fundo #F2EDE9 · navy #0F2C56 (texto e botão) · red #C72531 · gold #E3AF04 · green #128643 · brown #4F3C2C | A paleta vem da massa e da caixa de pizza. Três vozes tipográficas com funções claras. O hero são 5 fotos reais que o botão "Shuffle" embaralha | 10 |
+| **Sunbeam Bagels** (sunbeambagels.com, HM 2026) | Padaria/café | Belgard (serifa display) em `clamp(100px,21vw,350px)`; **corpo em mono** (forma-djr-mono) | creme #FCE9D5 · laranja #FFA344 · lilás #C3ABC6 · vermelho #F72F23 · preto | Corpo em mono é coisa que nenhum template faz. A paleta é estranha mas da marca. Os easter eggs são de brincadeira | 9 |
+| **Flora Wellness Café** (florawellnesscafe.com, HM 2026) | Café | Adobe Caslon Pro em tamanho de corpo, sem título gigante | pergaminho #F2ECD9 · texto vinho #5F1E1B · botão #CE4C46 (raio 0) | O texto nunca é preto. Ilustração feita à mão e tom pessoal | 9 |
+| **Caffè Gilli** (caffegilli.com, HM 2026) | Café/confeitaria | Cosen (serifa) com títulos revelados palavra por palavra; Greycliff | #FCFCFC · tinta #142342 · #C7D0E2 | A história real ("desde 1733") vira o título. Vídeo do próprio lugar | 8 |
+| **Qissa** (qissa.co.uk, Nominee 2026) | Restaurante | **Cormorant Garamond peso 330**, 92px, −1.84px; Manrope no corpo (as duas são grátis) | --ink #05091A · --navy #0A1230 · --gold #C9A24B · --amber #E9A85C · --blossom #E7A6C4 · --cream #F6F1E7 | Os tokens têm nome. Peso variável "quebrado". O site conta a história do nome | 9 |
+| **Restaurant GEM.** (restaurantgem.com, Nominee 2025) | Restaurante alto padrão | **Gilda Display + DM Sans** (grátis) | #151515 · superfície #1D1B19 · bronze #B58C67 · texto #FFF | Escuro quente e uma única cor de destaque. Os tokens são fáceis de copiar | 8 |
+| **Burrito Madre** (burritomadre.rs, HM 2026) | Lanchonete | Deacon display + Figtree | marrom-pimenta #5F0E00 · laranja #F83E1C · pêssego #FAE8DF · verde #053626 | Paleta de comida, texto marrom. **Feito em Elementor**: dá para fazer premiado com ferramenta comum | 8 |
+| **Deadstock Coffee** (deadstockcoffee.com, Nominee 2026) | Café jovem/hamburgueria | Display própria em 2 camadas (cheia + contorno) | amarelo #FFDB30 · quase-preto #09000E | Duas cores com atitude. Texto em gíria | 7 |
+| **Rendezvous Barbers** (myrendezvous.ca, HM 2024) | Barbearia | Serifa de livro a 88px com **−4.5px** + máquina de escrever a 11px (grátis: Newsreader + IBM Plex Mono) | #000 · #FFF · laranja #FF622B · verde-claro #C7D9A7 | Barbearia sem bigode, couro e dourado; parece revista | 9 |
+| **Il Colorista** (ilcolorista.salon, HM 2022) | Salão | **Karla peso 200** a 56px + Cormorant Garamond (tudo Google Fonts); corpo 24px | manteiga #FDEBBE · coral #F28A70 · rosa #D96772 · ardósia #2D4156 · texto #1F1F1F | O menu tipográfico é a peça principal. As cores saem do próprio cabelo colorido | 9 |
+| **LAVA Dental** (lavadental.lv, HM 2026) | Dentista | Josefin Sans + Neue Montreal; escala inteira em `clamp()`; grid de 12 colunas com subgrid | verde #031C14 · creme #DDEFDE · bronze #DBC093 · #779E91 | Dentista **sem azul e sem dente de stock** | 10 |
+| **MINEMAL Dental** (minemal.dental, HM 2024) | Estética dental | Uma fonte própria, títulos de 100 a 200px com −2 a −4px | #F6F4EF · #242424 · ocre #D9A42F · vinho #9A3E3E | Clínica com cara de estúdio | 8 |
+| **Arbor Dental** (arbordentalnyc.com, Nominee 2025) | Dentista de bairro | proxima-nova, corpo 25px | #080808 · petróleo #3A8197 · #667D90 | Endereço e telefone no primeiro bloco. Fundo escuro em clínica | 8 |
+| **Kindred Pet Care** (kindredpetcare.com, HM 2024) | Veterinária/pet | Display com caráter + Inter; tamanhos em vw | rosa #F745AB · ardósia #2C3547 · creme #F8F3EE | Foge do verde-menta + pata. Muita foto real de bicho | 9 |
+| **Coutumes** (coutumes.com, HM 2026) | Loja/acessórios | Plaak a 122px contra corpo de 12px | #000 · #FFF · âmbar #F9AF26 · areia #EDE9DF | Shopify que não parece tema. Preço no botão | 9 |
+| **Estudio Niksen** (estudioniksen.com, Nominee 2026) | Loja de roupa | Neue Montreal + Frama, −.035em | Monocromático; a cor vem das fotos | Foto de campanha de verdade, sem selo gritando | 7 |
+| **Fenriz Gym** (fenriz-gym.com, Nominee 2024) | Academia/luta | Kenyan Coffee condensada em caixa alta | carvão #1C1C1C + **uma cor pastel por modalidade** | Academia sem neon e sem "no pain no gain". O bairro está no slogan | 8 |
+| **Mocotó** (mocoto.com.br) | Restaurante (BR) | Display com maiúsculas e minúsculas misturadas, estilo letreiro/cordel | vermelho #D64F54 · amarelo #FDB913 · marrom #4D2F29 | Cultura nordestina na tipografia | 7 |
+| **Bráz Pizzaria** (familiabraz.com.br, BR) | Pizzaria (BR) | Display inline de letreiro antigo | tijolo #A6302C · creme #F1E1CF | Cor de forno e fachada. Texto afetivo em português | 7 |
+
+**Floricultura:** não há floricultura premiada no ar com qualidade. Use como base a paleta e tipografia do Flora Café e do Il Colorista, mais as paletas "Jardim", "Peônia" e "Estufa" da `paleta-por-negocio`.

@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 116 skills, 29 agentes, 26 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 116 skills, 29 agentes, 29 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-116-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-26-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-26%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-116-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-29-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
 Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **116 skills**,
-**29 agentes**, **26 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
+**29 agentes**, **29 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
@@ -356,10 +356,12 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | [`qa-expert`](agents/qa-expert.md) | Estratégia e plano de testes | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 | [`security-auditor`](agents/security-auditor.md) | Auditoria de segurança | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 
-## Plugins (26)
+## Plugins (29)
 
 | Plugin | O que faz | Área | Fonte | Licença | Entrou | Instalar |
 |---|---|---|---|---|---|---|
+| `agent-skills` |  |  | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | ver fonte | 26/10/2026 | `/plugin install agent-skills@addy-agent-skills` |
+| `andrej-karpathy-skills` |  |  | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | ver fonte | 26/10/2026 | `/plugin install andrej-karpathy-skills@karpathy-skills` |
 | `browser-use` | Usa o seu Chrome logado para tarefas em sites | navegador | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install browser-use@claude-plugins-official` |
 | `canva` | Cria e edita designs no Canva | design | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install canva@claude-plugins-official` |
 | `cc-safety-net` | Bloqueia comandos destrutivos (rm -rf, git reset --hard, push --force) e leitura de .env/chaves | segurança | [kenryu42/cc-marketplace](https://github.com/kenryu42/cc-marketplace) | MIT | 16/10/2026 | `/plugin install cc-safety-net@cc-marketplace` |
@@ -376,6 +378,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | `impeccable` |  |  | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | ver fonte | 26/10/2026 | `/plugin install impeccable@impeccable` |
 | `lgpd-skills` |  |  | [goul4rt/lgpd-skills](https://github.com/goul4rt/lgpd-skills) | ver fonte | 26/10/2026 | `/plugin install lgpd-skills@lgpd-skills` |
 | `logo-design` |  |  | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | ver fonte | 26/10/2026 | `/plugin install logo-design@logo-design-skill` |
+| `mattpocock-skills` |  |  | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 26/10/2026 | `/plugin install mattpocock-skills@claude-plugins-official` |
 | `mercadopago` | Integração oficial do Mercado Pago (Pix, cartão) | pagamentos | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install mercadopago@claude-plugins-official` |
 | `modern-web-guidance` | Boas práticas web atuais (Chrome) | sites | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install modern-web-guidance@claude-plugins-official` |
 | `ponytail` | "Dev sênior preguiçoso": reaproveita o que existe e escreve menos código | programação | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | MIT | 16/10/2026 | `/plugin install ponytail@ponytail` |
@@ -468,7 +471,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 116 skills, 29 agentes e 26 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 116 skills, 29 agentes e 29 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 

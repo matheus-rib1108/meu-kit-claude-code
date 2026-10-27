@@ -25,7 +25,10 @@
     "impeccable@impeccable": true,
     "logo-design@logo-design-skill": true,
     "diagram-design@diagram-design": true,
-    "lgpd-skills@lgpd-skills": true
+    "lgpd-skills@lgpd-skills": true,
+    "agent-skills@addy-agent-skills": true,
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "mattpocock-skills@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {

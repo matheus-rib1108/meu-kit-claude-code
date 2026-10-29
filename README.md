@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 136 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 137 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-28%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-136-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-29%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-137-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **136 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **137 skills**,
 **29 agentes**, **32 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 28/10/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 29/10/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 28/10/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 29/10/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (136: 133 copiadas, o resto só com link)
+## Skills (137: 134 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -233,7 +233,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`skill-inspector`](skills/criar-skills/skill-inspector) | Checklist de segurança antes de instalar uma skill | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/skill-inspector.zip) | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Apache-2.0 | 15/10/2026 |
 | [`writing-skills`](skills/criar-skills/writing-skills) | Como escrever e testar skills novas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/writing-skills.zip) | [obra/superpowers](https://github.com/obra/superpowers) | MIT | 15/10/2026 |
 
-### Segurança e lei (19)
+### Segurança e lei (20)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -251,6 +251,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`owasp-security`](skills/seguranca-e-lei/owasp-security) | Regras OWASP Top 10 e ASVS ao escrever e revisar código | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/owasp-security.zip) | [agamm/claude-code-owasp](https://github.com/agamm/claude-code-owasp) | MIT | 15/10/2026 |
 | [`sca-trivy`](skills/seguranca-e-lei/sca-trivy) | Acha bibliotecas com falha conhecida (Trivy) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/sca-trivy.zip) | [AgentSecOps/SecOpsAgentKit](https://github.com/AgentSecOps/SecOpsAgentKit) | CC-BY-SA-4.0 / MPL-2.0 | 15/10/2026 |
 | [`secrets-gitleaks`](skills/seguranca-e-lei/secrets-gitleaks) | Acha senhas e chaves vazadas no código (Gitleaks) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/secrets-gitleaks.zip) | [AgentSecOps/SecOpsAgentKit](https://github.com/AgentSecOps/SecOpsAgentKit) | CC-BY-SA-4.0 / MPL-2.0 | 15/10/2026 |
+| [`security-audit`](skills/seguranca-e-lei/security-audit) | Auditoria de segurança da Cloudflare: agentes procuram falhas e outro agente tenta provar que não existem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/security-audit.zip) | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | MIT | 29/10/2026 |
 | [`semgrep`](skills/seguranca-e-lei/semgrep) | Roda o Semgrep (scanner de vulnerabilidades) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/semgrep.zip) | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | 15/10/2026 |
 | [`sharp-edges`](skills/seguranca-e-lei/sharp-edges) | Acha funções e configurações perigosas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/sharp-edges.zip) | [trailofbits/skills](https://github.com/trailofbits/skills) | CC-BY-SA-4.0 | 15/10/2026 |
 | [`site-fortress`](skills/seguranca-e-lei/site-fortress) | Auditoria de segurança completa do seu próprio site em 12 fases: segredos, dependências, login, pagamentos, cabeçalhos, LGPD. Corrige e prova cada correção. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/site-fortress.zip) | própria | MIT | 15/10/2026 |
@@ -509,7 +510,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 136 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 137 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 
@@ -530,6 +531,7 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [anthropics/skills](https://github.com/anthropics/skills) · Apache-2.0 — canvas-design, frontend-design, mcp-builder, skill-creator, theme-factory, web-artifacts-builder, webapp-testing
 - [anthropics/skills](https://github.com/anthropics/skills) · sem licença no original — doc-coauthoring
 - [blader/humanizer](https://github.com/blader/humanizer) · MIT — humanizer
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · MIT — security-audit
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ads, ai-seo, copywriting, cro, marketing-psychology, offers, schema, seo-audit, site-architecture, social
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT — apple-design, emil-design-eng, improve-animations
 - [ghostsecurity/skills](https://github.com/ghostsecurity/skills) · Apache-2.0 — ghost-repo-context, ghost-report, ghost-scan-code, ghost-validate

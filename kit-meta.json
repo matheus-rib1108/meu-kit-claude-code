@@ -1725,7 +1725,8 @@
    "oil-ui": "2026-10-27",
    "ads": "2026-10-28",
    "emil-design-eng": "2026-10-28",
-   "improve-animations": "2026-10-28"
+   "improve-animations": "2026-10-28",
+   "security-audit": "2026-10-29"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1921,6 +1922,7 @@
    "schema": "7067e2aa03ce",
    "search-first": "a388f852ddba",
    "secrets-gitleaks": "5afd6aa06253",
+   "security-audit": "f203f8e4df98",
    "semgrep": "91e09c7f51a0",
    "seo-audit": "0056976ad47d",
    "session-radar": "01c10243f6d8",

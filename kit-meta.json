@@ -1244,6 +1244,41 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects."
+  },
+  "estilos-design": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Catálogo de 67 estilos visuais prontos (brutalism, neobrutalism, editorial, minimal, bento, glassmorphism, claymorphism, retro, vintage, riso, terracotta, premi"
+  },
+  "huashu-design": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不"
+  },
+  "oil-ui": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "设计、改进和评审网站、App、后台与组件的界面：探索设计方向、生成多风格同屏对比页，并基于真实截图打磨视觉层级；按请求交付对比页、设计说明、设计稿或可运行界面。只负责设计判断，不用于纯业务逻辑、接口构建、无界面变化的代码整理，或改法已完全明确的日常修改（如改文案、调数量、删指定元素、复用现有样式，哪怕带有“优化”字样）"
+  },
+  "emil-design-eng": {
+   "fonte": "emilkowalski/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great."
+  },
+  "improve-animations": {
+   "fonte": "emilkowalski/skills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other age"
   }
  },
  "agentes": {
@@ -1684,7 +1719,13 @@
    "tipografia-pares": "2026-10-26",
    "baseline-ui": "2026-10-27",
    "fixing-accessibility": "2026-10-27",
-   "fixing-motion-performance": "2026-10-27"
+   "fixing-motion-performance": "2026-10-27",
+   "estilos-design": "2026-10-27",
+   "huashu-design": "2026-10-27",
+   "oil-ui": "2026-10-27",
+   "ads": "2026-10-28",
+   "emil-design-eng": "2026-10-28",
+   "improve-animations": "2026-10-28"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1749,7 +1790,8 @@
    "andrej-karpathy-skills@karpathy-skills": "2026-10-26",
    "mattpocock-skills@claude-plugins-official": "2026-10-26",
    "context-mode@context-mode": "2026-10-26",
-   "taste-skill@taste-skill": "2026-10-27"
+   "taste-skill@taste-skill": "2026-10-27",
+   "ui-craft@ui-craft": "2026-10-27"
   },
   "mcp": {
    "playwright": "2026-10-15",
@@ -1781,6 +1823,7 @@
  "inventario": {
   "skills": {
    "abordagem-whatsapp-vendas": "cb055118091f",
+   "ads": "2a48b656e872",
    "agent-builder": "db9a3365e6e1",
    "ai-seo": "8faec5943e4f",
    "analytics-gratis": "411167e6181b",
@@ -1812,7 +1855,9 @@
    "differential-review": "d8832fd90e70",
    "dispatching-parallel-agents": "13c0edd319f6",
    "doc-coauthoring": "3696999084eb",
+   "emil-design-eng": "d566d990564b",
    "entregar-trabalho-teams": "4ed73d6e812e",
+   "estilos-design": "bec14039ac13",
    "executing-plans": "4494a136cef9",
    "ffmpeg-skill": "d95e061eaed7",
    "financas-pessoais": "a2f28d3c08d7",
@@ -1831,8 +1876,10 @@
    "golive": "236545f74500",
    "graphify": "4f53f6bc676c",
    "hallmark": "e7a8c289ed2b",
+   "huashu-design": "f9c2ee43e6f7",
    "humanizar-texto-pt": "ced1d4a5cd1f",
    "humanizer": "32c2677f403e",
+   "improve-animations": "4c9a693f93d4",
    "investigate-first": "7990cab39f9c",
    "json-canvas": "73e093204e75",
    "kit-sync": "e03741826657",
@@ -1852,6 +1899,7 @@
    "obsidian-cli": "c5a5c4017774",
    "obsidian-markdown": "372a1473c929",
    "offers": "82ed63b826c6",
+   "oil-ui": "231ac027a5a1",
    "orcamento-servicos": "097b983698ef",
    "organizador-de-estudos": "6549ca1daad2",
    "owasp-security": "c3930435669b",
@@ -1974,7 +2022,8 @@
    "andrej-karpathy-skills@karpathy-skills": "ligado",
    "mattpocock-skills@claude-plugins-official": "ligado",
    "context-mode@context-mode": "ligado",
-   "taste-skill@taste-skill": "ligado"
+   "taste-skill@taste-skill": "ligado",
+   "ui-craft@ui-craft": "ligado"
   },
   "mcp": {
    "playwright": "{\"args\": [\".claude/bin/playwright-mcp.sh\"], \"command\": \"sh\"}",

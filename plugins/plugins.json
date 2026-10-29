@@ -30,7 +30,8 @@
     "andrej-karpathy-skills@karpathy-skills": true,
     "mattpocock-skills@claude-plugins-official": true,
     "context-mode@context-mode": true,
-    "taste-skill@taste-skill": true
+    "taste-skill@taste-skill": true,
+    "ui-craft@ui-craft": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -103,6 +104,12 @@
       "source": {
         "source": "github",
         "repo": "Leonxlnx/taste-skill"
+      }
+    },
+    "ui-craft": {
+      "source": {
+        "source": "github",
+        "repo": "educlopez/ui-craft"
       }
     }
   }

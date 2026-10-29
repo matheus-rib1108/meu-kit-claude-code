@@ -2,6 +2,19 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-10-28 15:16
+
+- + skill `ads`
+- + skill `emil-design-eng`
+- + skill `improve-animations`
+
+## 2026-10-27 07:21
+
+- + skill `estilos-design`
+- + skill `huashu-design`
+- + skill `oil-ui`
+- + plugin `ui-craft@ui-craft`
+
 ## 2026-10-27 06:59
 
 - + skill `baseline-ui`

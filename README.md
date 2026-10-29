@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 130 skills, 29 agentes, 31 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 136 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-27%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-130-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-31-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-28%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-136-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **130 skills**,
-**29 agentes**, **31 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **136 skills**,
+**29 agentes**, **32 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
 
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 27/10/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 28/10/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 27/10/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 28/10/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (130: 127 copiadas, o resto só com link)
+## Skills (136: 133 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -172,11 +172,12 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`web-design-guidelines`](skills/sites-e-design/web-design-guidelines) | Regras de design de interface da equipe da Vercel | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/web-design-guidelines.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`webapp-testing`](skills/sites-e-design/webapp-testing) | Testa o site num navegador de verdade (Playwright) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/webapp-testing.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
 
-### Marketing, textos e vendas (15)
+### Marketing, textos e vendas (16)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
 | [`abordagem-whatsapp-vendas`](skills/marketing-e-vendas/abordagem-whatsapp-vendas) | Escreve a primeira mensagem de venda, o acompanhamento e as respostas para objeções, sem cara de spam. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/abordagem-whatsapp-vendas.zip) | própria | MIT | 15/10/2026 |
+| [`ads`](skills/marketing-e-vendas/ads) | Campanhas pagas no Meta (Instagram/Facebook), Google e outras: estrutura, público, orçamento e métricas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ads.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 28/10/2026 |
 | [`ai-seo`](skills/marketing-e-vendas/ai-seo) | Aparecer e ser citado em buscas de IA (ChatGPT, Perplexity, AI Overviews) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ai-seo.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`cardapio-digital`](skills/marketing-e-vendas/cardapio-digital) | Cria cardápio digital leve com pedido pelo WhatsApp, horário aberto/fechado e QR code de mesa, para publicar de graça. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/cardapio-digital.zip) | própria | MIT | 15/10/2026 |
 | [`copywriting`](skills/marketing-e-vendas/copywriting) | Textos de site que vendem, sem frases genéricas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/copywriting.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
@@ -322,7 +323,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (15)
+### Outras (novas, ainda sem área) (20)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -332,10 +333,15 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`clonar-app`](skills/outras/clonar-app) | Recria um site, app ou IA a partir de um link, print ou vídeo — estrutura, layout, funcionalidades e comportamento — em código próprio (Next.js/HTML), com texto | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/clonar-app.zip) | própria | MIT | 23/10/2026 |
 | [`componentes-ui`](skills/outras/componentes-ui) | Busca e instala componentes de interface prontos e grátis (botão, card de preço, hero, gráfico, formulário, bento, animações) dos catálogos shadcn/ui, Magic UI  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/componentes-ui.zip) | própria | MIT | 26/10/2026 |
 | [`dashboard-design`](skills/outras/dashboard-design) | Desenha dashboards, painéis admin e telas de relatório com cara de produto de verdade (Linear, Stripe, Plausible, Mercury) e não de template — hierarquia de KPI | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/dashboard-design.zip) | própria | MIT | 26/10/2026 |
+| [`emil-design-eng`](skills/outras/emil-design-eng) | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/emil-design-eng.zip) | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 28/10/2026 |
 | [`entregar-trabalho-teams`](skills/outras/entregar-trabalho-teams) | Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/entregar-trabalho-teams.zip) | própria | MIT | 21/10/2026 |
+| [`estilos-design`](skills/outras/estilos-design) | Catálogo de 67 estilos visuais prontos (brutalism, neobrutalism, editorial, minimal, bento, glassmorphism, claymorphism, retro, vintage, riso, terracotta, premi | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/estilos-design.zip) | própria | MIT | 27/10/2026 |
 | [`fixing-accessibility`](skills/outras/fixing-accessibility) | Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-accessibility.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
 | [`fixing-motion-performance`](skills/outras/fixing-motion-performance) | Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-motion-performance.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
+| [`huashu-design`](skills/outras/huashu-design) | 花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不 | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/huashu-design.zip) | própria | MIT | 27/10/2026 |
+| [`improve-animations`](skills/outras/improve-animations) | Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other age | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/improve-animations.zip) | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 28/10/2026 |
 | [`motion-sutil`](skills/outras/motion-sutil) | Coloca animação e movimento com cara de site premiado (curvas próprias, duração certa, rolagem suave, hover magnético, revelação de texto) sem exagero e sem pes | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/motion-sutil.zip) | própria | MIT | 26/10/2026 |
+| [`oil-ui`](skills/outras/oil-ui) | 设计、改进和评审网站、App、后台与组件的界面：探索设计方向、生成多风格同屏对比页，并基于真实截图打磨视觉层级；按请求交付对比页、设计说明、设计稿或可运行界面。只负责设计判断，不用于纯业务逻辑、接口构建、无界面变化的代码整理，或改法已完全明确的日常修改（如改文案、调数量、删指定元素、复用现有样式，哪怕带有“优化”字样） | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/oil-ui.zip) | própria | MIT | 27/10/2026 |
 | [`paleta-por-negocio`](skills/outras/paleta-por-negocio) | Escolhe a paleta de cores de um site ou app pelo tipo de negócio (pizzaria, hamburgueria, açaí, restaurante, salão, barbearia, clínica, dentista, floricultura,  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/paleta-por-negocio.zip) | própria | MIT | 26/10/2026 |
 | [`raspar-site`](skills/outras/raspar-site) | Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/raspar-site.zip) | própria | MIT | 26/10/2026 |
 | [`referencias-design`](skills/outras/referencias-design) | Biblioteca de referências de design reais (sites premiados no Awwwards, Godly, Siteinspire, Land-book, Lapa Ninja e outros, mais de 500 sites) organizada por ca | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/referencias-design.zip) | própria | MIT | 26/10/2026 |
@@ -384,7 +390,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | [`qa-expert`](agents/qa-expert.md) | Estratégia e plano de testes | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 | [`security-auditor`](agents/security-auditor.md) | Auditoria de segurança | qualidade-e-seguranca | [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | MIT | 15/10/2026 |
 
-## Plugins (31)
+## Plugins (32)
 
 | Plugin | O que faz | Área | Fonte | Licença | Entrou | Instalar |
 |---|---|---|---|---|---|---|
@@ -419,6 +425,7 @@ Ficam em [`agents/`](agents) e vão para `~/.claude/agents`. Fonte: [VoltAgent/a
 | `taste-skill` |  |  | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | ver fonte | 27/10/2026 | `/plugin install taste-skill@taste-skill` |
 | `telegram` | Conversa com o Claude Code pelo Telegram (desligado) | produtividade | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install telegram@claude-plugins-official` |
 | `typescript-lsp` | Entende TypeScript de verdade | programação | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | ver fonte | 15/10/2026 | `/plugin install typescript-lsp@claude-plugins-official` |
+| `ui-craft` |  |  | [educlopez/ui-craft](https://github.com/educlopez/ui-craft) | ver fonte | 27/10/2026 | `/plugin install ui-craft@ui-craft` |
 
 ## Conectores MCP (5, [`mcp/.mcp.json`](mcp/.mcp.json))
 
@@ -502,7 +509,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 130 skills, 29 agentes e 31 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 136 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 
@@ -523,8 +530,8 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [anthropics/skills](https://github.com/anthropics/skills) · Apache-2.0 — canvas-design, frontend-design, mcp-builder, skill-creator, theme-factory, web-artifacts-builder, webapp-testing
 - [anthropics/skills](https://github.com/anthropics/skills) · sem licença no original — doc-coauthoring
 - [blader/humanizer](https://github.com/blader/humanizer) · MIT — humanizer
-- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ai-seo, copywriting, cro, marketing-psychology, offers, schema, seo-audit, site-architecture, social
-- [emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT — apple-design
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ads, ai-seo, copywriting, cro, marketing-psychology, offers, schema, seo-audit, site-architecture, social
+- [emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT — apple-design, emil-design-eng, improve-animations
 - [ghostsecurity/skills](https://github.com/ghostsecurity/skills) · Apache-2.0 — ghost-repo-context, ghost-report, ghost-scan-code, ghost-validate
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills) · MIT — baseline-ui, fixing-accessibility, fixing-motion-performance
 - [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) · MIT — ffmpeg-skill

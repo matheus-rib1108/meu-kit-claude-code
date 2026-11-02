@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 138 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 159 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-02%2F11%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-138-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-02%2F11%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-159-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **138 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **159 skills**,
 **29 agentes**, **32 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (138: 135 copiadas, o resto só com link)
+## Skills (159: 156 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -172,7 +172,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`web-design-guidelines`](skills/sites-e-design/web-design-guidelines) | Regras de design de interface da equipe da Vercel | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/web-design-guidelines.zip) | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | MIT | 15/10/2026 |
 | [`webapp-testing`](skills/sites-e-design/webapp-testing) | Testa o site num navegador de verdade (Playwright) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/webapp-testing.zip) | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | 15/10/2026 |
 
-### Marketing, textos e vendas (16)
+### Marketing, textos e vendas (36)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -180,15 +180,35 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`ads`](skills/marketing-e-vendas/ads) | Campanhas pagas no Meta (Instagram/Facebook), Google e outras: estrutura, público, orçamento e métricas. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ads.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 28/10/2026 |
 | [`ai-seo`](skills/marketing-e-vendas/ai-seo) | Aparecer e ser citado em buscas de IA (ChatGPT, Perplexity, AI Overviews) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ai-seo.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`cardapio-digital`](skills/marketing-e-vendas/cardapio-digital) | Cria cardápio digital leve com pedido pelo WhatsApp, horário aberto/fechado e QR code de mesa, para publicar de graça. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/cardapio-digital.zip) | própria | MIT | 15/10/2026 |
+| [`cold-email`](skills/marketing-e-vendas/cold-email) | Mensagem fria de prospecção, follow-ups e respostas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/cold-email.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
+| [`content-strategy`](skills/marketing-e-vendas/content-strategy) | Plano de conteúdo: o que criar, pilares e calendário | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/content-strategy.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
+| [`copy-editing`](skills/marketing-e-vendas/copy-editing) | Revisa e melhora textos de marketing existentes, sem cara de IA | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/copy-editing.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
 | [`copywriting`](skills/marketing-e-vendas/copywriting) | Textos de site que vendem, sem frases genéricas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/copywriting.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`cro`](skills/marketing-e-vendas/cro) | Aumenta a conversão de páginas e formulários | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/cro.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`humanizar-texto-pt`](skills/marketing-e-vendas/humanizar-texto-pt) | Tira a "cara de IA" de textos em português, mantendo o sentido e a sua voz. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/humanizar-texto-pt.zip) | própria | MIT | 15/10/2026 |
 | [`humanizer`](skills/marketing-e-vendas/humanizer) | Tira a "cara de IA" de textos em inglês | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/humanizer.zip) | [blader/humanizer](https://github.com/blader/humanizer) | MIT | 15/10/2026 |
+| [`ig-audit`](skills/marketing-e-vendas/ig-audit) | Lê os resultados dos posts e diz o que funcionou e o que parar | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-audit.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-caption`](skills/marketing-e-vendas/ig-caption) | Legenda de Instagram que sobrevive ao "... mais", com 3 hashtags e revisão | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-caption.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-carousel`](skills/marketing-e-vendas/ig-carousel) | Carrossel slide a slide com capa que faz deslizar (1080x1350) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-carousel.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-comment`](skills/marketing-e-vendas/ig-comment) | Comentários em posts dos outros com cara de pessoa, não de robô | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-comment.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-dm`](skills/marketing-e-vendas/ig-dm) | Mensagens de DM: entrega da palavra-chave, primeiro contato, follow-up | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-dm.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-human`](skills/marketing-e-vendas/ig-human) | Tira a cara de IA do texto (travessões, palavras de robô) com nota de 5 testes | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-human.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-plan`](skills/marketing-e-vendas/ig-plan) | Planeja a semana do Instagram: o que postar, formato e horário | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-plan.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-profile`](skills/marketing-e-vendas/ig-profile) | Nota 0-100 do perfil e reescrita da bio, destaques e fixados | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-profile.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-reel`](skills/marketing-e-vendas/ig-reel) | Roteiro de Reels com 26 fórmulas de gancho, nota do gancho e cronograma de cenas | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-reel.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-reply`](skills/marketing-e-vendas/ig-reply) | Respostas aos comentários dos seus posts, separando leads e críticos | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-reply.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-repurpose`](skills/marketing-e-vendas/ig-repurpose) | Transforma vídeo longo, live ou podcast em uma semana de Reels e carrosséis | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-repurpose.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-story`](skills/marketing-e-vendas/ig-story) | Sequência de Stories do dia com figurinhas e chamada para a DM | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-story.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
+| [`ig-viral`](skills/marketing-e-vendas/ig-viral) | Acha os Reels que estão bombando no nicho e monta um arquivo de ganchos | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/ig-viral.zip) | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | MIT | 02/11/2026 |
 | [`legenda-instagram-negocio`](skills/marketing-e-vendas/legenda-instagram-negocio) | Legendas, ideias de post, roteiro de Reels e calendário do mês para o Instagram de um negócio local, com a voz do dono. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/legenda-instagram-negocio.zip) | própria | MIT | 15/10/2026 |
+| [`marketing-council`](skills/marketing-e-vendas/marketing-council) | Conselho simulado (Hormozi, Seth Godin, Ogilvy...) debate sua dúvida de marketing | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/marketing-council.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
+| [`marketing-ideas`](skills/marketing-e-vendas/marketing-ideas) | Ideias de marketing quando você não sabe o que fazer | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/marketing-ideas.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
 | [`marketing-psychology`](skills/marketing-e-vendas/marketing-psychology) | Psicologia aplicada ao marketing | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/marketing-psychology.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`offers`](skills/marketing-e-vendas/offers) | Monta a oferta: pacote, bônus, garantia, urgência | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/offers.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`orcamento-servicos`](skills/marketing-e-vendas/orcamento-servicos) | Calcula quanto cobrar por site, cardápio, Instagram ou vídeo e monta proposta com 3 pacotes e contrato simples. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/orcamento-servicos.zip) | própria | MIT | 15/10/2026 |
+| [`product-marketing`](skills/marketing-e-vendas/product-marketing) | Documento-base do negócio (público, posicionamento, voz) que as outras skills usam | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/product-marketing.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
 | [`prospeccao-local-br`](skills/marketing-e-vendas/prospeccao-local-br) | Acha negócios da sua cidade que precisam do seu serviço (site, cardápio, Instagram), dá nota de oportunidade e escreve a mensagem de abordagem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/prospeccao-local-br.zip) | própria | MIT | 15/10/2026 |
+| [`prospecting`](skills/marketing-e-vendas/prospecting) | Monta lista de clientes em potencial, inclusive negócios locais | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/prospecting.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
 | [`schema`](skills/marketing-e-vendas/schema) | Dados estruturados (schema.org) para o Google | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/schema.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`seo-audit`](skills/marketing-e-vendas/seo-audit) | Auditoria de SEO técnico e de conteúdo | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/seo-audit.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
 | [`social`](skills/marketing-e-vendas/social) | Conteúdo e estratégia para redes sociais | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/social.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 15/10/2026 |
@@ -290,7 +310,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`pc-control`](skills/produtividade-e-pc/pc-control) | Faz o Claude mexer no seu computador e no Chrome logado: abrir programas, usar sites, criar contas com o mínimo de esforço seu. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/pc-control.zip) | própria | MIT | 15/10/2026 |
 | [`session-radar`](skills/produtividade-e-pc/session-radar) | Mostra o que está acontecendo nas suas outras conversas do Claude Code (nuvem ou computador), resume e diz o que falta. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/session-radar.zip) | própria | MIT | 15/10/2026 |
 
-### Vídeo, foto, redes e música (7)
+### Vídeo, foto, redes e música (8)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -299,6 +319,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`musica-ia`](skills/video-foto-e-musica/musica-ia) | Letra e prompt de estilo para Suno/Udio | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/musica-ia.zip) | própria | MIT | 15/10/2026 |
 | [`photo-editor`](skills/video-foto-e-musica/photo-editor) | Melhora fotos no seu computador: luz, cor, nitidez, ampliação com IA, remoção de fundo e recorte para Instagram ou site. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/photo-editor.zip) | própria | MIT | 15/10/2026 |
 | [`roteiro-reels-br`](skills/video-foto-e-musica/roteiro-reels-br) | Roteiro de Reels/TikTok/Shorts para negócio local | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/roteiro-reels-br.zip) | própria | MIT | 15/10/2026 |
+| [`video`](skills/video-foto-e-musica/video) | Produção de vídeo com IA ou código (Remotion, HyperFrames, avatares) | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/video.zip) | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | MIT | 02/11/2026 |
 | [`video-link`](skills/video-foto-e-musica/video-link) | Você manda o link (Instagram, TikTok, YouTube) e o Claude "assiste": baixa, transcreve a fala e tira quadros da imagem. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/video-link.zip) | própria | MIT | 15/10/2026 |
 | [`video-maker`](skills/video-foto-e-musica/video-maker) | Faz vídeos .mp4 de verdade: Reels, TikTok, propaganda, explicativo com narração e legenda, slideshow de fotos. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/video-maker.zip) | própria | MIT | 15/10/2026 |
 
@@ -511,7 +532,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 138 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 159 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 
@@ -522,6 +543,7 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [AgentSecOps/SecOpsAgentKit](https://github.com/AgentSecOps/SecOpsAgentKit) · CC-BY-SA-4.0 / MPL-2.0 — dast-nuclei, dast-zap, sca-trivy, secrets-gitleaks
 - [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) · MIT — cybersecurity
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) · Apache-2.0 — graphify
+- [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) · MIT — ig-audit, ig-caption, ig-carousel, ig-comment, ig-dm, ig-human, ig-plan, ig-profile, ig-reel, ig-reply, ig-repurpose, ig-story, ig-viral
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) · Apache-2.0 — caveman, caveman-compress, investigate-first, surgical-patch, verify-and-stop
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) · MIT — sympy
 - [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) · Apache-2.0 — skill-inspector
@@ -533,7 +555,7 @@ Obrigado a quem escreveu e liberou essas skills e agentes:
 - [anthropics/skills](https://github.com/anthropics/skills) · sem licença no original — doc-coauthoring
 - [blader/humanizer](https://github.com/blader/humanizer) · MIT — humanizer
 - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) · MIT — security-audit
-- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ads, ai-seo, copywriting, cro, marketing-psychology, offers, schema, seo-audit, site-architecture, social
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · MIT — ads, ai-seo, cold-email, content-strategy, copy-editing, copywriting, cro, marketing-council, marketing-ideas, marketing-psychology, offers, product-marketing, prospecting, schema, seo-audit, site-architecture, social, video
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT — apple-design, emil-design-eng, improve-animations
 - [ghostsecurity/skills](https://github.com/ghostsecurity/skills) · Apache-2.0 — ghost-repo-context, ghost-report, ghost-scan-code, ghost-validate
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills) · MIT — baseline-ui, fixing-accessibility, fixing-motion-performance

@@ -2,6 +2,55 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-11-02 13:59
+
+- ~ skill `cold-email`
+- ~ skill `content-strategy`
+- ~ skill `copy-editing`
+- ~ skill `ig-audit`
+- ~ skill `ig-caption`
+- ~ skill `ig-carousel`
+- ~ skill `ig-comment`
+- ~ skill `ig-dm`
+- ~ skill `ig-human`
+- ~ skill `ig-plan`
+- ~ skill `ig-profile`
+- ~ skill `ig-reel`
+- ~ skill `ig-reply`
+- ~ skill `ig-repurpose`
+- ~ skill `ig-story`
+- ~ skill `ig-viral`
+- ~ skill `marketing-council`
+- ~ skill `marketing-ideas`
+- ~ skill `product-marketing`
+- ~ skill `prospecting`
+- ~ skill `video`
+
+## 2026-11-02 13:58
+
+- + skill `cold-email`
+- + skill `content-strategy`
+- + skill `copy-editing`
+- + skill `ig-audit`
+- + skill `ig-caption`
+- + skill `ig-carousel`
+- + skill `ig-comment`
+- + skill `ig-dm`
+- + skill `ig-human`
+- + skill `ig-plan`
+- + skill `ig-profile`
+- + skill `ig-reel`
+- + skill `ig-reply`
+- + skill `ig-repurpose`
+- + skill `ig-story`
+- + skill `ig-viral`
+- + skill `marketing-council`
+- + skill `marketing-ideas`
+- + skill `product-marketing`
+- + skill `prospecting`
+- + skill `video`
+- ~ skill `playbook-que-prende`
+
 ## 2026-11-02 02:44
 
 - ~ skill `playbook-que-prende`

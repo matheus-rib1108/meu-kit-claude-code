@@ -984,7 +984,7 @@
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Monta o documento base do produto (público, dores, diferenciais) que as outras skills de marketing usam."
+   "descricao": "Documento-base do negócio (público, posicionamento, voz) que as outras skills usam"
   },
   "ads": {
    "area": "marketing-e-vendas",
@@ -1005,7 +1005,7 @@
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Decide o que postar e sobre quais temas, com um plano de conteúdo."
+   "descricao": "Plano de conteúdo: o que criar, pilares e calendário"
   },
   "emails": {
    "area": "marketing-e-vendas",
@@ -1019,14 +1019,14 @@
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Primeiro contato com quem não te conhece, acompanhamentos e respostas."
+   "descricao": "Mensagem fria de prospecção, follow-ups e respostas"
   },
   "copy-editing": {
    "area": "marketing-e-vendas",
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Revisa e melhora textos de venda que já existem."
+   "descricao": "Revisa e melhora textos de marketing existentes, sem cara de IA"
   },
   "launch": {
    "area": "marketing-e-vendas",
@@ -1047,7 +1047,7 @@
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Banco de ideias de marketing e crescimento para escolher e aplicar."
+   "descricao": "Ideias de marketing quando você não sabe o que fazer"
   },
   "marketing-plan": {
    "area": "marketing-e-vendas",
@@ -1089,7 +1089,7 @@
    "fonte": "coreyhaines31/marketingskills",
    "licenca": "MIT",
    "modo": "copia",
-   "descricao": "Encontra e qualifica possíveis clientes, inclusive negócios locais."
+   "descricao": "Monta lista de clientes em potencial, inclusive negócios locais"
   },
   "supabase": {
    "area": "publicar-e-banco",
@@ -1286,6 +1286,111 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Livro de regras vivo do que faz um vídeo ou site PRENDER a atenção (gancho nos primeiros segundos, retenção, cores, layout, CTA), aprendido todo dia com vídeos "
+  },
+  "ig-reel": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Roteiro de Reels com 26 fórmulas de gancho, nota do gancho e cronograma de cenas"
+  },
+  "ig-caption": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Legenda de Instagram que sobrevive ao \"... mais\", com 3 hashtags e revisão"
+  },
+  "ig-carousel": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Carrossel slide a slide com capa que faz deslizar (1080x1350)"
+  },
+  "ig-story": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Sequência de Stories do dia com figurinhas e chamada para a DM"
+  },
+  "ig-plan": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Planeja a semana do Instagram: o que postar, formato e horário"
+  },
+  "ig-profile": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Nota 0-100 do perfil e reescrita da bio, destaques e fixados"
+  },
+  "ig-viral": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Acha os Reels que estão bombando no nicho e monta um arquivo de ganchos"
+  },
+  "ig-audit": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Lê os resultados dos posts e diz o que funcionou e o que parar"
+  },
+  "ig-comment": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Comentários em posts dos outros com cara de pessoa, não de robô"
+  },
+  "ig-reply": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Respostas aos comentários dos seus posts, separando leads e críticos"
+  },
+  "ig-dm": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Mensagens de DM: entrega da palavra-chave, primeiro contato, follow-up"
+  },
+  "ig-repurpose": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Transforma vídeo longo, live ou podcast em uma semana de Reels e carrosséis"
+  },
+  "ig-human": {
+   "area": "marketing-e-vendas",
+   "fonte": "Jakeschincariol/instagram-agent-skill",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Tira a cara de IA do texto (travessões, palavras de robô) com nota de 5 testes"
+  },
+  "marketing-council": {
+   "area": "marketing-e-vendas",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Conselho simulado (Hormozi, Seth Godin, Ogilvy...) debate sua dúvida de marketing"
+  },
+  "video": {
+   "area": "video-foto-e-musica",
+   "fonte": "coreyhaines31/marketingskills",
+   "licenca": "MIT",
+   "modo": "copia",
+   "descricao": "Produção de vídeo com IA ou código (Remotion, HyperFrames, avatares)"
   }
  },
  "agentes": {
@@ -1734,7 +1839,28 @@
    "emil-design-eng": "2026-10-28",
    "improve-animations": "2026-10-28",
    "security-audit": "2026-10-29",
-   "playbook-que-prende": "2026-11-02"
+   "playbook-que-prende": "2026-11-02",
+   "cold-email": "2026-11-02",
+   "content-strategy": "2026-11-02",
+   "copy-editing": "2026-11-02",
+   "ig-audit": "2026-11-02",
+   "ig-caption": "2026-11-02",
+   "ig-carousel": "2026-11-02",
+   "ig-comment": "2026-11-02",
+   "ig-dm": "2026-11-02",
+   "ig-human": "2026-11-02",
+   "ig-plan": "2026-11-02",
+   "ig-profile": "2026-11-02",
+   "ig-reel": "2026-11-02",
+   "ig-reply": "2026-11-02",
+   "ig-repurpose": "2026-11-02",
+   "ig-story": "2026-11-02",
+   "ig-viral": "2026-11-02",
+   "marketing-council": "2026-11-02",
+   "marketing-ideas": "2026-11-02",
+   "product-marketing": "2026-11-02",
+   "prospecting": "2026-11-02",
+   "video": "2026-11-02"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1848,8 +1974,11 @@
    "caveman-compress": "49546aff5a63",
    "claude-chats": "e7d78eb5d53f",
    "clonar-app": "c05a7563dd42",
+   "cold-email": "4055c0093e6c",
    "comparador-produtos-br": "ae254b28bf6d",
    "componentes-ui": "b59e0ff9f953",
+   "content-strategy": "caed670516d3",
+   "copy-editing": "026acc42e9de",
    "copywriting": "cdce69d6e192",
    "cost-estimator": "a0217fc03675",
    "cro": "f5a60f5fec0c",
@@ -1888,6 +2017,19 @@
    "huashu-design": "f9c2ee43e6f7",
    "humanizar-texto-pt": "ced1d4a5cd1f",
    "humanizer": "32c2677f403e",
+   "ig-audit": "e85eaf273951",
+   "ig-caption": "47649a4fbff2",
+   "ig-carousel": "29b380e12914",
+   "ig-comment": "88579376aec6",
+   "ig-dm": "ba2d90551154",
+   "ig-human": "b74c78b91514",
+   "ig-plan": "b0094b1a658c",
+   "ig-profile": "7ca6a29d5796",
+   "ig-reel": "1ea4b084e6eb",
+   "ig-reply": "af9b98d749ce",
+   "ig-repurpose": "c825b34b1274",
+   "ig-story": "701d405c7233",
+   "ig-viral": "fc227e4a86eb",
    "improve-animations": "4c9a693f93d4",
    "investigate-first": "7990cab39f9c",
    "json-canvas": "73e093204e75",
@@ -1895,6 +2037,8 @@
    "kit-sync-conta": "2f2ef30d438f",
    "legal-compliance": "fe5295f7d219",
    "legenda-instagram-negocio": "e281ff29a64f",
+   "marketing-council": "105c897400b8",
+   "marketing-ideas": "357b082b2f00",
    "marketing-psychology": "ff1d1d141a2c",
    "matematica-passo-a-passo": "1e707d6d0394",
    "mcp-builder": "faafd51014e3",
@@ -1916,9 +2060,11 @@
    "pc-control": "9549fd8537b1",
    "photo-editor": "38c0ee62ca87",
    "planning-with-files": "cbee1d0b29d7",
-   "playbook-que-prende": "0cf122356e79",
+   "playbook-que-prende": "96499a1074fd",
+   "product-marketing": "fef3b305c9e2",
    "projeto-senai-desafio": "b3557f91a720",
    "prospeccao-local-br": "c0373d9dddea",
+   "prospecting": "f57ae4d58ae3",
    "publicar-skills-github": "dd46975f985c",
    "raspar-site": "71bf4557c56a",
    "receiving-code-review": "cfe736aa2068",
@@ -1962,6 +2108,7 @@
    "vercel-react-best-practices": "13fe990efc49",
    "verification-before-completion": "1ce80d062841",
    "verify-and-stop": "0ac633b066ec",
+   "video": "5694dbee2c3e",
    "video-link": "b58cf3aa9fbf",
    "video-maker": "968b4a93c3e7",
    "web-artifacts-builder": "b4f4f18e76b2",

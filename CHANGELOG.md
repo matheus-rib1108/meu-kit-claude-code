@@ -2,6 +2,10 @@
 
 Tudo o que entrou (**+**), mudou (**~**) ou saiu (**−**) do kit, em cada atualização. Gerado sozinho pelo `sync-kit.ps1`.
 
+## 2026-11-02 00:51
+
+- + skill `playbook-que-prende`
+
 ## 2026-10-29 06:11
 
 - + skill `security-audit`

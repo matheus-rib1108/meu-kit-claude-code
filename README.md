@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 137 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 138 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-29%2F10%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-137-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-02%2F11%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-138-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **137 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **138 skills**,
 **29 agentes**, **32 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 29/10/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 02/11/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 29/10/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 02/11/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (137: 134 copiadas, o resto só com link)
+## Skills (138: 135 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -324,7 +324,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (20)
+### Outras (novas, ainda sem área) (21)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -344,6 +344,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`motion-sutil`](skills/outras/motion-sutil) | Coloca animação e movimento com cara de site premiado (curvas próprias, duração certa, rolagem suave, hover magnético, revelação de texto) sem exagero e sem pes | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/motion-sutil.zip) | própria | MIT | 26/10/2026 |
 | [`oil-ui`](skills/outras/oil-ui) | 设计、改进和评审网站、App、后台与组件的界面：探索设计方向、生成多风格同屏对比页，并基于真实截图打磨视觉层级；按请求交付对比页、设计说明、设计稿或可运行界面。只负责设计判断，不用于纯业务逻辑、接口构建、无界面变化的代码整理，或改法已完全明确的日常修改（如改文案、调数量、删指定元素、复用现有样式，哪怕带有“优化”字样） | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/oil-ui.zip) | própria | MIT | 27/10/2026 |
 | [`paleta-por-negocio`](skills/outras/paleta-por-negocio) | Escolhe a paleta de cores de um site ou app pelo tipo de negócio (pizzaria, hamburgueria, açaí, restaurante, salão, barbearia, clínica, dentista, floricultura,  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/paleta-por-negocio.zip) | própria | MIT | 26/10/2026 |
+| [`playbook-que-prende`](skills/outras/playbook-que-prende) | Livro de regras vivo do que faz um vídeo ou site PRENDER a atenção (gancho nos primeiros segundos, retenção, cores, layout, CTA), aprendido todo dia com vídeos  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/playbook-que-prende.zip) | própria | MIT | 02/11/2026 |
 | [`raspar-site`](skills/outras/raspar-site) | Raspa um site inteiro (várias páginas do mesmo domínio) e transforma cada página em Markdown limpo, de graça e sem chave de API — alternativa ao Firecrawl. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/raspar-site.zip) | própria | MIT | 26/10/2026 |
 | [`referencias-design`](skills/outras/referencias-design) | Biblioteca de referências de design reais (sites premiados no Awwwards, Godly, Siteinspire, Land-book, Lapa Ninja e outros, mais de 500 sites) organizada por ca | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/referencias-design.zip) | própria | MIT | 26/10/2026 |
 | [`search-first`](skills/outras/search-first) | Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/search-first.zip) | própria | MIT | 26/10/2026 |
@@ -510,7 +511,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 137 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 138 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 

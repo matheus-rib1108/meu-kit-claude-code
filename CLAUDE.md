@@ -29,8 +29,8 @@ Escolha pela tarefa e rode agentes independentes em paralelo.
 | Mexer no PC, abrir programas, criar contas | skill `pc-control` |
 | Trabalhos, relatórios, documentos | skill `doc-coauthoring` (+ `research-analyst` para pesquisa) |
 | Entregar trabalho/tarefa no Microsoft Teams | skill `entregar-trabalho-teams` (só clica em Entregar depois do ok) |
-| Fazer vídeo (Reels, TikTok, propaganda, explicativo) | skill `video-maker` (HyperFrames / Remotion) |
-| Design de site (sempre, antes de construir) | skill `referencias-design` (3–5 referências → `skillui --url` → direção → construir → comparar) + `hallmark` + `ui-ux-pro-max` |
+| Fazer vídeo (Reels, TikTok, propaganda, explicativo) | skill `playbook-que-prende` primeiro (regras que prendem, atualizadas todo dia) → `video-maker` (HyperFrames / Remotion) |
+| Design de site (sempre, antes de construir) | skill `playbook-que-prende` + `referencias-design` (3–5 referências → `skillui --url` → direção → construir → comparar) + `hallmark` + `ui-ux-pro-max` |
 | Cores / paleta / "que cor usar" | skill `paleta-por-negocio` (psicologia das cores + 45 paletas com contraste) |
 | Fontes / tipografia | skill `tipografia-pares` |
 | Animação / efeitos | skill `motion-sutil` (+ `apple-design`) |

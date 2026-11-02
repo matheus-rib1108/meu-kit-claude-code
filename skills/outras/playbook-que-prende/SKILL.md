@@ -54,4 +54,14 @@ Máximo de 60 linhas: ao passar disso, juntar repetidas e apagar as fracas.
 
 - 2026-11-02 · [vídeo] Contador de progresso na tela (ex.: profundidade 0 m → -3.800 m) segura até o fim; cada etapa revela uma parte nova — https://www.instagram.com/p/DfH2qVJNqJH/
 - 2026-11-02 · [vídeo] Metáfora visual única (iceberg = o que o cliente não vê no site) explica serviço sem parecer anúncio — https://www.instagram.com/p/DfH2qVJNqJH/
+- 2026-11-02 · [vídeo] Bonequinhos 3D estilo blocos (cabeça grande, cenário de escritório) contando uma história em diálogo: personagem fixo vira "série" e a pessoa reconhece no feed — https://www.instagram.com/reel/DfIqJ-1SIZG/
+- 2026-11-02 · [vídeo] Título-provocação nos 2 primeiros segundos ("O sênior que te zoa por usar IA também copiava da internet") + conflito entre dois personagens prende 2 min — https://www.instagram.com/reel/DfIqJ-1SIZG/
+- 2026-11-02 · [vídeo] Etiqueta verde curta no topo de cada cena ("A PIADA DA EQUIPE", "RODA OS TESTES") + legenda com 1 palavra destacada: dá pra entender sem som — https://www.instagram.com/reel/DfIqJ-1SIZG/
+- 2026-11-02 · [vídeo] Câmera troca de cena a cada ~5 s mesmo com uma voz só (close, tela, gráfico, objeto que cai): ritmo sem precisar de corte seco — https://www.instagram.com/reel/DfIqJ-1SIZG/
+- 2026-11-02 · [vídeo] Medido em 124 vídeos (quarto mais visto × menos visto): 1º corte em ~3 s contra ~4 s; só 29% dos mais vistos não têm corte, contra 65%; 0,25 × 0,09 cortes/s. Trocar a imagem cedo e sempre — https://matheus-sites.vercel.app/design/#videos
+- 2026-11-02 · [vídeo] Gancho "você/seu" falando pra câmera aparece em 13% dos mais vistos e 58% dos menos vistos: abrir com cena, situação ou piada rende mais que vender de cara — https://matheus-sites.vercel.app/design/#videos
+- 2026-11-02 · [vídeo] Cor viva: saturação 36% × 27% entre mais e menos vistos; 39% dos mais vistos abrem sem fala (só imagem + texto na tela) — https://matheus-sites.vercel.app/design/#videos
+- 2026-11-02 · [site] Em ~1.000 sites premiados: 47% dos botões principais são pretos, azul vem bem atrás; 22% usam fundo escuro; título do meio da lista tem ~48px — https://matheus-sites.vercel.app/design/#gatilho
+- 2026-11-02 · [vídeo] Portfólio em "antes e depois": cada trabalho aparece como mockup flutuando (tela de PC ou celular) sobre fundo em degradê suave, com etiqueta curta ("before:") e relógio passando no canto para mostrar tempo — https://www.instagram.com/reel/DeuzjL1Ba22/
+- 2026-11-02 · [site] Estúdio premiado (mdx.so): tela de carregamento com logo em pontos 3D + frase curta ("Great things take time…") + contador 0–100%; preto e branco, fonte de título com personalidade (Orlean) e rolagem suave (Lenis + Three.js) — https://mdx.so/
 - 2026-11-02 · [vídeo] Cartões de interface (busca no Google, WhatsApp, painel) por cima de fundo 3D low-poly: parece caro e é fácil de fazer em HyperFrames/Remotion — https://www.instagram.com/p/DfH2qVJNqJH/

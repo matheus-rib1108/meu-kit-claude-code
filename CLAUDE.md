@@ -2,6 +2,14 @@
 
 O usuário fala português. Responda em português, direto e curto.
 
+## Organização das conversas
+
+Toda conversa nova do app (Code) vai para a pasta certa da barra lateral: assim que o assunto ficar claro,
+veja as pastas com `list_sections` e mova esta conversa com `move_sessions` (`session_ids: ["self"]`).
+Se o título ficar vago ("Oi", "Espere"), troque por um claro com `set_session_title`.
+Faça isso em silêncio, sem perguntar. Se o assunto mudar, mude de pasta. Só crie pasta nova se nenhuma servir, e avise.
+Execuções de tarefas agendadas não entram em pastas: o app não deixa.
+
 ## Equipe de agentes (use como uma empresa)
 
 Os agentes ficam em `.claude/agents/`, as skills em `.claude/skills/`.

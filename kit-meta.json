@@ -1398,6 +1398,13 @@
    "modo": "copia",
    "area": "outras",
    "descricao": "Mostra todas as skills e agentes instalados, escolhe quem faz cada tarefa e, se ninguém servir, procura e \"contrata\" um novo no GitHub com verificação de segura"
+  },
+  "achar-clientes": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Coloca 12 agentes em paralelo para achar os 3 melhores clientes pagantes para um serviço (8 caçadores, 1 verificador e 3 jurados que votam às cegas) e entrega a"
   }
  },
  "agentes": {
@@ -1868,7 +1875,8 @@
    "product-marketing": "2026-11-02",
    "prospecting": "2026-11-02",
    "video": "2026-11-02",
-   "equipe": "2026-11-06"
+   "equipe": "2026-11-06",
+   "achar-clientes": "2026-11-06"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1966,6 +1974,7 @@
  "inventario": {
   "skills": {
    "abordagem-whatsapp-vendas": "cb055118091f",
+   "achar-clientes": "e70c5f890171",
    "ads": "2a48b656e872",
    "agent-builder": "db9a3365e6e1",
    "ai-seo": "8faec5943e4f",

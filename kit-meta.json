@@ -1391,6 +1391,13 @@
    "licenca": "MIT",
    "modo": "copia",
    "descricao": "Produção de vídeo com IA ou código (Remotion, HyperFrames, avatares)"
+  },
+  "equipe": {
+   "fonte": "própria",
+   "licenca": "MIT",
+   "modo": "copia",
+   "area": "outras",
+   "descricao": "Mostra todas as skills e agentes instalados, escolhe quem faz cada tarefa e, se ninguém servir, procura e \"contrata\" um novo no GitHub com verificação de segura"
   }
  },
  "agentes": {
@@ -1860,7 +1867,8 @@
    "marketing-ideas": "2026-11-02",
    "product-marketing": "2026-11-02",
    "prospecting": "2026-11-02",
-   "video": "2026-11-02"
+   "video": "2026-11-02",
+   "equipe": "2026-11-06"
   },
   "agentes": {
    "accessibility-tester": "2026-10-15",
@@ -1995,6 +2003,7 @@
    "doc-coauthoring": "3696999084eb",
    "emil-design-eng": "d566d990564b",
    "entregar-trabalho-teams": "4ed73d6e812e",
+   "equipe": "a3081a513d75",
    "estilos-design": "bec14039ac13",
    "executing-plans": "4494a136cef9",
    "ffmpeg-skill": "d95e061eaed7",

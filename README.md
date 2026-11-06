@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 159 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
+  <img src="assets/banner-light.svg" alt="Meu kit do Claude Code: 160 skills, 29 agentes, 32 plugins e 5 conectores MCP. Instale em 1 comando." width="100%">
 </picture>
 
-![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-02%2F11%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-159-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
+![última atualização](https://img.shields.io/badge/%C3%BAltima%20atualiza%C3%A7%C3%A3o-06%2F11%2F2026-2ea44f) ![skills](https://img.shields.io/badge/skills-160-blue) ![agentes](https://img.shields.io/badge/agentes-29-blue) ![plugins](https://img.shields.io/badge/plugins-32-blue) ![MCP](https://img.shields.io/badge/MCP-5-blue) ![claude.ai](https://img.shields.io/badge/claude.ai-12-orange)
 
-Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **159 skills**,
+Tudo o que eu uso no [Claude Code](https://claude.com/claude-code), num lugar só: **160 skills**,
 **29 agentes**, **32 plugins**, **5 conectores MCP** (sem nenhuma chave), os hooks,
 o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `CLAUDE.md` com a tabela
 "pedido → quem faz", que diz ao Claude qual agente ou skill usar em cada pedido.
@@ -32,7 +32,7 @@ o que está ativado na [minha conta claude.ai](#minha-conta-claudeai) e o meu `C
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/painel-dark.svg">
-  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 02/11/2026." width="100%">
+  <img src="assets/painel-light.svg" alt="Painel do kit: totais, skills por área e última atualização em 06/11/2026." width="100%">
 </picture>
 
 O repositório se atualiza sozinho. Quando eu adiciono, mudo ou removo uma skill, agente, plugin, conector, hook
@@ -47,7 +47,7 @@ flowchart LR
   D -- achou algo --> F["Não publica<br/>e me avisa no Windows"]
 ```
 
-O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 02/11/2026
+O que mudou em cada atualização fica no [`CHANGELOG.md`](CHANGELOG.md). **Última mudança:** 06/11/2026
 
 > Skills de terceiros estão aqui com a licença original (arquivo `LICENSE` e `FONTE.md` em cada pasta).
 
@@ -155,7 +155,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 
 <a id="todas-as-skills"></a>
 
-## Skills (159: 156 copiadas, o resto só com link)
+## Skills (160: 157 copiadas, o resto só com link)
 
 ### Sites e design (10)
 
@@ -345,7 +345,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 |---|---|---|---|---|---|
 | [`minecraft-construcoes`](skills/jogos/minecraft-construcoes) | Ajuda com Minecraft Java modado: Litematica, schematics, conversão de Bedrock para Java, comandos seguros e conflitos entre mods. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/minecraft-construcoes.zip) | própria | MIT | 15/10/2026 |
 
-### Outras (novas, ainda sem área) (21)
+### Outras (novas, ainda sem área) (22)
 
 | Skill | O que faz | Baixar | Fonte | Licença | Entrou |
 |---|---|---|---|---|---|
@@ -357,6 +357,7 @@ Ferramentas que aparecem muito em vídeos mas pedem conta, chave ou assinatura, 
 | [`dashboard-design`](skills/outras/dashboard-design) | Desenha dashboards, painéis admin e telas de relatório com cara de produto de verdade (Linear, Stripe, Plausible, Mercury) e não de template — hierarquia de KPI | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/dashboard-design.zip) | própria | MIT | 26/10/2026 |
 | [`emil-design-eng`](skills/outras/emil-design-eng) | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/emil-design-eng.zip) | [emilkowalski/skills](https://github.com/emilkowalski/skills) | MIT | 28/10/2026 |
 | [`entregar-trabalho-teams`](skills/outras/entregar-trabalho-teams) | Entrega trabalhos e tarefas da escola/SENAI no Microsoft Teams (aba Tarefas) no nome do usuário, pelo Claude in Chrome — acha a tarefa, anexa o arquivo, mostra  | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/entregar-trabalho-teams.zip) | própria | MIT | 21/10/2026 |
+| [`equipe`](skills/outras/equipe) | Mostra todas as skills e agentes instalados, escolhe quem faz cada tarefa e, se ninguém servir, procura e "contrata" um novo no GitHub com verificação de segura | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/equipe.zip) | própria | MIT | 06/11/2026 |
 | [`estilos-design`](skills/outras/estilos-design) | Catálogo de 67 estilos visuais prontos (brutalism, neobrutalism, editorial, minimal, bento, glassmorphism, claymorphism, retro, vintage, riso, terracotta, premi | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/estilos-design.zip) | própria | MIT | 27/10/2026 |
 | [`fixing-accessibility`](skills/outras/fixing-accessibility) | Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-accessibility.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
 | [`fixing-motion-performance`](skills/outras/fixing-motion-performance) | Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. | [.zip](https://github.com/matheus-rib1108/meu-kit-claude-code/releases/download/skills/fixing-motion-performance.zip) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT | 27/10/2026 |
@@ -532,7 +533,7 @@ Pode copiar o kit inteiro ou só uma skill, mudar do seu jeito e republicar. Só
 as minhas são MIT; as de terceiros seguem a licença original, que está junto. Para mandar para alguém:
 
 ```text
-Kit do Claude em português, grátis: 159 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
+Kit do Claude em português, grátis: 160 skills, 29 agentes e 32 plugins, com .zip pra instalar no claude.ai.
 https://github.com/matheus-rib1108/meu-kit-claude-code
 ```
 

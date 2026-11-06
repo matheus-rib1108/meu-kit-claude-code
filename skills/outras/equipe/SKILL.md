@@ -13,7 +13,7 @@ node ~/.claude/skills/equipe/scripts/listar.mjs --tipo agente      # só agentes
 node ~/.claude/skills/equipe/scripts/listar.mjs --busca "video reels instagram"
 ```
 
-Sem aspas no nome da pasta nem caminho do Windows: `~` funciona no Git Bash. No PowerShell, use `$HOME` no lugar de `~`.
+No PowerShell, troque `~` por `$HOME`.
 
 ## "Quais eu tenho?"
 
